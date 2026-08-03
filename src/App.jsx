@@ -1,5 +1,10 @@
 import React from "react";
-import { createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 import RootLayout from "./Layouts/RootLayout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -25,5 +30,5 @@ function App() {
   );
   return <RouterProvider router={router} />;
 }
-  
+
 export default App;
