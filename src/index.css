@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/sora/v20/xMQOuFFYT72X5wkB_18qmnndmSdSn3-KIwNhBti0.woff2")
+    format("woff2");
+}
+
+@theme {
+  --color-canvas: #050a14;
+  --color-surface: #161c26;
+  --color-surface-raised: #1e2530;
+  --color-border: #1c365d;
+
+  --color-brand: #a3c9ff;
+  --color-ink: #f5f7fa;
+  --color-ink-muted: #c0c7d5;
+  --color-ink-subtle: #6b7280;
+
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+
+  --font-sora: "Sora", ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sora);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}

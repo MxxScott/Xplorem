@@ -1,0 +1,8 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "firebase@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true,
+    "figma@claude-plugins-official": true
+  }
+}

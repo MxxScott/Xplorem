@@ -1,8 +1,8 @@
-# Project Design Record (PDR): CineTrack (Media Explorer)
+# Project Design Record (PDR): Xplorem (Media Explorer)
 
 ## 1. Project Overview
 
-**CineTrack** is a web application that allows users to explore movies and TV shows using the TMDB API, maintain a personalized watchlist, and write private notes and ratings. The frontend is built with React and Tailwind CSS, while authentication and database management are handled by Supabase.
+**Xplorem** is a web application that allows users to explore movies and TV shows using the TMDB API, maintain a personalized watchlist, and write private notes and ratings. The frontend is built with React and Tailwind CSS, while authentication and database management are handled by Supabase.
 
 ### Core Objectives
 

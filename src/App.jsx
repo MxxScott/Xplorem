@@ -24,7 +24,7 @@ function App() {
         <Route path="/media/:id" element={<MediaDetails />} />
         <Route path="/search" element={<Search />} />
         <Route path="/watchlist" element={<Watchlist />} />
-        <Route element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Route>,
     ),
   );
