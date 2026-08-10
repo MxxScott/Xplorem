@@ -1,30 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
 @import "tailwindcss";
-
-@font-face {
-  font-family: "Sora";
-  font-style: normal;
-  font-weight: 100 800;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/sora/v20/xMQOuFFYT72X5wkB_18qmnndmSdSn3-KIwNhBti0.woff2")
-    format("woff2");
-}
 
 @theme {
   --color-canvas: #050a14;
   --color-surface: #161c26;
-  --color-surface-raised: #1e2530;
+  --color-surface-raised: #1a202a;
   --color-border: #1c365d;
 
   --color-brand: #a3c9ff;
-  --color-ink: #f5f7fa;
+  --color-brand-deep: #00315c;
+  --color-brand-bright: #3399ff;
+
+  --color-ink: #dde2f1;
   --color-ink-muted: #c0c7d5;
   --color-ink-subtle: #6b7280;
+  --color-ink-faint: #8a919e;
 
-  --color-success: #4ade80;
-  --color-warning: #fbbf24;
-  --color-danger: #f87171;
+  --color-star: #facc15;
+  --color-danger: #ffb4ab;
 
   --font-sora: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-hanken: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
 * {
@@ -34,7 +31,7 @@
 body {
   background-color: var(--color-canvas);
   color: var(--color-ink);
-  font-family: var(--font-sora);
+  font-family: var(--font-hanken);
 }
 
 :focus-visible {

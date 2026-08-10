@@ -1,4 +1,3 @@
-import React from "react";
 
 const variants = {
   primary: "bg-brand text-canvas hover:bg-brand/90 disabled:hover:bg-brand",
