@@ -1,5 +1,7 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import useAuth from "../../hooks/useAuth";
+import useLayout from "../../hooks/useLayout";
 
 const links = [
   { to: "/", label: "Browse", end: true },
@@ -10,6 +12,8 @@ const links = [
 function Navbar() {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
+  const { user, isAuthenticated, logout } = useAuth();
+  const { isOverHero } = useLayout();
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -17,8 +21,23 @@ function Navbar() {
     if (trimmed) navigate(`/search?q=${encodeURIComponent(trimmed)}`);
   }
 
+  function handleLogout() {
+    logout();
+    navigate("/");
+  }
+
   return (
-    <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between border-b border-border/30 bg-surface/95 px-6 backdrop-blur-xl">
+    // Transparent while the hero is behind it, matching the Sidebar — the hero's
+    // own top gradient is what keeps the links legible there. Both revert to the
+    // solid bar as soon as the hero scrolls past, and the transition is what
+    // makes that a fade rather than a snap.
+    <header
+      className={`sticky top-0 z-50 flex h-16 w-full items-center justify-between border-b px-6 transition-[background-color,border-color,backdrop-filter] duration-300 ${
+        isOverHero
+          ? "border-transparent bg-transparent"
+          : "border-border/30 bg-surface/95 backdrop-blur-xl"
+      }`}
+    >
       <div className="flex items-center gap-8">
         <Link
           to="/"
@@ -77,12 +96,27 @@ function Navbar() {
           </span>
         </form>
 
-        <Link
-          to="/login"
-          className="text-sm font-bold text-ink-muted transition-colors hover:text-brand"
-        >
-          Sign in
-        </Link>
+        {isAuthenticated ? (
+          <div className="flex items-center gap-3">
+            <span className="hidden text-sm text-ink-muted sm:inline">
+              {user.name}
+            </span>
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="text-sm font-bold text-ink-muted transition-colors hover:text-brand"
+            >
+              Sign out
+            </button>
+          </div>
+        ) : (
+          <Link
+            to="/login"
+            className="text-sm font-bold text-ink-muted transition-colors hover:text-brand"
+          >
+            Sign in
+          </Link>
+        )}
       </div>
     </header>
   );

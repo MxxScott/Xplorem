@@ -65,6 +65,12 @@ export function getMediaDetails(mediaType, id, options) {
   );
 }
 
+// Split out from getMediaDetails so the hero can pull just a trailer key
+// without dragging credits and similar titles along with it.
+export function getVideos(mediaType, id, options) {
+  return request(`/${mediaType}/${id}/videos`, {}, options);
+}
+
 export function getPopular(mediaType = "movie", page = 1, options) {
   return request(`/${mediaType}/popular`, { page }, options);
 }
