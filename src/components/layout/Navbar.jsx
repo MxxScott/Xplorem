@@ -76,7 +76,14 @@ function Navbar() {
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search titles..."
-            className="h-9 w-64 rounded-full border border-border/50 bg-surface pl-10 pr-4 text-sm text-ink placeholder:text-ink-subtle focus:border-brand focus:outline-none"
+            // Opaque surface would read as a solid pill stuck on top of the
+            // video once the bar goes transparent, so over the hero it borrows
+            // the same frosted treatment as the sidebar pucks.
+            className={`h-9 w-64 rounded-full border pl-10 pr-4 text-sm text-ink placeholder:text-ink-subtle transition-colors focus:border-brand focus:outline-none ${
+              isOverHero
+                ? "border-ink-muted/20 bg-ink/10 backdrop-blur-md"
+                : "border-border/50 bg-surface"
+            }`}
           />
           <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2">
             <svg

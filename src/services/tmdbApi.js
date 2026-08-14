@@ -57,6 +57,59 @@ export function searchMulti(query, page = 1, options) {
   return request("/search/multi", { query, page, include_adult: false }, options);
 }
 
+const genreIds = {
+  movie: {
+    action: 28,
+    comedy: 35,
+    drama: 18,
+    "science fiction": 878,
+  },
+  tv: {
+    action: 10759,
+    comedy: 35,
+    drama: 18,
+    "science fiction": 10765,
+  },
+};
+
+export async function discoverByGenre(genre, mediaType = "all", options) {
+  const types = mediaType === "movie" || mediaType === "tv"
+    ? [mediaType]
+    : ["movie", "tv"];
+
+  const responses = await Promise.all(
+    types.map((type) =>
+      request(
+        `/discover/${type}`,
+        {
+          include_adult: false,
+          sort_by: "popularity.desc",
+          with_genres: genreIds[type][genre],
+        },
+        options,
+      ),
+    ),
+  );
+
+  const results = responses
+    .flatMap((response, index) =>
+      (response.results || []).map((item) => ({
+        ...item,
+        media_type: types[index],
+      })),
+    )
+    .sort((first, second) => (second.popularity || 0) - (first.popularity || 0));
+
+  return {
+    page: 1,
+    results,
+    total_results: responses.reduce(
+      (total, response) => total + (response.total_results || 0),
+      0,
+    ),
+  };
+}
+
 export function getMediaDetails(mediaType, id, options) {
   return request(
     `/${mediaType}/${id}`,

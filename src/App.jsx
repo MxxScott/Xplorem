@@ -8,6 +8,7 @@ import {
 import RootLayout from "./Layouts/RootLayout";
 import PageLoader from "./components/common/PageLoader";
 import ProtectedRoute from "./components/common/ProtectedRoute";
+import StartupAnimation from "./components/common/StartupAnimation";
 import { AuthProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
 
@@ -90,6 +91,11 @@ const router = createBrowserRouter(
 function App() {
   return (
     <AuthProvider>
+      {/* Sits above the router rather than replacing PageLoader: this is a
+          one-time boot flourish, not a route transition. The app mounts and
+          starts fetching behind it, so the intro overlaps work that was
+          happening anyway instead of adding to it. */}
+      <StartupAnimation />
       <RouterProvider router={router} />
     </AuthProvider>
   );

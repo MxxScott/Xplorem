@@ -14,10 +14,16 @@ function Hero({ items = [] }) {
   const { setIsOverHero } = useLayout();
   const prefersReducedMotion = usePrefersReducedMotion();
   const ref = useRef(null);
+  // The first render has no trending data yet, so the component bails to null
+  // and there's no node to observe. This has to be a dependency: without it the
+  // effect's only dep is the stable setter, so it would run once against a null
+  // ref and never again — the observer would never attach and the chrome would
+  // stay opaque forever.
+  const hasSlides = slides.length > 0;
 
-  // Tell the chrome when the hero is behind it so the sidebar can go
+  // Tell the chrome when the hero is behind it so the header and sidebar can go
   // transparent. Cleanup resets the flag — otherwise navigating away from Home
-  // would leave the sidebar stuck in its transparent state.
+  // would leave them stuck in their transparent state.
   useEffect(() => {
     const node = ref.current;
     if (!node) return;
@@ -33,7 +39,7 @@ function Hero({ items = [] }) {
       observer.disconnect();
       setIsOverHero(false);
     };
-  }, [setIsOverHero]);
+  }, [setIsOverHero, hasSlides]);
 
   useEffect(() => {
     if (paused || prefersReducedMotion || slides.length < 2) return;
@@ -93,10 +99,13 @@ function Hero({ items = [] }) {
         />
       )}
 
-      {/* Two gradients: upward for text contrast, sideways so the collapsed
-          sidebar rail stays legible against bright frames. */}
+      {/* Three scrims: upward for the title block, sideways so the collapsed
+          sidebar rail stays legible against bright frames, and a short one
+          downward from the top — the header sits transparent over the video
+          here, so its links need something behind them. */}
       <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/70 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-canvas/90 via-transparent to-transparent" />
+      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-canvas/85 to-transparent" />
 
       <div className="relative flex size-full flex-col justify-end gap-4 px-6 pb-12 lg:pl-28 lg:pr-12">
         <div className="flex max-w-2xl flex-col gap-3">
