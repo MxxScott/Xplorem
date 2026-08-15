@@ -1,6 +1,7 @@
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_URL = "https://image.tmdb.org/t/p";
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const PAGE_SIZE = 20;
 
 // Repeat requests (backspacing through a search, revisiting Home) are served
 // from here instead of hitting the network again. See Feature A in PDR.md.
@@ -97,45 +98,98 @@ const genreIds = {
   },
 };
 
-export async function discoverByGenre(genre, mediaType = "all", page = 1, options) {
-  const types = mediaType === "movie" || mediaType === "tv"
-    ? [mediaType]
-    : ["movie", "tv"];
-
-  const responses = await Promise.all(
-    types.map((type) =>
-      request(
-        `/discover/${type}`,
-        {
-          include_adult: false,
-          page,
-          sort_by: "popularity.desc",
-          with_genres: genreIds[type][genre],
-        },
-        options,
-      ),
-    ),
+async function discoverGenrePage(type, genre, page, options) {
+  return request(
+    `/discover/${type}`,
+    {
+      include_adult: false,
+      page,
+      sort_by: "popularity.desc",
+      with_genres: genreIds[type][genre],
+    },
+    options,
   );
+}
 
-  const results = responses
-    .flatMap((response, index) =>
-      (response.results || []).map((item) => ({
-        ...item,
-        media_type: types[index],
-      })),
-    )
-    .sort((first, second) => (second.popularity || 0) - (first.popularity || 0));
+function availableResultCount(response) {
+  const totalResults = response.total_results || 0;
+  const totalPages = response.total_pages || 0;
+  return Math.min(totalResults, totalPages * PAGE_SIZE);
+}
+
+function combinedResultPosition(index, movieCount, tvCount) {
+  const pairedCount = Math.min(movieCount, tvCount);
+  const interleavedCount = pairedCount * 2;
+
+  if (index < interleavedCount) {
+    return {
+      type: index % 2 === 0 ? "movie" : "tv",
+      sourceIndex: Math.floor(index / 2),
+    };
+  }
 
   return {
-    page,
-    results: results.slice(0, 20),
-    total_results: responses.reduce(
-      (total, response) => total + (response.total_results || 0),
-      0,
+    type: movieCount > tvCount ? "movie" : "tv",
+    sourceIndex: pairedCount + index - interleavedCount,
+  };
+}
+
+export async function discoverByGenre(genre, mediaType = "all", page = 1, options) {
+  const requestedPage = Math.max(1, Math.floor(page));
+
+  if (mediaType === "movie" || mediaType === "tv") {
+    return discoverGenrePage(mediaType, genre, requestedPage, options)
+      .then((response) => tagResults(response, mediaType));
+  }
+
+  const types = ["movie", "tv"];
+  const firstResponses = await Promise.all(
+    types.map((type) => discoverGenrePage(type, genre, 1, options)),
+  );
+  const resultCounts = Object.fromEntries(
+    types.map((type, index) => [type, availableResultCount(firstResponses[index])]),
+  );
+  const totalResults = resultCounts.movie + resultCounts.tv;
+  const startIndex = (requestedPage - 1) * PAGE_SIZE;
+  const endIndex = Math.min(startIndex + PAGE_SIZE, totalResults);
+  const positions = Array.from(
+    { length: Math.max(0, endIndex - startIndex) },
+    (_, index) => combinedResultPosition(
+      startIndex + index,
+      resultCounts.movie,
+      resultCounts.tv,
     ),
-    total_pages: mediaType === "all"
-      ? Math.max(...responses.map((response) => response.total_pages || 1))
-      : responses[0]?.total_pages || 1,
+  );
+  const pages = Object.fromEntries(
+    types.map((type, index) => [type, new Map([[1, firstResponses[index]]])]),
+  );
+  const missingPages = new Map();
+
+  for (const position of positions) {
+    const sourcePage = Math.floor(position.sourceIndex / PAGE_SIZE) + 1;
+    const key = `${position.type}-${sourcePage}`;
+    if (sourcePage > 1 && !missingPages.has(key)) {
+      missingPages.set(
+        key,
+        discoverGenrePage(position.type, genre, sourcePage, options)
+          .then((response) => pages[position.type].set(sourcePage, response)),
+      );
+    }
+  }
+
+  await Promise.all(missingPages.values());
+
+  const results = positions.flatMap(({ sourceIndex, type }) => {
+    const sourcePage = Math.floor(sourceIndex / PAGE_SIZE) + 1;
+    const item = pages[type].get(sourcePage)?.results?.[sourceIndex % PAGE_SIZE];
+    return item ? [{ ...item, media_type: type }] : [];
+  });
+
+  return {
+    page: requestedPage,
+    results,
+    total_results: totalResults,
+    total_pages: Math.max(1, Math.ceil(totalResults / PAGE_SIZE)),
   };
 }
 
