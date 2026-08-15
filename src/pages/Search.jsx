@@ -1,10 +1,25 @@
 import { useCallback, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
+import {
+  FiChevronDown,
+  FiChevronLeft,
+  FiChevronRight,
+  FiSearch,
+  FiX,
+} from "react-icons/fi";
 import MediaCard from "../components/media/MediaCard";
 import LoadingSpinner from "../components/common/LoadingSpinner";
 import useDebounce from "../hooks/useDebounce";
 import useFetch from "../hooks/useFetch";
-import { discoverByGenre, imageUrl, searchMulti } from "../services/tmdbApi";
+import {
+  discoverByGenre,
+  getTrending,
+  imageUrl,
+  searchMovies,
+  searchMulti,
+  searchPeople,
+  searchTv,
+} from "../services/tmdbApi";
 
 const mediaFilters = [
   { value: "all", label: "All" },
@@ -13,135 +28,97 @@ const mediaFilters = [
 ];
 
 const genres = [
-  {
-    value: "action",
-    label: "Action",
-    image: "/search/action.png",
-  },
-  {
-    value: "comedy",
-    label: "Comedy",
-    image: "/search/comedy.png",
-  },
-  {
-    value: "drama",
-    label: "Drama",
-    image: "/search/drama.png",
-  },
-  {
-    value: "science fiction",
-    label: "Sci-fi",
-    image: "/search/scifi.png",
-  },
+  { value: "action", label: "Action" },
+  { value: "comedy", label: "Comedy" },
+  { value: "drama", label: "Drama" },
+  { value: "science fiction", label: "Sci-fi" },
 ];
-
-const recommendationCards = [
-  { label: "Aetheria Chronicles", image: "/search/aetheria.png" },
-  { label: "Neon Shadows", image: "/search/neon-shadows.png" },
-  { label: "Azure Peaks", image: "/search/azure-peaks.png" },
-  { label: "Vector Pulse", image: "/search/vector-pulse.png" },
-  { label: "Neural Mesh", image: "/search/neural-mesh.png" },
-];
-
-function SearchIcon({ className = "" }) {
-  return (
-    <svg
-      aria-hidden="true"
-      className={className}
-      fill="none"
-      height="20"
-      viewBox="0 0 24 24"
-      width="20"
-    >
-      <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="1.8" />
-      <path
-        d="m20 20-3.5-3.5"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeWidth="1.8"
-      />
-    </svg>
-  );
-}
-
-function ChevronDownIcon() {
-  return (
-    <svg
-      aria-hidden="true"
-      fill="none"
-      height="14"
-      viewBox="0 0 24 24"
-      width="14"
-    >
-      <path
-        d="m6 9 6 6 6-6"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="1.8"
-      />
-    </svg>
-  );
-}
-
-function BookmarkIcon() {
-  return (
-    <svg
-      aria-hidden="true"
-      fill="none"
-      height="16"
-      viewBox="0 0 24 24"
-      width="16"
-    >
-      <path
-        d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-3.5L6 21V4.5Z"
-        stroke="currentColor"
-        strokeLinejoin="round"
-        strokeWidth="1.7"
-      />
-    </svg>
-  );
-}
 
 function Search() {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("q") || "";
+  const requestedPage = Number(searchParams.get("page"));
+  const currentPage =
+    Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
   const [mediaType, setMediaType] = useState("all");
   const [selectedGenre, setSelectedGenre] = useState(null);
   const [showGenreMenu, setShowGenreMenu] = useState(false);
   const debouncedQuery = useDebounce(query.trim(), 500);
   const hasQuery = Boolean(debouncedQuery || selectedGenre);
 
+  const landingFetcher = useCallback(async (options) => {
+    const [trending, ...genreResponses] = await Promise.all([
+      getTrending("all", "week", options),
+      ...genres.map((genre) => discoverByGenre(genre.value, "all", 1, options)),
+    ]);
+
+    return {
+      recommendations: (trending.results || [])
+        .filter((item) => item.media_type !== "person" && item.poster_path)
+        .slice(0, 5),
+      genreHighlights: genreResponses.map((response, index) => ({
+        ...genres[index],
+        item: (response.results || []).find(
+          (item) => item.backdrop_path || item.poster_path,
+        ),
+      })),
+    };
+  }, []);
+
+  const {
+    data: landingData,
+    loading: landingLoading,
+    error: landingError,
+    reload: reloadLanding,
+  } = useFetch(landingFetcher, []);
+
   const fetcher = useCallback(
     (options) => {
       if (selectedGenre) {
-        return discoverByGenre(selectedGenre.value, mediaType, options);
+        return discoverByGenre(
+          selectedGenre.value,
+          mediaType,
+          currentPage,
+          options,
+        );
       }
       if (!debouncedQuery) return Promise.resolve({ results: [] });
-      return searchMulti(debouncedQuery, 1, options);
+      if (mediaType === "movie") {
+        return searchMovies(debouncedQuery, currentPage, options);
+      }
+      if (mediaType === "tv") {
+        return searchTv(debouncedQuery, currentPage, options);
+      }
+      if (mediaType === "person") {
+        return searchPeople(debouncedQuery, currentPage, options);
+      }
+      return searchMulti(debouncedQuery, currentPage, options);
     },
-    [debouncedQuery, mediaType, selectedGenre],
+    [currentPage, debouncedQuery, mediaType, selectedGenre],
   );
 
   const { data, loading, error, reload } = useFetch(fetcher, [
     debouncedQuery,
     mediaType,
     selectedGenre,
+    currentPage,
   ]);
 
   const results = useMemo(() => {
     const items = data?.results || [];
-    if (mediaType === "all") {
-      return items.filter((item) => item.media_type !== "person");
-    }
-    return items.filter((item) => item.media_type === mediaType);
+    return mediaType === "all"
+      ? items
+      : items.filter((item) => item.media_type === mediaType);
   }, [data?.results, mediaType]);
+
+  const totalPages = Math.max(1, data?.total_pages || 1);
 
   function updateQuery(value) {
     setSelectedGenre(null);
     const next = new URLSearchParams(searchParams);
     if (value.trim()) next.set("q", value);
     else next.delete("q");
+    next.delete("page");
     setSearchParams(next, { replace: true });
   }
 
@@ -151,10 +128,32 @@ function Search() {
     setShowGenreMenu(false);
     const next = new URLSearchParams(searchParams);
     next.delete("q");
+    next.delete("page");
     setSearchParams(next, { replace: true });
   }
 
-  const resultLabel = mediaType === "person" ? "people" : "titles";
+  function changeMediaType(nextMediaType) {
+    setSelectedGenre(null);
+    setMediaType(nextMediaType);
+    const next = new URLSearchParams(searchParams);
+    next.delete("page");
+    setSearchParams(next, { replace: true });
+  }
+
+  function changePage(nextPage) {
+    const page = Math.max(1, Math.min(nextPage, totalPages));
+    const next = new URLSearchParams(searchParams);
+    if (page === 1) next.delete("page");
+    else next.set("page", String(page));
+    setSearchParams(next);
+  }
+
+  const resultLabel =
+    mediaType === "person"
+      ? "people"
+      : mediaType === "all"
+        ? "results"
+        : "titles";
   const resultQuery = selectedGenre?.label || debouncedQuery;
 
   return (
@@ -164,7 +163,11 @@ function Search() {
           Search Xplorem
         </h1>
         <label className="relative mx-auto flex h-[70px] w-full max-w-[768px] items-center rounded-full border border-border/50 bg-surface px-6 shadow-[0_12px_36px_rgba(0,0,0,0.18)] focus-within:border-brand">
-          <SearchIcon className="mr-4 shrink-0 text-ink-subtle" />
+          <FiSearch
+            aria-hidden="true"
+            className="mr-4 shrink-0 text-ink-subtle"
+            size={20}
+          />
           <input
             aria-label="Search titles, actors, or genres"
             autoComplete="off"
@@ -181,7 +184,7 @@ function Search() {
               onClick={() => updateQuery("")}
               type="button"
             >
-              <span aria-hidden="true">×</span>
+              <FiX aria-hidden="true" size={18} />
             </button>
           )}
         </label>
@@ -200,7 +203,7 @@ function Search() {
                   : "border-border/50 bg-surface text-ink-muted hover:border-brand/50 hover:text-ink"
               }`}
               key={filter.value}
-              onClick={() => setMediaType(filter.value)}
+              onClick={() => changeMediaType(filter.value)}
               type="button"
             >
               {filter.label}
@@ -214,7 +217,7 @@ function Search() {
               type="button"
             >
               Genres
-              <ChevronDownIcon />
+              <FiChevronDown aria-hidden="true" size={14} />
             </button>
             {showGenreMenu && (
               <div
@@ -243,8 +246,7 @@ function Search() {
                 : "border-border/50 bg-surface text-ink-muted hover:border-brand/50 hover:text-ink"
             }`}
             onClick={() => {
-              setSelectedGenre(null);
-              setMediaType("person");
+              changeMediaType("person");
             }}
             type="button"
           >
@@ -266,9 +268,9 @@ function Search() {
                   : `${results.length} ${resultLabel} for “${resultQuery}”`}
               </p>
             </div>
-            {!loading && !error && data?.total_results > results.length && (
+            {!loading && !error && totalPages > 1 && (
               <span className="font-mono text-xs uppercase text-ink-faint">
-                Showing first page
+                {data?.total_results || 0} total results
               </span>
             )}
           </div>
@@ -293,17 +295,24 @@ function Search() {
               </button>
             </div>
           ) : results.length ? (
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-              {results.map((item) => (
-                <li key={`${item.media_type || "media"}-${item.id}`}>
-                  {item.media_type === "person" ? (
-                    <PersonCard item={item} />
-                  ) : (
-                    <MediaCard item={item} />
-                  )}
-                </li>
-              ))}
-            </ul>
+            <>
+              <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                {results.map((item) => (
+                  <li key={`${item.media_type || "media"}-${item.id}`}>
+                    {item.media_type === "person" ? (
+                      <PersonCard item={item} />
+                    ) : (
+                      <MediaCard item={item} />
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <Pagination
+                currentPage={currentPage}
+                onPageChange={changePage}
+                totalPages={totalPages}
+              />
+            </>
           ) : (
             <div className="flex flex-col items-center gap-2 py-16 text-center">
               <p className="font-sora text-lg font-semibold text-ink">
@@ -326,10 +335,10 @@ function Search() {
                 id="recommended-heading"
                 className="font-sora text-2xl font-semibold text-ink sm:text-3xl"
               >
-                Recommended for you
+                Fresh from the catalogue
               </h2>
               <p className="mt-1 text-sm text-ink-subtle">
-                Start with something people are talking about.
+                A live pulse of what people are watching this week.
               </p>
             </div>
             <span className="hidden font-mono text-xs uppercase text-ink-faint sm:block">
@@ -337,68 +346,124 @@ function Search() {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {recommendationCards.map((card) => (
-              <RecommendationCard key={card.label} {...card} />
-            ))}
-          </div>
-
-          <div className="flex flex-col gap-8" aria-labelledby="genres-heading">
-            <h2
-              id="genres-heading"
-              className="font-sora text-2xl font-semibold text-ink sm:text-3xl"
-            >
-              Browse genres
-            </h2>
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-              {genres.map((genre) => (
-                <button
-                  className="group relative flex h-32 items-end overflow-hidden rounded-xl border border-border/50 bg-surface p-4 text-left transition-transform hover:-translate-y-1 hover:border-brand/50"
-                  key={genre.value}
-                  onClick={() => chooseGenre(genre)}
-                  type="button"
-                >
-                  <img
-                    alt=""
-                    className="absolute inset-0 size-full object-cover opacity-80 transition-transform duration-300 group-hover:scale-105"
-                    src={genre.image}
-                  />
-                  <span className="absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/20 to-transparent" />
-                  <span className="relative font-sora text-xl font-semibold text-ink transition-colors group-hover:text-brand">
-                    {genre.label}
-                  </span>
-                </button>
-              ))}
+          {landingLoading ? (
+            <LoadingSpinner
+              size="lg"
+              className="py-16"
+              label="Loading recommendations"
+            />
+          ) : landingError ? (
+            <div className="flex flex-col items-center gap-4 py-16 text-center">
+              <p role="alert" className="text-sm text-danger">
+                {landingError.message}
+              </p>
+              <button
+                className="rounded-full border border-border/50 bg-surface px-4 py-2 text-sm font-bold text-ink-muted hover:bg-surface-raised hover:text-ink"
+                onClick={reloadLanding}
+                type="button"
+              >
+                Try again
+              </button>
             </div>
-          </div>
+          ) : (
+            <>
+              <ul className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
+                {(landingData?.recommendations || []).map((item) => (
+                  <li key={`${item.media_type}-${item.id}`}>
+                    <MediaCard item={item} />
+                  </li>
+                ))}
+              </ul>
+
+              <div
+                className="flex flex-col gap-8"
+                aria-labelledby="genres-heading"
+              >
+                <div>
+                  <h2
+                    id="genres-heading"
+                    className="font-sora text-2xl font-semibold text-ink sm:text-3xl"
+                  >
+                    Pick a lane
+                  </h2>
+                  <p className="mt-1 text-sm text-ink-subtle">
+                    Jump into a mood without knowing what to type.
+                  </p>
+                </div>
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+                  {(landingData?.genreHighlights || []).map((genre) => {
+                    const image = imageUrl(
+                      genre.item?.backdrop_path || genre.item?.poster_path,
+                      genre.item?.backdrop_path ? "w780" : "w500",
+                    );
+
+                    return (
+                      <button
+                        className="group relative flex h-32 items-end overflow-hidden rounded-xl border border-border/50 bg-surface p-4 text-left transition-transform hover:-translate-y-1 hover:border-brand/50"
+                        key={genre.value}
+                        onClick={() => chooseGenre(genre)}
+                        type="button"
+                      >
+                        {image && (
+                          <img
+                            alt=""
+                            className="absolute inset-0 size-full object-cover opacity-80 transition-transform duration-300 group-hover:scale-105"
+                            loading="lazy"
+                            src={image}
+                          />
+                        )}
+                        <span className="absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/20 to-transparent" />
+                        <span className="relative font-sora text-xl font-semibold text-ink transition-colors group-hover:text-brand">
+                          {genre.label}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </>
+          )}
         </section>
       )}
     </div>
   );
 }
 
-function RecommendationCard({ image, label }) {
+function Pagination({ currentPage, onPageChange, totalPages }) {
+  if (totalPages <= 1) return null;
+
+  const canGoBack = currentPage > 1;
+  const canGoForward = currentPage < totalPages;
+
   return (
-    <div className="group flex flex-col gap-3">
-      <div className="relative aspect-[2/3] overflow-hidden rounded-xl border border-border/30 bg-surface">
-        <img
-          alt=""
-          className="size-full object-cover transition-transform duration-300 group-hover:scale-105"
-          src={image}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-canvas/70 via-transparent to-transparent" />
-        <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
-          <span className="rounded-full border border-white/20 bg-canvas/50 px-2 py-1 font-mono text-xs text-star backdrop-blur-sm">
-            ★ 8.2
-          </span>
-          <BookmarkIcon />
-        </div>
-      </div>
-      <h3 className="font-sora text-sm font-bold leading-tight text-ink group-hover:text-brand">
-        {label}
-      </h3>
-      <p className="font-mono text-xs uppercase text-ink-faint">2024 · movie</p>
-    </div>
+    <nav
+      aria-label="Search result pages"
+      className="flex items-center justify-center gap-4 border-t border-border/30 pt-6"
+    >
+      <button
+        aria-label="Previous page"
+        className="flex size-10 items-center justify-center rounded-full border border-border/50 bg-surface text-ink-muted transition-colors hover:border-brand/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+        disabled={!canGoBack}
+        onClick={() => onPageChange(currentPage - 1)}
+        title="Previous page"
+        type="button"
+      >
+        <FiChevronLeft aria-hidden="true" size={20} />
+      </button>
+      <span className="font-mono text-xs uppercase text-ink-faint">
+        Page {currentPage} of {totalPages}
+      </span>
+      <button
+        aria-label="Next page"
+        className="flex size-10 items-center justify-center rounded-full border border-border/50 bg-surface text-ink-muted transition-colors hover:border-brand/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+        disabled={!canGoForward}
+        onClick={() => onPageChange(currentPage + 1)}
+        title="Next page"
+        type="button"
+      >
+        <FiChevronRight aria-hidden="true" size={20} />
+      </button>
+    </nav>
   );
 }
 

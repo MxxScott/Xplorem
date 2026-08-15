@@ -11,6 +11,7 @@ import ProtectedRoute from "./components/common/ProtectedRoute";
 import StartupAnimation from "./components/common/StartupAnimation";
 import { AuthProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
+import { WatchlistProvider } from "./context/WatchlistContext";
 
 // Home ships in the main bundle since it's the entry point; the rest split out
 // so the first paint isn't waiting on pages the user may never open. This is
@@ -91,12 +92,14 @@ const router = createBrowserRouter(
 function App() {
   return (
     <AuthProvider>
-      {/* Sits above the router rather than replacing PageLoader: this is a
-          one-time boot flourish, not a route transition. The app mounts and
-          starts fetching behind it, so the intro overlaps work that was
-          happening anyway instead of adding to it. */}
-      <StartupAnimation />
-      <RouterProvider router={router} />
+      <WatchlistProvider>
+        {/* Sits above the router rather than replacing PageLoader: this is a
+            one-time boot flourish, not a route transition. The app mounts and
+            starts fetching behind it, so the intro overlaps work that was
+            happening anyway instead of adding to it. */}
+        <StartupAnimation />
+        <RouterProvider router={router} />
+      </WatchlistProvider>
     </AuthProvider>
   );
 }

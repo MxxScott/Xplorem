@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { FiStar } from "react-icons/fi";
 import HeroTrailer from "./HeroTrailer";
 import useLayout from "../../hooks/useLayout";
 import usePrefersReducedMotion from "../../hooks/usePrefersReducedMotion";
@@ -116,7 +117,12 @@ function Hero({ items = [] }) {
             {title}
           </h1>
           <div className="flex flex-wrap items-center gap-3 font-mono text-xs uppercase text-ink-muted">
-            {rating && <span className="text-star">★ {rating}</span>}
+            {rating && (
+              <span className="flex items-center gap-1 text-star">
+                <FiStar aria-hidden="true" size={12} />
+                {rating}
+              </span>
+            )}
             {year && <span>{year}</span>}
             <span>{mediaType}</span>
           </div>
@@ -136,7 +142,11 @@ function Hero({ items = [] }) {
         </div>
 
         {slides.length > 1 && (
-          <div role="tablist" aria-label="Featured title" className="flex gap-2">
+          <div
+            role="tablist"
+            aria-label="Featured title"
+            className="flex gap-2"
+          >
             {slides.map((slide, slideIndex) => (
               <button
                 key={slide.id}

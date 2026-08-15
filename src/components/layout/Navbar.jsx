@@ -1,4 +1,5 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { FiSearch } from "react-icons/fi";
 import { useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import useLayout from "../../hooks/useLayout";
@@ -81,20 +82,7 @@ function Navbar() {
             // the same frosted treatment as the sidebar pucks.
             className={`h-9 w-64 rounded-full border pl-10 pr-4 text-sm text-ink placeholder:text-ink-subtle transition-colors focus:border-brand focus:outline-none ${
               isOverHero
-                ? "border-ink-muted/20 bg-ink/10 backdrop-blur-md"
-                : "border-border/50 bg-surface"
-            }`}
-          />
-          <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2">
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 11 11"
-              fill="none"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
+            <FiSearch aria-hidden="true" className="text-ink-muted" size={14} />
                 d="M9.68333 10.5L6.00833 6.825C5.71667 7.05833 5.38125 7.24306 5.00208 7.37917C4.62292 7.51528 4.21944 7.58333 3.79167 7.58333C2.73194 7.58333 1.83507 7.21632 1.10104 6.48229C0.367014 5.74826 0 4.85139 0 3.79167C0 2.73194 0.367014 1.83507 1.10104 1.10104C1.83507 0.367014 2.73194 0 3.79167 0C4.85139 0 5.74826 0.367014 6.48229 1.10104C7.21632 1.83507 7.58333 2.73194 7.58333 3.79167C7.58333 4.21944 7.51528 4.62292 7.37917 5.00208C7.24306 5.38125 7.05833 5.71667 6.825 6.00833L10.5 9.68333L9.68333 10.5ZM3.79167 6.41667C4.52083 6.41667 5.14062 6.16146 5.65104 5.65104C6.16146 5.14062 6.41667 4.52083 6.41667 3.79167C6.41667 3.0625 6.16146 2.44271 5.65104 1.93229C5.14062 1.42188 4.52083 1.16667 3.79167 1.16667C3.0625 1.16667 2.44271 1.42188 1.93229 1.93229C1.42188 2.44271 1.16667 3.0625 1.16667 3.79167C1.16667 4.52083 1.42188 5.14062 1.93229 5.65104C2.44271 6.16146 3.0625 6.41667 3.79167 6.41667Z"
                 fill="currentColor"
                 className="text-ink-muted"

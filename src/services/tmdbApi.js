@@ -57,6 +57,31 @@ export function searchMulti(query, page = 1, options) {
   return request("/search/multi", { query, page, include_adult: false }, options);
 }
 
+function tagResults(response, mediaType) {
+  return {
+    ...response,
+    results: (response.results || []).map((item) => ({
+      ...item,
+      media_type: mediaType,
+    })),
+  };
+}
+
+export function searchMovies(query, page = 1, options) {
+  return request("/search/movie", { query, page, include_adult: false }, options)
+    .then((response) => tagResults(response, "movie"));
+}
+
+export function searchTv(query, page = 1, options) {
+  return request("/search/tv", { query, page, include_adult: false }, options)
+    .then((response) => tagResults(response, "tv"));
+}
+
+export function searchPeople(query, page = 1, options) {
+  return request("/search/person", { query, page, include_adult: false }, options)
+    .then((response) => tagResults(response, "person"));
+}
+
 const genreIds = {
   movie: {
     action: 28,
@@ -72,7 +97,7 @@ const genreIds = {
   },
 };
 
-export async function discoverByGenre(genre, mediaType = "all", options) {
+export async function discoverByGenre(genre, mediaType = "all", page = 1, options) {
   const types = mediaType === "movie" || mediaType === "tv"
     ? [mediaType]
     : ["movie", "tv"];
@@ -83,6 +108,7 @@ export async function discoverByGenre(genre, mediaType = "all", options) {
         `/discover/${type}`,
         {
           include_adult: false,
+          page,
           sort_by: "popularity.desc",
           with_genres: genreIds[type][genre],
         },
@@ -101,12 +127,15 @@ export async function discoverByGenre(genre, mediaType = "all", options) {
     .sort((first, second) => (second.popularity || 0) - (first.popularity || 0));
 
   return {
-    page: 1,
-    results,
+    page,
+    results: results.slice(0, 20),
     total_results: responses.reduce(
       (total, response) => total + (response.total_results || 0),
       0,
     ),
+    total_pages: mediaType === "all"
+      ? Math.max(...responses.map((response) => response.total_pages || 1))
+      : responses[0]?.total_pages || 1,
   };
 }
 

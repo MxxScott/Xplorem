@@ -1,17 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FiBookmark, FiSearch, FiTrendingUp } from "react-icons/fi";
 import useLayout from "../../hooks/useLayout";
-
-const iconProps = {
-  width: 18,
-  height: 18,
-  viewBox: "0 0 24 24",
-  fill: "none",
-  stroke: "currentColor",
-  strokeWidth: 1.8,
-  strokeLinecap: "round",
-  strokeLinejoin: "round",
-  "aria-hidden": true,
-};
 
 const sections = [
   {
@@ -21,22 +10,12 @@ const sections = [
         to: "/",
         label: "Trending",
         end: true,
-        icon: (
-          <svg {...iconProps}>
-            <path d="M3 17l6-6 4 4 8-8" />
-            <path d="M17 7h4v4" />
-          </svg>
-        ),
+        icon: FiTrendingUp,
       },
       {
         to: "/search",
         label: "Search",
-        icon: (
-          <svg {...iconProps}>
-            <circle cx="11" cy="11" r="7" />
-            <path d="M20 20l-3.5-3.5" />
-          </svg>
-        ),
+        icon: FiSearch,
       },
     ],
   },
@@ -46,11 +25,7 @@ const sections = [
       {
         to: "/watchlist",
         label: "Watchlist",
-        icon: (
-          <svg {...iconProps}>
-            <path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" />
-          </svg>
-        ),
+        icon: FiBookmark,
       },
     ],
   },
@@ -104,7 +79,7 @@ function Sidebar() {
                               : "border-ink-muted/20 bg-ink/10 text-ink-muted"
                           }`}
                         >
-                          {item.icon}
+                          <item.icon aria-hidden="true" size={18} strokeWidth={1.8} />
                         </span>
                         <span className="truncate opacity-0 transition-opacity duration-200 group-hover/rail:opacity-100 group-focus-within/rail:opacity-100">
                           {item.label}

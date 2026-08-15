@@ -1,0 +1,14 @@
+import { useContext } from "react";
+import WatchlistContext from "../context/WatchlistContext";
+
+function useWatchlist() {
+  const context = useContext(WatchlistContext);
+
+  if (!context) {
+    throw new Error("useWatchlist must be used inside a WatchlistProvider.");
+  }
+
+  return context;
+}
+
+export default useWatchlist;
