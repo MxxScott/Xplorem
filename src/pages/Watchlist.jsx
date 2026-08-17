@@ -23,7 +23,7 @@ function Watchlist() {
   );
 
   return (
-    <div className="mx-auto flex w-full max-w-[1280px] flex-col gap-10">
+    <div className="mx-auto flex w-full max-w-7xl flex-col gap-10">
       <header className="flex flex-col gap-6 border-b border-border/30 pb-8 sm:flex-row sm:items-end sm:justify-between">
         <div className="flex max-w-2xl flex-col gap-2">
           <p className="font-mono text-xs uppercase tracking-wider text-brand">

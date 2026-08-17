@@ -157,12 +157,12 @@ function Search() {
   const resultQuery = selectedGenre?.label || debouncedQuery;
 
   return (
-    <div className="mx-auto flex w-full max-w-[976px] flex-col gap-8">
+    <div className="mx-auto flex w-full max-w-244 flex-col gap-8">
       <section className="flex flex-col gap-4" aria-labelledby="search-heading">
         <h1 id="search-heading" className="sr-only">
           Search Xplorem
         </h1>
-        <label className="relative mx-auto flex h-[70px] w-full max-w-[768px] items-center rounded-full border border-border/50 bg-surface px-6 shadow-[0_12px_36px_rgba(0,0,0,0.18)] focus-within:border-brand">
+        <label className="relative mx-auto flex h-17.5 w-full max-w-3xl items-center rounded-full border border-border/50 bg-surface px-6 shadow-[0_12px_36px_rgba(0,0,0,0.18)] focus-within:border-brand">
           <FiSearch
             aria-hidden="true"
             className="mr-4 shrink-0 text-ink-subtle"
@@ -197,7 +197,7 @@ function Search() {
           {mediaFilters.map((filter) => (
             <button
               aria-pressed={mediaType === filter.value}
-              className={`h-[38px] rounded-full border px-6 text-sm font-bold transition-colors ${
+              className={`h-9.5 rounded-full border px-6 text-sm font-bold transition-colors ${
                 mediaType === filter.value
                   ? "border-brand bg-brand text-canvas"
                   : "border-border/50 bg-surface text-ink-muted hover:border-brand/50 hover:text-ink"
@@ -212,7 +212,7 @@ function Search() {
           <div className="relative">
             <button
               aria-expanded={showGenreMenu}
-              className="flex h-[38px] items-center gap-2 rounded-full border border-border/50 bg-surface px-6 text-sm font-bold text-ink-muted transition-colors hover:border-brand/50 hover:text-ink"
+              className="flex h-9.5 items-center gap-2 rounded-full border border-border/50 bg-surface px-6 text-sm font-bold text-ink-muted transition-colors hover:border-brand/50 hover:text-ink"
               onClick={() => setShowGenreMenu((visible) => !visible)}
               type="button"
             >
@@ -240,7 +240,7 @@ function Search() {
           </div>
           <button
             aria-pressed={mediaType === "person"}
-            className={`h-[38px] rounded-full border px-6 text-sm font-bold transition-colors ${
+            className={`h-9.5 rounded-full border px-6 text-sm font-bold transition-colors ${
               mediaType === "person"
                 ? "border-brand bg-brand text-canvas"
                 : "border-border/50 bg-surface text-ink-muted hover:border-brand/50 hover:text-ink"
@@ -412,7 +412,7 @@ function Search() {
                             src={image}
                           />
                         )}
-                        <span className="absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/20 to-transparent" />
+                        <span className="absolute inset-0 bg-linear-to-t from-canvas/90 via-canvas/20 to-transparent" />
                         <span className="relative font-sora text-xl font-semibold text-ink transition-colors group-hover:text-brand">
                           {genre.label}
                         </span>
@@ -472,7 +472,7 @@ function PersonCard({ item }) {
 
   return (
     <article className="group flex flex-col gap-2">
-      <div className="aspect-[2/3] overflow-hidden rounded-xl border border-border/30 bg-surface">
+      <div className="aspect-2/3 overflow-hidden rounded-xl border border-border/30 bg-surface">
         {profile ? (
           <img
             alt=""

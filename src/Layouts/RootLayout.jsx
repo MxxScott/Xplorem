@@ -12,10 +12,6 @@ function RootLayout() {
         {/* Sidebar is fixed, so it sits outside the flow and the content below
             only needs to reserve room for the collapsed rail. */}
         <Sidebar />
-        {/* No max-width here on purpose: a wrapper would trap the hero, and
-            escaping it needs 100vw (overflows past the scrollbar) or
-            overflow-x:hidden (breaks the sticky navbar). Pages set their own
-            max-width instead, so full-bleed sections just work. */}
         <main className="min-w-0 flex-1 px-6 py-8 lg:pl-24">
           <Outlet />
         </main>
