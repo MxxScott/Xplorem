@@ -1,9 +1,19 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
+import {
+  FiArrowRight,
+  FiArrowUpRight,
+  FiLock,
+  FiMail,
+  FiShield,
+  FiUser,
+} from "react-icons/fi";
+import AuthShell from "../components/auth/AuthShell";
 import Button from "../components/common/Button";
 import Input from "../components/common/Input";
 import useAuth from "../hooks/useAuth";
+import signupBackground from "../assets/auth/signup-bg.png";
 
 const signupSchema = Yup.object({
   name: Yup.string().trim().required("Name is required."),
@@ -17,6 +27,7 @@ const signupSchema = Yup.object({
   confirm: Yup.string()
     .oneOf([Yup.ref("password")], "Passwords do not match.")
     .required("Confirm your password."),
+  terms: Yup.boolean().oneOf([true], "Accept the terms to continue."),
 });
 
 function Signup() {
@@ -24,96 +35,165 @@ function Signup() {
   const navigate = useNavigate();
 
   const formik = useFormik({
-    initialValues: { name: "", email: "", password: "", confirm: "" },
+    initialValues: {
+      name: "",
+      email: "",
+      password: "",
+      confirm: "",
+      terms: false,
+    },
     validationSchema: signupSchema,
     onSubmit(values, { setStatus, setSubmitting }) {
       try {
         signup(values);
         navigate("/watchlist", { replace: true });
       } catch (error) {
-        // Duplicate-email rejections come back from the auth layer, not Yup.
         setStatus(error.message);
-        // onSubmit is synchronous, so Formik won't reset this for us.
         setSubmitting(false);
       }
     },
   });
 
-  // Hold a field's error back until the user has left it or tried to submit —
-  // flagging "Name is required" on an untouched form is just noise.
   function errorFor(field) {
     return formik.touched[field] ? formik.errors[field] : undefined;
   }
 
-  // Any edit invalidates the previous rejection, so clear it as they type.
   function handleChange(event) {
     if (formik.status) formik.setStatus(undefined);
     formik.handleChange(event);
   }
 
   return (
-    <div className="mx-auto flex w-full max-w-sm flex-col gap-6 py-12">
-      <div className="flex flex-col gap-1">
-        <h1 className="font-sora text-3xl font-semibold text-ink">
-          Create an account
-        </h1>
-        <p className="text-sm text-ink-subtle">
-          Your account is stored on this device only.
-        </p>
-      </div>
-
-      <form onSubmit={formik.handleSubmit} noValidate className="flex flex-col gap-4">
-        <Input
-          label="Name"
-          autoComplete="name"
-          {...formik.getFieldProps("name")}
-          onChange={handleChange}
-          error={errorFor("name")}
-        />
-        <Input
-          label="Email"
-          type="email"
-          autoComplete="email"
-          {...formik.getFieldProps("email")}
-          onChange={handleChange}
-          error={errorFor("email")}
-        />
-        <Input
-          label="Password"
-          type="password"
-          autoComplete="new-password"
-          {...formik.getFieldProps("password")}
-          onChange={handleChange}
-          error={errorFor("password")}
-          hint="At least 8 characters."
-        />
-        <Input
-          label="Confirm password"
-          type="password"
-          autoComplete="new-password"
-          {...formik.getFieldProps("confirm")}
-          onChange={handleChange}
-          error={errorFor("confirm")}
-        />
-
-        {formik.status && (
-          <p role="alert" className="text-sm text-danger">
-            {formik.status}
+    <AuthShell
+      background={signupBackground}
+      brand="above"
+      cardClassName="max-w-[512px] rounded-2xl"
+      footer={
+        <div className="flex flex-wrap items-center justify-center gap-8 font-mono text-xs uppercase tracking-wider text-ink-muted/40">
+          <span>Ultra HD</span>
+          <span>No Ads</span>
+          <span>Offline</span>
+        </div>
+      }
+    >
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-2">
+          <h1 className="font-sora text-3xl font-semibold leading-tight text-ink">
+            Begin Your Cinema
+            <br />
+            Journey.
+          </h1>
+          <p className="text-base text-ink-muted">
+            Join explorers and start your personalized watchlist.
           </p>
-        )}
+        </div>
 
-        <Button type="submit" disabled={formik.isSubmitting} className="w-full">
-          {formik.isSubmitting ? "Creating account..." : "Create account"}
-        </Button>
-      </form>
+        <form onSubmit={formik.handleSubmit} noValidate className="flex flex-col gap-5">
+          <Input
+            appearance="auth"
+            label="Full name"
+            autoComplete="name"
+            placeholder="Enter your full name"
+            icon={<FiUser aria-hidden="true" size={16} />}
+            {...formik.getFieldProps("name")}
+            onChange={handleChange}
+            error={errorFor("name")}
+          />
+          <Input
+            appearance="auth"
+            label="Email address"
+            type="email"
+            autoComplete="email"
+            placeholder="explorer@xplorem.com"
+            icon={<FiMail aria-hidden="true" size={16} />}
+            {...formik.getFieldProps("email")}
+            onChange={handleChange}
+            error={errorFor("email")}
+          />
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Input
+              appearance="auth"
+              label="Password"
+              type="password"
+              autoComplete="new-password"
+              placeholder="••••••••"
+              icon={<FiLock aria-hidden="true" size={16} />}
+              {...formik.getFieldProps("password")}
+              onChange={handleChange}
+              error={errorFor("password")}
+            />
+            <Input
+              appearance="auth"
+              label="Confirm"
+              type="password"
+              autoComplete="new-password"
+              placeholder="••••••••"
+              icon={<FiShield aria-hidden="true" size={16} />}
+              {...formik.getFieldProps("confirm")}
+              onChange={handleChange}
+              error={errorFor("confirm")}
+            />
+          </div>
 
-      <p className="text-center text-sm text-ink-subtle">
-        Already have an account?{" "}
-        <Link to="/login" className="font-bold text-brand hover:underline">
-          Sign in
-        </Link>
-      </p>
-    </div>
+          <label className="flex items-start gap-3 text-sm text-ink-muted">
+            <input
+              type="checkbox"
+              name="terms"
+              checked={formik.values.terms}
+              onChange={handleChange}
+              onBlur={formik.handleBlur}
+              className="mt-1 size-4 rounded border-border bg-surface accent-brand"
+            />
+            <span>
+              I agree to the{" "}
+              <span className="text-brand underline underline-offset-2">
+                Terms of Service
+              </span>{" "}
+              and{" "}
+              <span className="text-brand underline underline-offset-2">
+                Privacy Policy
+              </span>
+              .
+            </span>
+          </label>
+          {errorFor("terms") && (
+            <p role="alert" className="-mt-3 text-sm text-danger">
+              {errorFor("terms")}
+            </p>
+          )}
+
+          {formik.status && (
+            <p role="alert" className="text-sm text-danger">
+              {formik.status}
+            </p>
+          )}
+
+          <Button
+            type="submit"
+            size="auth"
+            radius="xl"
+            disabled={formik.isSubmitting}
+            className="w-full"
+          >
+            {formik.isSubmitting ? "Creating account..." : "Create Account"}
+            <FiArrowRight aria-hidden="true" size={16} />
+          </Button>
+        </form>
+
+        <div className="flex flex-col gap-1 border-t border-border/40 pt-5">
+          <p className="font-mono text-xs uppercase tracking-wide text-ink-faint">
+            Already an explorer?
+          </p>
+          <Link
+            to="/login"
+            className="inline-flex items-center gap-2 text-base text-ink hover:text-brand"
+          >
+            Sign in to your account
+            <FiArrowUpRight aria-hidden="true" size={16} />
+          </Link>
+        </div>
+      </div>
+    </AuthShell>
   );
 }
 

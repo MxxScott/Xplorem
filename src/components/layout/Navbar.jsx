@@ -93,9 +93,12 @@ function Navbar() {
 
         {isAuthenticated ? (
           <div className="flex items-center gap-3">
-            <span className="hidden text-sm text-ink-muted sm:inline">
+            <Link
+              to="/profile"
+              className="hidden text-sm font-bold text-ink-muted transition-colors hover:text-brand sm:inline"
+            >
               {user.name}
-            </span>
+            </Link>
             <button
               type="button"
               onClick={handleLogout}

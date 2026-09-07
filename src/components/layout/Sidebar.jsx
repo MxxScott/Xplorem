@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FiBookmark, FiSearch, FiTrendingUp } from "react-icons/fi";
+import { FiBookmark, FiSearch, FiTrendingUp, FiUser } from "react-icons/fi";
 import useLayout from "../../hooks/useLayout";
 
 const sections = [
@@ -26,6 +26,11 @@ const sections = [
         to: "/watchlist",
         label: "Watchlist",
         icon: FiBookmark,
+      },
+      {
+        to: "/profile",
+        label: "Profile",
+        icon: FiUser,
       },
     ],
   },

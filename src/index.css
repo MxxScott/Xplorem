@@ -38,3 +38,45 @@ body {
   outline: 2px solid var(--color-brand);
   outline-offset: 2px;
 }
+
+.prose-review h1,
+.prose-review h2,
+.prose-review h3 {
+  font-family: var(--font-sora);
+  font-weight: 600;
+  color: var(--color-ink);
+  margin: 0 0 0.75rem;
+}
+
+.prose-review h1 {
+  font-size: 1.5rem;
+}
+
+.prose-review h2 {
+  font-size: 1.25rem;
+}
+
+.prose-review h3 {
+  font-size: 1.1rem;
+}
+
+.prose-review p {
+  margin: 0 0 0.75rem;
+  color: var(--color-ink-muted);
+}
+
+.prose-review ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+  color: var(--color-ink-muted);
+}
+
+.prose-review li {
+  margin-bottom: 0.35rem;
+}
+
+.prose-review code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--color-brand);
+}

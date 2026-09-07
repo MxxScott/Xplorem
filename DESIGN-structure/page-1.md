@@ -1,0 +1,3197 @@
+# Structure: Page 1
+
+- **Html → Body** · `FRAME` · 1280×2042 · vertical stack, padding 0/0/0/256px · 3 children
+  - **Main Content** · `FRAME` · 1024×2042 · vertical stack, padding 64/0/0/0px · 2 children
+    - **Hero Section** · `FRAME` · 1024×716 · horizontal row, padding 384/0/48/0px · 2 children
+      - **Container** · `FRAME` · 1024×716 · vertical stack · 3 children
+        - **Image** · `RECTANGLE` · 1024×716
+        - **Gradient** · `RECTANGLE` · 1024×716 · ×2
+      - **Container** · `FRAME` · 759×284 · vertical stack, gap 16px, padding 0/24/0/24px · 4 children
+        - **Container** · `FRAME` · 711×26 · horizontal row, gap 8px · 2 children
+          - **Overlay+Border** · `FRAME` · 182×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 156×16 · “BLOCKBUSTER TRENDING”
+          - **Container** · `FRAME` · 37×24 · horizontal row, gap 3.990000009536743px · 2 children
+            - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×11
+            - **Text** · `TEXT` · 22×24 · “4.9”
+        - **Heading 1** · `FRAME` · 711×60 · vertical stack · 1 children
+          - **Text** · `TEXT` · 574×60 · “Project Horizon: Rebirth”
+        - **Container** · `FRAME` · 711×84 · vertical stack · 1 children
+          - **Text** · `TEXT` · 711×84 · “In a world where digital consciousness is the new frontier, one renegade archite”
+        - **Container** · `FRAME` · 711×66 · horizontal row, gap 16px, padding 16/0/0/0px · 2 children
+          - **Button** · `FRAME` · 169×50 · horizontal row, gap 8px, padding 12.5/32/13/32px · 2 children
+            - **Container** · `FRAME` · 11×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 11×14
+            - **Text** · `TEXT` · 86×24 · “Watch Now”
+          - **Button** · `FRAME` · 180×50 · horizontal row, gap 8px, padding 12/32/12/32px · 2 children
+            - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×20
+            - **Text** · `TEXT` · 86×24 · “More Info”
+    - **Content Rows** · `FRAME` · 1024×1262 · vertical stack, gap 48px, padding 0/24/96/24px · 3 children
+      - **Section - Continue Watching** · `FRAME` · 976×306 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 600.22998046875px · 2 children
+          - **Heading 2** · `FRAME` · 320×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 320×40 · “Continue Watching”
+          - **Link** · `FRAME` · 56×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 56×20 · “View All”
+        - **Container** · `FRAME` · 1024×242 · horizontal row, gap 24px, padding 0/24/16/24px · 3 children
+          - **Progress Card 1** · `FRAME` · 309×226 · 3 children
+            - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 133×24 · “The Architect: E04”
+            - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 97×16 · “18M REMAINING”
+            - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+              - **AB6AXuCBM0vmbl61JOG6onRLowi1ZsMFAf7X8tIfvUH6NB7U0-AMG24aCEOpBUZDiXiyb4JZVEcB0xuYYf1dv0hMZ1K-HEwKURkzTJKVlqkeF8nWH5fiDXVI5WgK2a4tCVRvv__MEQnbTR6_F6_3BlrVdHSMkbmb01Euc4f64ph4evDJFyBndUCY-e1gGD82eFEvhZJg0gRWIG04EN02-EHIMSqx1MXJ2kx4LkfycxzjdHxWmKoBCdFV2EX8** · `FRAME` · 307×172
+              - **Overlay** · `FRAME` · 307×172 · horizontal row · 1 children
+                - **Container** · `FRAME` · 30×30 · vertical stack
+                  - _…and 1 more_
+              - **Progress Bar** · `FRAME` · 307×6 · 1 children
+                - **Background+Shadow** · `RECTANGLE` · 231×6
+          - **Progress Card 2** · `FRAME` · 309×226 · 3 children
+            - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 88×24 · “Nebula Drift”
+            - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 117×16 · “1H 12M REMAINING”
+            - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+              - **AB6AXuDBfyggIbBM3YYqlnYP0Sqe6N2V2nZKZCSPkx9QuEcH4s0RLivHugdLFAwGNyueYsfUxk9xpQQBYJAyu2ErLXK4L_cOoii-wq-DgWMd-h8RmdWPBFvxbDjLFXJWg73MJeiTfKzjgfdJnAMXl9ibsIbN8ZNsaaocSvnLpvD0fxOV-NdRZcb6Rqb6VKPpThvvWAxO8BGukbH6nB1KsF8fqhpPHUc_q1TGCc9QBcrGb2fSK4lZcYX9JstM** · `FRAME` · 307×172
+              - **Overlay** · `FRAME` · 307×172 · horizontal row · 1 children
+                - **Container** · `FRAME` · 30×30 · vertical stack
+                  - _…and 1 more_
+              - **Background** · `FRAME` · 307×6 · 1 children
+                - **Background+Shadow** · `RECTANGLE` · 61×6
+          - **Progress Card 3** · `FRAME` · 309×226 · 3 children
+            - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 97×24 · “Asphalt Neon”
+            - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 90×16 · “4M REMAINING”
+            - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+              - **AB6AXuDq1Xr0FCwUCB1hHRARNXlHipBfrUW3PkTfWDiDupbeatw_tvFbPxF4l7w1uNPvWXoFJPTvyS77SJ-tNUcHVO2HUOufx0VTLm_aQi-l8hOU0knOEgHxkchFyoE_0_XlThPTClo7MRrccloymQxBPhBbVrxD6oDGTH0En2yp-dSsL2Z6PUNXoY3yNOY9GYolXBOVy3o4hhCeI1KL5zhTEeK7LReUTFM0xe_woOM8XCjfST4Wi7ZqzpHW** · `FRAME` · 307×172
+              - **Overlay** · `FRAME` · 307×172 · horizontal row · 1 children
+                - **Container** · `FRAME` · 30×30 · vertical stack
+                  - _…and 1 more_
+              - **Background** · `FRAME` · 307×6 · 1 children
+                - **Background+Shadow** · `RECTANGLE` · 277×6
+      - **Section - Trending Now (Vertical Posters)** · `FRAME` · 976×432 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 671.6400146484375px · 2 children
+          - **Heading 2** · `FRAME` · 232×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 232×40 · “Trending Now”
+          - **Container** · `FRAME` · 72×32 · horizontal row, gap 8px · 2 children
+            - **Button** · `FRAME` · 32×32 · horizontal row · 1 children · ×2
+              - **Container** · `FRAME` · 4×7 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 4×7
+        - **Container** · `FRAME` · 1024×368 · 5 children
+          - **Movie Card 1** · `FRAME` · 200×352 · 3 children
+            - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 93×24 · “Elysium Falls”
+            - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 84×16 · “Drama • Sci-Fi”
+            - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+              - **AB6AXuD3CV5ROjKmgYRcclETGvR5QxkdywSnDZctKs6MUQkdfBVd5UTDEHkmN26GKbfIOQJb6OL_QNPAFwGiz3R40x0FVqoUZLit9G5ngUKqbG4HdKdJf3G_k0MHwshII8R5_hhFGR5eKnG_Yvnk3dDYJdQ3LOJBZKwGKpaF5Bojvo1CHd4a_1t-nloYt9LcVdXZTNjglo6WZjHX9lmf7jeXx774kkMjClROGiXPvW7ykWsiqXugJnvrPuSV** · `FRAME` · 198×298
+              - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px · 2 children
+                - **Container** · `FRAME` · 10×10 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 23×16 · “4.8”
+              - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px · 1 children
+                - **Button** · `FRAME` · 166×32 · horizontal row, gap 7.989999771118164px, padding 8/0/8/0px
+                  - _…and 2 more_
+          - **Movie Card 2** · `FRAME` · 200×352 · 3 children
+            - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 108×24 · “The Last Signal”
+            - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 104×16 · “Mystery • Thriller”
+            - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+              - **AB6AXuCedgLDn8C8cqhXH3s_nJ6eOBBA2KxC09BfQ3ERf9JRmMxTyeS-I5HRs47DskYs5TuUCmHUYwjtgp0VNtDYmVGJwvJRwK4hPLnkmSMPVSuGC9ZphOv9CsrsLyob7KWP5aspdNsU8mSCH2XDo8Lt9KQFuS7b2JYv6NEcYVvwuL_zySsSODgWxQwqupJG8sOxqerq2X83_b1DvL9wl33dfhC7DJ_ncRuNZ_45duCEOe6Doe7i_8-drHNL** · `FRAME` · 198×298
+              - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px · 2 children
+                - **Container** · `FRAME` · 10×10 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 23×16 · “4.5”
+              - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px · 1 children
+                - **Button** · `FRAME` · 166×32 · horizontal row, gap 7.989999771118164px, padding 8/0/8/0px
+                  - _…and 2 more_
+          - **Movie Card 3** · `FRAME` · 200×352 · 3 children
+            - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 72×24 · “Velocity X”
+            - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 111×16 · “Action • Adventure”
+            - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+              - **AB6AXuDdMCJYsCmFajTL1goMbYyiuHyxLsuy_2SydIkkSkT8IftcT7PE5P_BRgn7-sy-00Pw9uhO7cRK3A-ezp1zwGU-IX44fIkY0U5iPmdP3bJaMR3ItRX2nkij-vfyj7_g-OD1Q9z2uu5TEL9qNLHZSbSB8Lz7wn2nroawhQQtp57SL7oyIyeMRVq8Ic4LB7qH1UkRkPJESV63Iqapcn-o1vJJZKYBDdIBYG3ro4wlH9KPbpAoc8k2pb-J** · `FRAME` · 198×298
+              - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px · 2 children
+                - **Container** · `FRAME` · 10×10 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 23×16 · “4.2”
+              - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px · 1 children
+                - **Button** · `FRAME` · 166×32 · horizontal row, gap 7.989999771118164px, padding 8/0/8/0px
+                  - _…and 2 more_
+          - **Movie Card 4** · `FRAME` · 200×352 · 3 children
+            - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 123×24 · “Human: Decoded”
+            - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 79×16 · “Documentary”
+            - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+              - **AB6AXuDYNGNplmbiWfvQoF86ykhzPsw3U25JPq-1UkBI7Nx1DzEYFqj3r9VpGopWG0pXI4Sjbninfv32h9Nu0LSRfdOhJXQkLKKvpw5E-bPhVjzwEIkVKTIOpxG1HdDbnECeTZ7WJkO136XQoQPUcCqH8QHh33aqXJRrKyegNz3GZcdT7VFBTLnfwu5dtqsUxxz4zeRiuiNSLdmQljUHpLaaizwBYsQ0iiE3h6hndw6GVtXzEaMoQpBHQIMW** · `FRAME` · 198×298
+              - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px · 2 children
+                - **Container** · `FRAME` · 10×10 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 23×16 · “4.9”
+              - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px · 1 children
+                - **Button** · `FRAME` · 166×32 · horizontal row, gap 7.989999771118164px, padding 8/0/8/0px
+                  - _…and 2 more_
+          - **Movie Card 5** · `FRAME` · 200×352 · 3 children
+            - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 71×24 · “Void Echo”
+            - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 129×16 · “Horror • Supernatural”
+            - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+              - **AB6AXuBKMQx_YcHOtxRHdbZmLNrhTOZWW3giPg9aEo5Bmh-7PFX_lF9jW7Ji4XWcrdf4SCHwajA-ik0WZs4leXMxxImJS556euWlXXs7qEf6SHEru5X3SIloo7CHZ8EpPnA-v0VhME9dQpJ00kOCw3Qi3-T6ChOtBtgeJu_ULfNidhoWAzuk7bqXOCHhN8Pkvf2o2vZ4N1T_UGXliGAexnGjrN3KZY2SWUWMTCkOMJukJMMzL_xai8fcS281** · `FRAME` · 198×298
+              - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px · 2 children
+                - **Container** · `FRAME` · 10×10 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 23×16 · “3.9”
+              - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px · 1 children
+                - **Button** · `FRAME` · 166×32 · horizontal row, gap 7.989999771118164px, padding 8/0/8/0px
+                  - _…and 2 more_
+      - **Section - Popular TV Shows** · `FRAME` · 976×332 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 616.9500122070312px, padding 0/1.1368683772161603e-13/0/0px · 2 children
+          - **Heading 2** · `FRAME` · 294×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 294×40 · “Popular TV Shows”
+          - **Link** · `FRAME` · 65×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 65×20 · “See More”
+        - **Container** · `FRAME` · 976×268 · horizontal row, gap 24px · 6 children
+          - **Show Card 1** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 36.86000061035156px, padding 0/0.009999999776482582/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 80×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 72×20 · “Protocol 7”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.7”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBLG9r_7mik7clJVHAaLObntz-DWto2m8a4CvY-K9CvqaKrrvE0jdFqw7jcZr9owwK9lb4xON4IS_zz9AhZWR5NIZNeVOSs_59IGDmPiDG480ysPa0k2BJCWARyI7400_sT1do6CIa6CL-_2rZFUjZQLIXU3dSCxTYvfsgtxOXZOSzBqpY5JJLs8wH2T7VnaS-96RP1__lymY-V0TAmjjXLnX_m2wAvKuwU1zTPjt_FTekDj3r2iqsG** · `FRAME` · 141×212
+          - **Show Card 2** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 10.529999732971191px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 98×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 90×20 · “Star Runners”
+              - **Background** · `FRAME` · 34×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 22×24 · “NEW”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.9”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuB5uzkp0RdSBTKlKbenqrpYLYBsTZlmmBzk6t1IOoF-na6MdgA7jRoATsTpsbK2afgUvzAn6q23UVmpAbTuNUmSj76FM3SXIA20WZ9cjJAXQncvQ2avqThaQ3VNYXorcv2z66NlEM67PTkqejoG6rIq1SXWXduAgOa3hX2fr3DeQkLWPN0iVUn0HcRSdgEqU3PuYpWa5w4q-lVINHgVMJhVJ-p_zFvPWzxxzE_ihwVjylj-7qMdqyeg** · `FRAME` · 141×212
+          - **Show Card 3** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 28.469999313354492px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 87×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 79×20 · “Blue Velvet”
+              - **Overlay+Border** · `FRAME` · 28×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 14×24 · “HD”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.4”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBVSPteifgnnhElG1hsIOlZYGIdmThph6ik_2SQBD-QJPO23OUP4YoZ5Xr48jCWbxsVGuco5fUVyxQnD7seNd5Lv5lucZMqEiBJMcR72oNNDCcIYOD9i3iYAn3XXohxeasGGXYfEOdjrRpmfizkFUS3aXFPthtArxTa0t7J1_IFe_afm5Ch5INEZv1O8i07IKhMIX2ucDBYIqiLVd8Gk-itibhe0dgmAAneQS4H2lraWCCMBFCYTQCP** · `FRAME` · 141×212
+          - **Show Card 4** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 44.2400016784668px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 75×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 67×20 · “The Pulse”
+              - **Background** · `FRAME` · 23×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 11×24 · “S3”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.6”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCodhdRzwtuiu5Tg38JaH7Bsxyypr74yfqJWQbtlqHr2sNIPjEMMc8uFPyDfw3NN900E_zflM8eeWS9DC4buruZlaF2C8mLvuyau99ClaCugdULweavD2uexxyR-4dtQ48Y03y44zR7g93D_0MBBqwO1MU6E6QEK-d22w7U3QRSDgXqRhE60ow0SyskYlEzUqmKeVKSbGOf1mR_5nEmCw0ahIoDZnWrXrFuepacT7jpu9aeJYgtm8Xa** · `FRAME` · 141×212
+          - **Show Card 5** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 30.719999313354492px · 2 children
+              - **Heading 3** · `FRAME` · 86×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 78×20 · “Old Throne”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.8”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCjuRbuaNUxaQf2xBolAHUmfvePqYnTNnC6L9KnZ7YtuFmGXRhNnzWuHVDMCT6a7CNY2VH-4eYrASWRtx2YuJ0AIUqwm1UdScbWZJPxxEAm44FeYUibJRthUlMTY-wCumGHbNP7PGQeB9Sm9cwuxG24RqIJbcR5hlBtIRPNFB3j0YIjEO7JWnmy5xUvmxoCO1mPI6kKYci7OaCpdR15U-ryWyvIRPJHAtttxX5osBG9EGBLoyj9qb_V** · `FRAME` · 141×212
+          - **Show Card 6** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 20.420000076293945px · 2 children
+              - **Heading 3** · `FRAME` · 68×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 60×20 · “Mid Tide”
+              - **Background** · `FRAME` · 54×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 42×24 · “POPULAR”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.3”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCCjJeexVp1_FBvb0tPAc5ndZ1K9ndR3xTnwNlTralrysgMXS4JxIt_mJarT3RTv3B-gM7JsqVs0AL8_MDjjLMxqAKIGscL0Dde8Gn3Rgj3WAtdUROveNuKpK9xQgD7XP1iXAiLMPLPHZ5_0iW8SOj9PyOuaxHnZTIUhspBMzopIxcTS5-V1SrOykosE6O9R0C381kBEbcf_Hof3YS4ztZ_fXXdg1wBkDqSQhEnWucgrghnsT14Dpg4** · `FRAME` · 141×212
+  - **Aside - SideNavBar (Hidden on Mobile)** · `FRAME` · 256×800 · vertical stack, padding 96/0/24/0px · 3 children
+    - **Aside - SideNavBar (Hidden on Mobile):shadow** · `RECTANGLE` · 256×800
+    - **Container** · `FRAME` · 255×276 · vertical stack, gap 4px, padding 0/8/0/8px · 5 children
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×18
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×12
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×18
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Margin** · `FRAME` · 255×404 · vertical stack, padding 77/0/0/0px · 1 children
+      - **HorizontalBorder** · `FRAME` · 255×299 · vertical stack, gap 24px, padding 24/16/24/16px · 2 children
+        - **Background+Border** · `FRAME` · 223×150 · vertical stack, gap 8px, padding 16px · 3 children
+          - **Container** · `FRAME` · 189×20 · vertical stack · 1 children
+            - **Upgrade to 4K** · `TEXT` · 189×20 · “Upgrade to 4K”
+          - **Container** · `FRAME` · 189×40 · vertical stack, padding 0/0/8/0px · 1 children
+            - **Experience cinema in ultra high definition.** · `TEXT` · 189×32 · “Experience cinema in ultra high
+definition.”
+          - **Button** · `FRAME` · 189×40 · horizontal row, padding 8/0/8/0px · 1 children
+            - **Text** · `TEXT` · 96×24 · “Go Premium”
+        - **Container** · `FRAME` · 223×76 · vertical stack, gap 4px · 2 children
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×20
+            - **Text** · `TEXT` · 32×20 · “Help”
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 18×18
+            - **Text** · `TEXT` · 47×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 522.1699829101562px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 328×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 103×32 · vertical stack · 1 children
+          - **Xplorem** · `TEXT` · 103×32 · “Xplorem”
+        - **Nav** · `FRAME` · 193×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 54×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Browse** · `TEXT` · 54×24 · “Browse”
+          - **Link** · `FRAME` · 52×24 · vertical stack · 1 children
+            - **Library** · `TEXT` · 52×24 · “Library”
+          - **Link** · `FRAME` · 39×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 39×24 · “News”
+      - **Container** · `FRAME` · 372×34 · horizontal row, gap 16px · 4 children
+        - **Container** · `FRAME` · 256×34 · vertical stack · 2 children
+          - **Input** · `FRAME` · 256×34 · horizontal row, padding 7/16/7/40px · 1 children
+            - **Container** · `FRAME` · 198×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 198×18 · “Search titles...”
+          - **Container** · `FRAME` · 11×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+        - **Button** · `FRAME` · 16×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 16×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 20×20
+        - **Background+Border** · `FRAME` · 32×32 · horizontal row · 1 children
+          - **AB6AXuA_ktICVXJjDD8pprMdnr7vOikry5N7Q4V-VlxOxD-fMsofE9WK8xLPBqQp1ftIaG18Y4ajvbHFa-sW3tEJsGisdylP5XCNILFPCgq4Rif3SuMu_y2zNa8y5UkaPzXfr8tRu70zAcj6S9T_6hdBmjabSXPU5-f0REacTYIxPkeYzW-_0X5VLwcuPfW0_PHjUrApZm19ehDCP9NzaxBgSEOqLKXfL1AGBD1ZJYnsWnUMNvLy5ISl3xag** · `FRAME` · 30×30
+- **Html → Body** · `FRAME` · 390×390 · vertical stack · 1 children
+  - **STITCH_SVG_START:ANIMATION_3 class="fixed inset-0 w-full h-full** · `FRAME` · 390×390 · vertical stack · 1 children
+    - **SVG** · `FRAME` · 390×98 · 1 children
+      - **Group** · `GROUP` · 164×47 · 7 children
+        - **Text** · `FRAME` · 29×47 · 1 children
+          - **Text** · `TEXT` · 29×47 · “X”
+        - **Text** · `FRAME` · 25×47 · 1 children
+          - **Text** · `TEXT` · 25×47 · “p”
+        - **Text** · `FRAME` · 11×47 · 1 children
+          - **Text** · `TEXT` · 11×47 · “l”
+        - **Text** · `FRAME` · 24×47 · 1 children
+          - **Text** · `TEXT` · 24×47 · “o”
+        - **Text** · `FRAME` · 16×47 · 1 children
+          - **Text** · `TEXT` · 16×47 · “r”
+        - **Text** · `FRAME` · 23×47 · 1 children
+          - **Text** · `TEXT` · 23×47 · “e”
+        - **Text** · `FRAME` · 36×47 · 1 children
+          - **Text** · `TEXT` · 36×47 · “m”
+- **Xplorem - Signup** · `FRAME` · 1280×1016 · vertical stack, padding 65/0/65/0px · 3 children
+  - **Immersive Backdrop** · `FRAME` · 1280×1016 · vertical stack · 1 children
+    - **Image** · `RECTANGLE` · 1280×1016
+  - **Background Atmospheric Particles** · `FRAME` · 1280×1016 · 2 children
+    - **Overlay+Blur** · `RECTANGLE` · 500×500
+    - **Overlay+Blur** · `RECTANGLE` · 400×400
+  - **Main Signup Canvas** · `FRAME` · 512×886 · vertical stack · 3 children
+    - **Brand Header** · `FRAME` · 102×96 · vertical stack, gap 8px · 2 children
+      - **Margin** · `FRAME` · 48×56 · vertical stack, padding 0/0/8/0px · 1 children
+        - **Background+Shadow** · `FRAME` · 48×48 · horizontal row · 1 children
+          - **Container** · `FRAME` · 25×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 25×20
+      - **Heading 2** · `FRAME` · 102×32 · vertical stack · 1 children
+        - **Text** · `TEXT` · 102×32 · “Xplorem”
+    - **Glassmorphic Card** · `FRAME` · 512×742 · vertical stack, gap 24px, padding 40px · 3 children
+      - **Container** · `FRAME` · 430×112 · vertical stack, gap 8px · 2 children
+        - **Heading 1** · `FRAME` · 430×80 · vertical stack · 1 children
+          - **Begin Your Cinema Journey.** · `TEXT` · 430×80 · “Begin Your Cinema
+Journey.”
+        - **Container** · `FRAME` · 430×24 · vertical stack · 1 children
+          - **Join 1M+ explorers and start your personalized watchlist.** · `TEXT` · 430×24 · “Join 1M+ explorers and start your personalized watchlist.”
+      - **Signup Form** · `FRAME` · 430×428 · vertical stack, gap 20px · 5 children
+        - **Full Name Field** · `FRAME` · 430×84 · 2 children
+          - **Label → FULL NAME** · `TEXT` · 70×16 · “FULL NAME”
+          - **Background+Border** · `FRAME` · 430×54 · horizontal row · 2 children
+            - **Input** · `FRAME` · 428×52 · vertical stack, padding 15/16/16/48px · 1 children
+              - **Container** · `FRAME` · 364×21 · vertical stack · 1 children
+                - **Enter your full name** · `TEXT` · 364×21 · “Enter your full name”
+            - **Icon** · `VECTOR` · 16×16
+        - **Email Field** · `FRAME` · 430×84 · 2 children
+          - **Label → EMAIL ADDRESS** · `TEXT` · 101×16 · “EMAIL ADDRESS”
+          - **Background+Border** · `FRAME` · 430×54 · horizontal row · 2 children
+            - **Input** · `FRAME` · 428×52 · vertical stack, padding 15/16/16/48px · 1 children
+              - **Container** · `FRAME` · 364×21 · vertical stack · 1 children
+                - **explorer@xplorem.com** · `TEXT` · 364×21 · “explorer@xplorem.com”
+            - **Icon** · `VECTOR` · 20×16
+        - **Password Fields Row** · `FRAME` · 430×84 · horizontal row, gap 16px · 2 children
+          - **Container** · `FRAME` · 207×84 · 2 children
+            - **Label → PASSWORD** · `TEXT` · 62×16 · “PASSWORD”
+            - **Background+Border** · `FRAME` · 207×54 · horizontal row · 2 children
+              - **Input** · `FRAME` · 205×52 · vertical stack, padding 15/16/16/48px · 1 children
+                - **Container** · `FRAME` · 141×21 · vertical stack
+                  - _…and 1 more_
+              - **Icon** · `VECTOR` · 16×21
+          - **Container** · `FRAME` · 207×84 · 2 children
+            - **Label → CONFIRM** · `TEXT` · 55×16 · “CONFIRM”
+            - **Background+Border** · `FRAME` · 207×54 · horizontal row · 2 children
+              - **Input** · `FRAME` · 205×52 · vertical stack, padding 15/16/16/48px · 1 children
+                - **Container** · `FRAME` · 141×21 · vertical stack
+                  - _…and 1 more_
+              - **Icon** · `VECTOR` · 16×20
+        - **Terms Checkbox:margin** · `FRAME` · 430×28 · vertical stack, padding 8/0/0/0px · 1 children
+          - **Terms Checkbox** · `FRAME` · 430×20 · horizontal row, gap 12px, padding 0/4/0/4px · 2 children
+            - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+              - **Input** · `RECTANGLE` · 20×20
+            - **Label → I agree to the Terms of Service and Privacy Policy.** · `TEXT` · 311×18 · “I agree to the Terms of Service and Privacy Policy.”
+        - **Button - Primary CTA:margin** · `FRAME` · 430×68 · vertical stack, padding 16/0/0/0px · 1 children
+          - **Button - Primary CTA** · `FRAME` · 430×52 · horizontal row, gap 8px, padding 16/0/16/0px · 2 children
+            - **Text** · `TEXT` · 127×20 · “Create Account”
+            - **Container** · `FRAME` · 16×16 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 16×16
+      - **Footer Links** · `FRAME` · 430×72 · vertical stack, gap 15.5px, padding 16/0/0/0px · 2 children
+        - **Container** · `FRAME` · 430×16 · horizontal row, gap 16px · 3 children
+          - **Horizontal Divider** · `RECTANGLE` · 121×1
+          - **Container** · `FRAME` · 156×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 156×16 · “ALREADY AN EXPLORER?”
+          - **Horizontal Divider** · `RECTANGLE` · 121×1
+        - **Link** · `FRAME` · 185×24 · horizontal row, gap 4.010000228881836px · 2 children
+          - **Text** · `TEXT` · 163×24 · “Sign in to your account”
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+    - **Secondary Decoration:margin** · `FRAME` · 326×48 · vertical stack, padding 32/0/0/0px · 1 children
+      - **Secondary Decoration** · `FRAME` · 326×16 · horizontal row, gap 24px · 5 children
+        - **Container** · `FRAME` · 81×16 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Container** · `FRAME` · 62×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 62×16 · “ULTRA HD”
+        - **Overlay** · `RECTANGLE` · 4×4
+        - **Container** · `FRAME` · 66×16 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 47×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 47×16 · “NO ADS”
+        - **Overlay** · `RECTANGLE` · 4×4
+        - **Container** · `FRAME` · 74×16 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 55×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×16 · “OFFLINE”
+- **Xplorem - Login** · `FRAME` · 1280×1229 · vertical stack, padding 0/0/204.8000030517578/0px · 3 children
+  - **Cinematic Background** · `FRAME` · 1280×1024 · 4 children
+    - **Image** · `RECTANGLE` · 1280×1024
+    - **Gradient** · `RECTANGLE` · 1280×1024
+    - **Ambient Light Accents** · `RECTANGLE` · 768×614
+    - **Overlay+Blur** · `RECTANGLE` · 896×717
+  - **Main - Layout Container** · `FRAME` · 1280×1024 · horizontal row, padding 93/64/93/64px · 1 children
+    - **Login Card** · `FRAME` · 480×824 · vertical stack, gap 32px · 2 children
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 480×776 · vertical stack, gap 32px, padding 48px · 6 children
+        - **Overlay+Shadow** · `RECTANGLE` · 480×776
+        - **Brand & Header** · `FRAME` · 382×168 · vertical stack, gap 8px · 3 children
+          - **Container** · `FRAME` · 148×32 · horizontal row, gap -0.009999999776482582px · 2 children
+            - **Shadow** · `FRAME` · 33×27 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 33×27
+            - **Heading 1:margin** · `FRAME` · 114×32 · vertical stack, padding 0/0/0/12px · 1 children
+              - **Heading 1** · `FRAME` · 102×32 · vertical stack · 1 children
+                - **Text** · `TEXT` · 102×32 · “Xplorem”
+          - **Heading 2** · `FRAME` · 382×96 · vertical stack, padding 16/0/0/0px · 1 children
+            - **Text** · `TEXT` · 251×80 · “Welcome back,
+Cinephile.”
+          - **Container** · `FRAME` · 382×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 339×24 · “Step back into the world of ultra-high definition.”
+        - **Form** · `FRAME` · 382×280 · vertical stack, gap 24px, padding 8/0/0/0px · 3 children
+          - **Email Field** · `FRAME` · 382×86 · vertical stack, gap 8px · 2 children
+            - **Label** · `FRAME` · 382×20 · vertical stack, padding 0/0/0/4px · 1 children
+              - **EMAIL ADDRESS** · `TEXT` · 378×20 · “EMAIL ADDRESS”
+            - **Background+Border** · `FRAME` · 382×58 · vertical stack · 2 children
+              - **Input** · `FRAME` · 380×56 · horizontal row, padding 17/16/18/48px · 1 children
+                - **Container** · `FRAME` · 316×21 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 20×24 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×16
+          - **Password Field** · `FRAME` · 382×86 · vertical stack, gap 8px · 2 children
+            - **Container** · `FRAME` · 382×20 · horizontal row, gap 170.77999877929688px, padding 0/4/0/4px · 2 children
+              - **Label** · `FRAME` · 78×20 · vertical stack · 1 children
+                - **Text** · `TEXT` · 78×20 · “PASSWORD”
+              - **Link** · `FRAME` · 125×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 125×16 · “Forgot password?”
+            - **Background+Border** · `FRAME` · 382×58 · vertical stack · 3 children
+              - **Input** · `FRAME` · 380×56 · horizontal row, padding 17/48/18/48px · 1 children
+                - **Container** · `FRAME` · 284×21 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 16×24 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×21
+              - **Button** · `FRAME` · 22×22 · vertical stack, padding 0/0/7/0px · 1 children
+                - **Container** · `FRAME` · 22×15 · horizontal row
+                  - _…and 1 more_
+          - **Button - CTA** · `FRAME` · 382×52 · horizontal row, gap 8px, padding 16/0/16/0px · 2 children
+            - **Container** · `FRAME` · 64×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 64×20 · “Sign In”
+            - **Container** · `FRAME` · 16×16 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 16×16
+        - **Divider** · `FRAME` · 382×24 · vertical stack, padding 5/0/3/0px · 2 children
+          - **Container** · `FRAME` · 382×24 · horizontal row · 1 children
+            - **Horizontal Divider** · `RECTANGLE` · 382×1
+          - **OverlayBlur** · `FRAME` · 166×16 · horizontal row, padding 0/16/0/16px · 1 children
+            - **Text** · `TEXT` · 134×16 · “OR CONTINUE WITH”
+        - **Social Logins** · `FRAME` · 382×46 · horizontal row, gap 16px · 2 children
+          - **Button** · `FRAME` · 183×46 · horizontal row, gap 12px, padding 12/47.20000076293945/12/47.189998626708984px · 2 children
+            - **SVG** · `FRAME` · 20×20 · 4 children
+              - **Vector** · `VECTOR` · 9×9
+              - **Vector** · `VECTOR` · 14×7
+              - **Vector** · `VECTOR` · 4×8
+              - **Vector** · `VECTOR` · 14×7
+            - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 55×20 · “Google”
+          - **Button** · `FRAME` · 183×46 · horizontal row, gap 12px, padding 12/51.75/12/51.75px · 2 children
+            - **SVG** · `FRAME` · 20×20 · 1 children
+              - **Vector** · `VECTOR` · 12×17
+            - **Container** · `FRAME` · 46×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 46×20 · “Apple”
+        - **Footer Links** · `FRAME` · 382×32 · vertical stack, padding 8/0/0/0px · 1 children
+          - **Text** · `TEXT` · 214×24 · “New to Xplorem? Sign up now”
+      - **Security Badge (Optional Accessory)** · `FRAME` · 480×16 · horizontal row, gap 24px · 2 children
+        - **Container** · `FRAME` · 184×16 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 12×15 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×15
+          - **Container** · `FRAME` · 164×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 164×16 · “End-to-End Encryption”
+        - **Container** · `FRAME` · 140×16 · horizontal row, gap 8px · 2 children
+          - **Container** · `FRAME` · 15×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 15×12
+          - **Container** · `FRAME` · 117×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 117×16 · “4K Stream Ready”
+  - **Visual Overlay Effects** · `RECTANGLE` · 1280×341
+- **Xplorem - User Profile** · `FRAME` · 1280×1662 · vertical stack, padding 0/0/0/256px · 5 children
+  - **Main Content Area** · `FRAME` · 1024×1662 · vertical stack, gap 48px, padding 96/24/80/24px · 3 children
+    - **Profile Overview Section** · `FRAME` · 976×286 · horizontal row, gap 32px, padding 32px · 4 children
+      - **Container** · `FRAME` · 160×160 · vertical stack · 2 children
+        - **Overlay+Border+Shadow** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+          - **AB6AXuAaVnZas1egwpILz7-5Z6iUwivLVHHnaYiTyaKVjG9QXxDpfYIEIaXIDRt8WXW2EZT7zRSR1i_5pRwnargm5VGn8J7ZBSlF955tlJnW4FqzGPAr4luPTTGH09EPPVfESt_Qtr-Z0P03_Xfb7aYBihsxM6e2Pe80qFLMh6RbaeObaKafy9epP-_u1AWZgYVyekpOrX2GNxoNuifMa87YD4IW3eXrmrLizAwWfeO0ttddRqUhjcW998cN** · `FRAME` · 144×144
+        - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×14
+      - **Container** · `FRAME` · 336×220 · vertical stack, gap 8px · 3 children
+        - **Container** · `FRAME` · 336×120 · horizontal row, gap 12px · 2 children
+          - **Heading 2** · `FRAME` · 225×120 · vertical stack, padding 0/50.310001373291016/0/0px · 1 children
+            - **Text** · `TEXT` · 175×120 · “Alex
+'Cinephile'
+Rivera”
+          - **Overlay+Border** · `FRAME` · 96×26 · horizontal row, gap 4px, padding 4/12/4/12px · 2 children
+            - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×11
+            - **Text** · `TEXT` · 55×16 · “PREMIUM”
+        - **Container** · `FRAME` · 336×28 · vertical stack · 1 children
+          - **Master Level Reviewer • Film Critic** · `TEXT` · 336×28 · “Master Level Reviewer • Film Critic”
+        - **Container** · `FRAME` · 336×56 · horizontal row, gap 24px, padding 8/0/0/0px · 2 children
+          - **Container** · `FRAME` · 196×48 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 18×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 18×20
+            - **Container** · `FRAME` · 170×48 · vertical stack, padding 0/15.90999984741211/0/0px · 1 children
+              - **Text** · `TEXT` · 154×48 · “Member since May
+2022”
+          - **Container** · `FRAME` · 102×48 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 16×20
+            - **Container** · `FRAME` · 78×48 · vertical stack, padding 0/11.239999771118164/0/0px · 1 children
+              - **Text** · `TEXT` · 67×48 · “Madrid,
+ES”
+      - **Container** · `FRAME` · 350×50 · horizontal row, gap 12.010000228881836px · 2 children
+        - **Button** · `FRAME` · 165×50 · vertical stack, padding 12/24/12/24px · 1 children
+          - **Text** · `TEXT` · 115×24 · “Edit Profile”
+        - **Button** · `FRAME` · 173×50 · vertical stack, padding 12.5/24/13.5/24px · 1 children
+          - **Text** · `TEXT` · 125×24 · “Share Profile”
+      - **Overlay+Blur** · `RECTANGLE` · 256×256
+    - **Stats Section (Bento Grid Style)** · `FRAME` · 976×166 · horizontal row, gap 24px · 4 children
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 226×162 · vertical stack, gap 16px, padding 24px · 3 children
+        - **Container** · `FRAME` · 176×50 · horizontal row, gap 64.44999694824219px · 2 children
+          - **Overlay** · `FRAME` · 47×50 · vertical stack, padding 12/12/19/12px · 1 children
+            - **Icon** · `VECTOR` · 23×19
+          - **Container** · `FRAME` · 60×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 60×24 · “1,284”
+        - **Heading 3** · `FRAME` · 176×24 · vertical stack · 1 children
+          - **Movies Watched** · `TEXT` · 176×24 · “Movies Watched”
+        - **Background** · `FRAME` · 176×6 · 1 children
+          - **Background+Shadow** · `RECTANGLE` · 150×6
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 226×164 · vertical stack, gap 16px, padding 24px · 3 children
+        - **Container** · `FRAME` · 176×52 · horizontal row, gap 97.08999633789062px · 2 children
+          - **Overlay** · `FRAME` · 47×52 · vertical stack, padding 12/12/19/12px · 1 children
+            - **Icon** · `VECTOR` · 23×21
+          - **Container** · `FRAME` · 27×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 27×24 · “42”
+        - **Heading 3** · `FRAME` · 176×24 · vertical stack · 1 children
+          - **Series Finished** · `TEXT` · 176×24 · “Series Finished”
+        - **Background** · `FRAME` · 176×6 · 1 children
+          - **Background+Shadow** · `RECTANGLE` · 106×6
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 226×166 · vertical stack, gap 16px, padding 24px · 3 children
+        - **Container** · `FRAME` · 176×54 · horizontal row, gap 83.6500015258789px, padding 0/5.684341886080802e-14/0/0px · 2 children
+          - **Overlay** · `FRAME` · 47×54 · vertical stack, padding 12/12/19/12px · 1 children
+            - **Icon** · `VECTOR` · 23×23
+          - **Container** · `FRAME` · 40×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 40×24 · “312”
+        - **Heading 3** · `FRAME` · 176×24 · vertical stack · 1 children
+          - **Reviews Written** · `TEXT` · 176×24 · “Reviews Written”
+        - **Background** · `FRAME` · 176×6 · 1 children
+          - **Background+Shadow** · `RECTANGLE` · 79×6
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 226×166 · vertical stack, gap 16px, padding 24px · 3 children
+        - **Container** · `FRAME` · 176×54 · horizontal row, gap 78.13999938964844px · 2 children
+          - **Overlay** · `FRAME` · 47×54 · vertical stack, padding 12/12/19/12px · 1 children
+            - **Icon** · `VECTOR` · 23×23
+          - **Container** · `FRAME` · 46×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 46×24 · “4.2k”
+        - **Heading 3** · `FRAME` · 176×24 · vertical stack · 1 children
+          - **Total Watch Hours** · `TEXT` · 176×24 · “Total Watch Hours”
+        - **Background** · `FRAME` · 176×6 · 1 children
+          - **Background+Shadow** · `RECTANGLE` · 132×6
+    - **Main Settings Row** · `FRAME` · 976×938 · vertical stack · 2 children
+      - **Column 1: Subscription & Account** · `FRAME` · 640×938 · vertical stack, gap 32px · 2 children
+        - **Subscription Management** · `FRAME` · 640×423 · vertical stack, gap 32px, padding 0/0/32/0px · 2 children
+          - **Overlay+HorizontalBorder** · `FRAME` · 638×81 · horizontal row, gap 323.8699951171875px, padding 24px · 2 children
+            - **Heading 3** · `FRAME` · 188×32 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×16
+              - **Text** · `TEXT` · 160×32 · “Subscription”
+            - **Overlay** · `FRAME` · 74×24 · vertical stack, padding 4/12/4/12px · 1 children
+              - **Text** · `TEXT` · 50×16 · “ACTIVE”
+          - **Container** · `FRAME` · 574×276 · horizontal row, gap 32px · 2 children
+            - **Container** · `FRAME` · 350×276 · vertical stack, gap 4px, padding 0/0/32/0px · 4 children
+              - **Container** · `FRAME` · 350×16 · vertical stack · 1 children
+                - **Current Plan** · `TEXT` · 350×16 · “Current Plan”
+              - **Heading 4** · `FRAME` · 350×32 · vertical stack · 1 children
+                - **Ultra HD 4K + Dolby Atmos** · `TEXT` · 350×32 · “Ultra HD 4K + Dolby Atmos”
+              - **Container** · `FRAME` · 350×52 · vertical stack, padding 4/0/0/0px · 1 children
+                - **Enjoy unlimited access to 10k+ titles in pristine 4K resolution on up to 4 devices simultaneously.** · `TEXT` · 350×48 · “Enjoy unlimited access to 10k+ titles in pristine
+4K resolution on up to 4 devic”
+              - **Container** · `FRAME` · 350×132 · horizontal row, gap 16px, padding 20/0/0/0px · 2 children
+                - **Overlay** · `FRAME` · 167×112 · vertical stack, padding 16px · ×2
+                  - _…and 2 more_
+            - **Container** · `FRAME` · 192×126 · vertical stack, gap 12px · 2 children
+              - **Button** · `FRAME` · 192×56 · vertical stack, padding 16/0/16/0px · 2 children
+                - **Button:shadow** · `RECTANGLE` · 192×56
+                - **Text** · `TEXT` · 106×24 · “Manage Plan”
+              - **Button** · `FRAME` · 192×58 · vertical stack, padding 16/0/16/0px · 1 children
+                - **Text** · `TEXT` · 125×24 · “View Invoices”
+        - **Viewing Preferences** · `FRAME` · 640×483 · vertical stack · 2 children
+          - **Overlay+HorizontalBorder** · `FRAME` · 638×81 · vertical stack, padding 24px · 1 children
+            - **Heading 3** · `FRAME` · 590×32 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×18
+              - **Text** · `TEXT` · 251×32 · “Viewing Preferences”
+          - **Container** · `FRAME` · 638×400 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Container** · `FRAME` · 574×104 · horizontal row, gap 16px, padding 16px · 2 children
+              - **Container** · `FRAME` · 259×72 · vertical stack · 2 children
+                - **Container** · `FRAME` · 259×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 259×48 · vertical stack
+                  - _…and 1 more_
+              - **Options** · `FRAME` · 201×42 · vertical stack, padding 8/10.40999984741211/8/16px · 2 children
+                - **image clip** · `FRAME` · 201×42 · vertical stack, padding 9/9/9/168.22000122070312px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 173×24 · vertical stack
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 574×104 · horizontal row, gap 16px, padding 16px · 2 children
+              - **Container** · `FRAME` · 250×72 · vertical stack · 2 children
+                - **Container** · `FRAME` · 250×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 250×48 · vertical stack
+                  - _…and 1 more_
+              - **Button** · `FRAME` · 248×66 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+                - **Container** · `FRAME` · 199×48 · vertical stack, padding 0/27.260000228881836/0/27.25px
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 7×12 · vertical stack
+                  - _…and 1 more_
+            - **Container** · `FRAME` · 574×80 · horizontal row, gap 169.19000244140625px, padding 16px · 2 children
+              - **Container** · `FRAME` · 317×48 · vertical stack · 2 children
+                - **Container** · `FRAME` · 317×24 · vertical stack · ×2
+                  - _…and 1 more_
+              - **Label** · `FRAME` · 56×28 · horizontal row · 2 children
+                - **Background+Shadow** · `RECTANGLE` · 56×28
+                - **Background+Border** · `RECTANGLE` · 24×24
+      - **Column 2: Security & Sidebar Links** · `FRAME` · 304×938 · vertical stack, gap 32px, padding 0/0/176/0px · 3 children
+        - **Security & Account** · `FRAME` · 304×347 · vertical stack · 2 children
+          - **Overlay+HorizontalBorder** · `FRAME` · 302×81 · vertical stack, padding 24px · 1 children
+            - **Heading 3** · `FRAME` · 254×32 · horizontal row, gap 8px · 2 children
+              - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 16×20
+              - **Text** · `TEXT` · 102×32 · “Security”
+          - **Container** · `FRAME` · 302×264 · vertical stack, gap 8px, padding 24px · 3 children
+            - **Link** · `FRAME` · 254×64 · horizontal row, gap 5.960000038146973px, padding 12px · 2 children
+              - **Container** · `FRAME` · 200×40 · horizontal row, gap 16px · 2 children
+                - **Background** · `FRAME` · 40×40 · horizontal row
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 144×24 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 7×12 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 7×12
+            - **Link** · `FRAME` · 254×64 · horizontal row, gap 10.779999732971191px, padding 12px · 2 children
+              - **Container** · `FRAME` · 200×40 · horizontal row, gap 16px · 2 children
+                - **Background** · `FRAME` · 40×40 · horizontal row
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 144×24 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 19×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 19×24 · “On”
+            - **Link** · `FRAME` · 254×72 · horizontal row, gap 5.684341886080802e-14px, padding 12px · 2 children
+              - **Container** · `FRAME` · 166×48 · horizontal row, gap 16px · 2 children
+                - **Background** · `FRAME` · 33×40 · horizontal row
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 118×48 · vertical stack, padding 0/40.7400016784668/0/0px
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 64×48 · vertical stack, padding 0/6.199999809265137/0/0px · 1 children
+                - **Text** · `TEXT` · 58×48 · “3
+Active”
+        - **Linked Accounts** · `FRAME` · 304×211 · vertical stack · 2 children
+          - **Overlay+HorizontalBorder** · `FRAME` · 302×81 · vertical stack, padding 24px · 1 children
+            - **Heading 3** · `FRAME` · 254×32 · vertical stack · 1 children
+              - **Linked Accounts** · `TEXT` · 254×32 · “Linked Accounts”
+          - **Container** · `FRAME` · 302×128 · vertical stack, gap 16px, padding 24px · 2 children
+            - **Container** · `FRAME` · 254×32 · horizontal row, gap 56.369998931884766px · 2 children
+              - **Container** · `FRAME` · 102×32 · horizontal row, gap 12px · 2 children
+                - **Background** · `FRAME` · 32×32 · horizontal row
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 58×24 · vertical stack
+                  - _…and 1 more_
+              - **Button** · `FRAME` · 96×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 96×24 · “Disconnect”
+            - **Container** · `FRAME` · 254×32 · horizontal row, gap 65.98999786376953px, padding 0/5.684341886080802e-14/0/0px · 2 children
+              - **Container** · `FRAME` · 121×32 · horizontal row, gap 12px · 2 children
+                - **Background** · `FRAME` · 32×32 · horizontal row
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 77×24 · vertical stack
+                  - _…and 1 more_
+              - **Button** · `FRAME` · 67×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 67×24 · “Connect”
+        - **Danger Zone** · `FRAME` · 304×140 · vertical stack, gap 16px, padding 24px · 2 children
+          - **Heading 3** · `FRAME` · 254×24 · vertical stack · 1 children
+            - **Danger Zone** · `TEXT` · 254×24 · “Danger Zone”
+          - **Button** · `FRAME` · 254×50 · horizontal row, padding 12/16/12/16px · 1 children
+            - **Text** · `TEXT` · 173×24 · “Deactivate Account”
+  - **Atmospheric Glows** · `RECTANGLE` · 512×320
+  - **Overlay+Blur** · `RECTANGLE` · 384×240
+  - **Aside - Side Navigation (Desktop)** · `FRAME` · 256×800 · vertical stack, padding 24/0/24/0px · 4 children
+    - **Aside - Side Navigation (Desktop):shadow** · `RECTANGLE` · 256×800
+    - **Margin** · `FRAME` · 255×80 · vertical stack, padding 0/0/40/0px · 1 children
+      - **Container** · `FRAME` · 255×40 · horizontal row, gap 12px, padding 0/24/0/24px · 2 children
+        - **Background+Shadow** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 109×40 · vertical stack · 2 children
+          - **Heading 1** · `FRAME` · 109×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 105×24 · “Xplorem”
+          - **Container** · `FRAME` · 109×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 109×16 · “Premium Cinema”
+    - **Nav** · `FRAME` · 255×512 · 7 children
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 38×24 · “Home”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “Trending”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Movies”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “TV Shows”
+      - **Link** · `FRAME` · 239×64 · horizontal row, gap 16px, padding 12/16/28/16px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 86×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 86×24 · “Watchlist”
+      - **Horizontal Divider** · `RECTANGLE` · 223×1
+      - **Link - Highlight Profile (Active State)** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×16
+        - **Container** · `FRAME` · 67×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 67×24 · “Profile”
+    - **Container** · `FRAME` · 255×160 · vertical stack, padding 0/8/0/8px · 3 children
+      - **Button** · `FRAME` · 239×48 · horizontal row, gap 8px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 13×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 13×18
+        - **Text** · `TEXT` · 125×24 · “Upgrade to 4K”
+      - **Link** · `FRAME` · 239×64 · horizontal row, gap 16px, padding 28/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×20
+        - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 38×24 · “Help”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 18×18
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Logout”
+  - **Header - Top Navigation Bar** · `FRAME` · 1280×64 · vertical stack, padding 0/0/0/256px · 1 children
+    - **Container** · `FRAME` · 1024×63 · horizontal row, gap 686.3300170898438px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 138×24 · vertical stack · 1 children
+        - **Text** · `TEXT` · 138×24 · “Account Settings”
+      - **Container** · `FRAME` · 152×40 · horizontal row, gap 16px · 3 children
+        - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+        - **Border** · `FRAME` · 40×40 · vertical stack · 1 children
+          - **AB6AXuA1-jLrWrPdM1pMaAjO1Q8lF7xgdng5Ks2eVTxfPN8ZU1NACkRC7oAFVg7Gx2gBGbiaeoOi6UG9fDcGaOW2spZsYwuympap0ggwRaFivFgiQ5LaKyW0fZHZfJUwD98XxZtacdkamsCQ6_UOi3GRZ8FIwNhE3tSfx8rUwwxu7krlQ3GeStXSlSR7k9uYH98McAVLYSlxT-uGxMvp7QhQRauXTS9NpFlxfG0qZwLKg4Dlo6VxqpIE-KEn** · `FRAME` · 36×36
+- **Xplorem - Watchlist** · `FRAME` · 1280×1046 · vertical stack, padding 64/0/281/256px · 3 children
+  - **Main Content Canvas** · `FRAME` · 1024×701 · vertical stack, gap 32px, padding 48/24/48/24px · 3 children
+    - **Header Section** · `FRAME` · 976×120 · horizontal row, gap 115.2699966430664px · 2 children
+      - **Container** · `FRAME` · 508×120 · vertical stack, gap 8px · 2 children
+        - **Heading 1** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 312×56 · “My Watchlist”
+        - **Container** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 508×56 · “Curated collection of your next adventures. 14 titles waiting for
+exploration.”
+      - **Container** · `FRAME` · 285×46 · horizontal row · 1 children
+        - **Background+Border** · `FRAME` · 285×46 · horizontal row, padding 4px · 3 children
+          - **Button** · `FRAME` · 67×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 27×20 · “All”
+          - **Button** · `FRAME` · 95×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+          - **Button** · `FRAME` · 113×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+    - **Filters Bar** · `FRAME` · 976×42 · horizontal row, gap 524.969970703125px, padding 8/0/0/0px · 2 children
+      - **Container** · `FRAME` · 385×34 · horizontal row, gap 16px · 3 children
+        - **Button** · `FRAME` · 102×34 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 14×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×9
+          - **Text** · `TEXT` · 47×16 · “Filter”
+        - **Button** · `FRAME` · 160×34 · horizontal row, gap 8.010000228881836px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 109×16 · “Recently Added”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+        - **Button** · `FRAME` · 90×34 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 39×16 · “Genre”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+      - **Container** · `FRAME` · 35×14 · horizontal row, gap 8px · 2 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+        - **Container** · `FRAME` · 14×8 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×8
+    - **Media Grid** · `FRAME` · 976×379 · horizontal row, gap 24px · 5 children
+      - **Card 1** · `FRAME` · 176×355 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 5 children
+          - **AB6AXuCGjGx06LSkOHMCgvkT33d2x1oEBb85cwGZtQfK7sdb38JyfB0vahYs21Objxkn5UwTsj6adU9REPWUr8G2T_y7HZSmCzdnzJr48TtbmZetIioI5D4lzemERZy0TwmACB7CXGCislbpZE-AbNLBF1lh5-NXDRU-EUaGk3DoDOU64bp4sQb_ROlyaeTw1LhAb2QvDqNmZNLPUwt7lngdQh-wdt_cBZPOU8D5FvSR1NDVKxHXY5YgWl66** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Top Badges** · `FRAME` · 63×20 · vertical stack · 1 children
+            - **Overlay+OverlayBlur** · `FRAME` · 63×20 · vertical stack, padding 2/8/2/8px · 1 children
+              - **Text** · `TEXT` · 47×16 · “4K UHD”
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Hover Rating** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×76 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Neon Horizon** · `TEXT` · 142×24 · “Neon Horizon”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 6.96999979019165px · 2 children
+            - **Container** · `FRAME` · 94×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×16 · “2024 • Movie”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “8.4”
+      - **Card 2** · `FRAME` · 176×355 · vertical stack · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 5 children
+          - **AB6AXuDT_SEfpRJj8y2Dn4wrqAJaALB6iDYSOQqN7mKkmT4NjILo4UjG7YxoIp0jScEL_J6v5X_1G_C2WI5zpwp9-LS-rtUFpCsyuNgT-5-9IGs4StGK3GbBxevGttMyfPsWY3K4XCit1-dT3b-hdQ8op96bLsD7EoMgezEpIluLctOOJ550jY_P1t1KhjDWM2FQwmdLq74Qpa9z6DBCFX3tV78lEmnRwjuy3aCEkJrCMBsxDRU9skH54_KU** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Container** · `FRAME` · 71×20 · vertical stack · 1 children
+            - **Overlay+OverlayBlur** · `FRAME` · 71×20 · vertical stack, padding 2/8/2/8px · 1 children
+              - **Text** · `TEXT` · 55×16 · “S3 EP12”
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×92 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **The Silent Tide** · `TEXT` · 142×24 · “The Silent Tide”
+          - **Container** · `FRAME` · 142×32 · horizontal row, gap 4.263256414560601e-14px · 2 children
+            - **Container** · `FRAME` · 101×32 · vertical stack, padding 0/30.3799991607666/0/0px · 1 children
+              - **Text** · `TEXT` · 70×32 · “2023 • TV
+Series”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “9.1”
+      - **Card 3** · `FRAME` · 176×355 · vertical stack · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 4 children
+          - **AB6AXuBIj31NY7W4lUv1omZgQ-P849QmjELybcKoe124NUqXhWBmjmMByNsg81g2F3P8sCzwLwntfgAihdj32pigidYc-ZckjyXn-x7xEYymJ3S-C3xZ0gT_OuKDo4fKxZBQgpbcOJtAQnAQQ6grGbErJ7Sr1FDkyzEjqTw4dT3HrIblqoKtyrUlBKp49QI-xD7vWr1K-IOHoxrJKTSU6IGlEYbos_KrXqD49Ycc8AkuGv-UPjwV65OwgS0Y** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×92 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Skyward Bound** · `TEXT` · 142×24 · “Skyward Bound”
+          - **Container** · `FRAME` · 142×32 · horizontal row, gap -1.4210854715202004e-14px · 2 children
+            - **Container** · `FRAME` · 81×32 · vertical stack, padding 0/34.33000183105469/0/0px · 1 children
+              - **Text** · `TEXT` · 47×32 · “2024 •
+Movie”
+            - **Container** · `FRAME` · 61×32 · vertical stack, padding 0/21.84000015258789/0/0px · 1 children
+              - **Text** · `TEXT` · 39×32 · “Not
+Rated”
+      - **Card 4** · `FRAME` · 176×355 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+          - **AB6AXuDDg2jWXN3DrJkPWnbRHh0HzQOEACOttZ4etmineRRfNwbXYDO6SnV2h3oEsWQfNoSh7FtOewRCdvr4r4rEi2n1rX4PKLaC08uNQtg9P9AIFO31K0vOHAp5q0Jwd9NaxXA_Eohi0z5hMZOMWwoAe6g9FnTLk53t2K8KYQPTwCQwdBfPoMGDHk2-ofvOhwqvQ997_qWnm4TzxA07aNRzLss6xX_iS4kibfChTHy86_3ONC2iPJs_Px9N** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+        - **Background** · `FRAME` · 174×76 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Digital Frontier** · `TEXT` · 142×24 · “Digital Frontier”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 14.770000457763672px · 2 children
+            - **Container** · `FRAME` · 86×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 86×16 · “2023 • Docu”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “7.9”
+      - **Card 5** · `FRAME` · 176×379 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+          - **AB6AXuChLzZ7B6Ivo5yEG9n_tF3eAxnYvyzHXMy6v0eSe8cd1TT5OE8oPXIlmtLEGJhVilAzm4WvSO1buZDx5iInN661pL672uYxMHntiDs-Wi7qvZLQxsp5OPDeh4fv3m-5JNcL97f-0OSH5c_RffbsYgBha0-QKKOZpwTx0uHcOvAEdqFnTlo4Op0X1_FJxN38NET-wtTaJoxuBJ4XwifCzTj17SCOTKW9sDWOqNykY0EHl1qwXYkJsUlQ** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+        - **Background** · `FRAME` · 174×100 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×48 · vertical stack · 1 children
+            - **Vanguard Protocol** · `TEXT` · 142×48 · “Vanguard Protocol”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 6.96999979019165px, padding 0/5.684341886080802e-14/0/0px · 2 children
+            - **Container** · `FRAME` · 94×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×16 · “2024 • Movie”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “8.8”
+  - **Aside - SideNavBar** · `FRAME` · 256×1024 · vertical stack, padding 24/0/24/0px · 4 children
+    - **Aside - SideNavBar:shadow** · `RECTANGLE` · 256×1024
+    - **Margin** · `FRAME` · 255×142 · vertical stack, padding 64/24/32/24px · 1 children
+      - **Container** · `FRAME` · 207×46 · horizontal row, gap 12px · 2 children
+        - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 118×46 · vertical stack · 2 children
+          - **Heading 2** · `FRAME` · 118×30 · vertical stack · 1 children
+            - **Text** · `TEXT` · 105×30 · “Xplorem”
+          - **Container** · `FRAME` · 118×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 118×16 · “PREMIUM CINEMA”
+    - **Nav** · `FRAME` · 255×661 · vertical stack, gap 4px, padding 4/16/393/16px · 5 children
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Container** · `FRAME` · 255×173 · vertical stack, gap 24px, padding 0/24/0/24px · 2 children
+      - **Button** · `FRAME` · 207×44 · horizontal row, padding 12/16/12/16px · 2 children
+        - **Button:shadow** · `RECTANGLE` · 207×44
+        - **Text** · `TEXT` · 118×20 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 207×105 · vertical stack, padding 16/8/0/8px · 2 children
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Help”
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 478.2799987792969px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 372×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 102×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 102×32 · “Xplorem”
+        - **Nav** · `FRAME` · 237×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 51×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 51×24 · “Movies”
+          - **Link** · `FRAME` · 71×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 71×24 · “TV Shows”
+          - **Link** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Text** · `TEXT` · 68×24 · “Watchlist”
+      - **Container** · `FRAME` · 365×38 · horizontal row, gap 16px · 4 children
+        - **Background+Border** · `FRAME` · 249×38 · horizontal row, padding 6/16/6/16px · 2 children
+          - **Margin** · `FRAME` · 23×15 · vertical stack, padding 0/8/0/0px · 1 children
+            - **Icon** · `VECTOR` · 15×15
+          - **Input** · `FRAME` · 192×24 · vertical stack, padding 1/0/2/0px · 1 children
+            - **Container** · `FRAME` · 192×21 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 192×21 · “Search titles...”
+        - **Button** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×20
+        - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+          - **AB6AXuCyRI6do8kl_5034e_NwpLtR3EW1rFQywyh0CRN7E9eQUxKSzvS3GY5WYc1bpchQrJw9CBkIwVsTWLk1SyAOHHrmuvU1MG3_2j4w5Lf6TaHkcPo1t-PcnqF4p3dbKXu8cTSuH2zYwcxSIpgFZxMAYO212GoWc-zUjiNmJhRM7cNojjOIxIghwQpJbJmCIIMydZAQv0uQlPQ97RuYfujOZ3NqyfzH0YZVu5V3GUX2fmJrRKNbKmWZeTC** · `FRAME` · 30×30
+- **Xplorem - Media Details** · `FRAME` · 1280×1612 · vertical stack · 4 children
+  - **Main Content Canvas** · `FRAME` · 1280×1612 · 3 children
+    - **Cast & Crew Section** · `FRAME` · 1024×428 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Container** · `FRAME` · 896×32 · horizontal row, gap 698.1099853515625px · 2 children
+        - **Heading 2** · `FRAME` · 109×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 109×32 · “Top Cast”
+        - **Button** · `FRAME` · 85×24 · horizontal row, gap 8px · 2 children
+          - **Text** · `TEXT` · 67×24 · “See All”
+          - **Container** · `FRAME` · 9×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×9
+      - **Container** · `FRAME` · 896×236 · 6 children
+        - **Cast Card 1** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuC17Z3DzNHhYy4ll3rEwCY3lx6D74oZvXuvy4dPpsfAR_8M7PIBOCkPZJvQqJrlokIkHa1x6F-CK0bNwo7HwIhU93QfGNDKcpEWHWykvIEt5wW6rZE5WLl2izFBxVrqsIPa36TDtnWwFfhJYd3A_WMa0iUmvtkabBNoq7F7ED-gAYcX4EfNpnUYx2uYs7ry1ruH2Uz4u6xRV0lt8_b7EcHrGtt3GS1PfKVdreD871IApNfRNHsCr91k** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Julian Vane”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Elias Thorne”
+        - **Cast Card 2** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDFY8-CYYvhELqbVDaVN9EU_s4j1U-qaRTS4ZtecpphUFGbHdNnu31VR3VG_YY7tnqT3WAHUTHpyKP2MFndqX42E8FA4XDy_a-3LjFcgF-zwxDSXUQB3BlhmXrVAL0BXe9npc4TXLyLS2vRxbZ29JiiEJfy2O2r_YvZKX_AYZatZ2HSL-9ScZ3OagNuFMyGOVfYGkjQYs07D4CtcsciRaQG5QG6oD4QRHLr3WQVa4alR1s163Q93IqX** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Amara Keth”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 64×16 · “Dr. Sola Ren”
+        - **Cast Card 3** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDSwM-2GLVYHO7p0yiNK3cRcyvzxxGbW5nhAMtAFtlX3oGJB0jx94qhbMO61VCP-MqBH0CiJOiPFKj4HkmLEibtiFZ47uKQxPHTxk1XDuTCSBcuEgdBihOtXGspJhgDLevKCV6frnD3aY4JAj8PoSXF4lVDgZUcrDNBGHWTk5qn7LnDGQbzxlni8drwIOKpYSEdwtVdqD7GkJTIXAIIEFFE6R9bMZTNWOsORvHUllyBh370gUXjjEjo** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 109×24 · “Marcus Thorne”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 78×16 · “Director Miller”
+        - **Cast Card 4** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuCdV0MdxXZuLxV9spRI-AU-45Mn9dgYhNPy3AvGd_rqob8TIj27SxmqtSj9-HTQYa9C5ybafk51mdrX9TZ67oIw_1m7iIEkSL35qAgmNNODNQCPoXh24W3_am5WDKCSkKbZkZRFNyLIjpD1ReRwwUGg_eyvaT4UzL8x7n-cigPWUlzuifTJ1j3t10ibq6tXGqUd0HcDtYSEB6nO8nDdU76rgRzi6_2gV3DKiaJGq-tQUZHBuUVmOWAZ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Leo Sterling”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 80×16 · “Jax 'Pilot' Reed”
+        - **Cast Card 5** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuBpV4oSoNxALd9FoBsfdbvhAGtn3k84SGi5D3XWlPenNu2sWZEiRwoAo-poO5hes4riSDQfltj16_aEp4PUDwkwlTCzJ9KTt6tk2vJqCNvbhREhau3maG12oxyGtTsrRHzDjc_4li3z5M-TD_TYbW23BEq9J2-hNvUAcSnwX0RbVBHdGyaqMRpe057POKcfiQbVLCu6_oxL9Lf5oJXQ9jvkokWy3mR9RdzH6coNlFwkr0ZOTZRZdWfQ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Sarah Croft”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 72×16 · “AI Voice 'EVE'”
+        - **Cast Card 6** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuAqFRNFxkHOLZS7MvQY8jZkGfoP3ATo_EJ157jps-6RFp-lNh43gsBCYy8xC8gWNvE-MryzZdFFdksse4cf4G-J_QsyeHc4ZU0jMiFWNguP08tOzV4ZphUZUuqVnQvWbHGAfAlxv9YwOmTPW5UwxdT_g8UytV9ZGJR49hezymZeqCC9LBT5Rd71m4_OA-VepYPFJsduwNubxi410v85uIRCKFuK3PUAE36jsyd7cG1q1oV8ziSg0x3F** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 72×24 · “Kenji Sato”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Engineer Kai”
+    - **Immersive Hero Section** · `FRAME` · 1024×640 · 4 children
+      - **Image** · `RECTANGLE` · 1024×640
+      - **Gradient** · `RECTANGLE` · 1024×640
+      - **Play Button Overlay** · `FRAME` · 1024×640 · horizontal row · 1 children
+        - **Button** · `FRAME` · 96×96 · horizontal row · 1 children
+          - **Container** · `FRAME` · 22×28 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 22×28
+      - **Content Metadata Overlay** · `FRAME` · 1024×491 · vertical stack, gap 16px, padding 24/64/64/64px · 5 children
+        - **Container** · `FRAME` · 896×26 · horizontal row, gap 12px · 2 children
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 98×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 72×16 · “4K ULTRA HD”
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 121×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 95×16 · “IMAX ENHANCED”
+        - **Heading 1** · `FRAME` · 768×80 · vertical stack · 1 children
+          - **Text** · `TEXT` · 719×80 · “Project Horizon: Rebirth”
+        - **Container** · `FRAME` · 896×30 · horizontal row, gap 24px · 4 children
+          - **Container** · `FRAME` · 60×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 14×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 14×15
+            - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 38×24 · “2024”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 15×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×15
+            - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 58×24 · “2h 45m”
+          - **Container** · `FRAME` · 273×30 · horizontal row, gap 8px · 2 children
+            - **Border** · `FRAME` · 44×30 · vertical stack, padding 2/6/2/6px · 1 children
+              - **Text** · `TEXT` · 30×24 · “PG-13”
+            - **Container** · `FRAME` · 221×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 221×24 · “Science Fiction / Drama”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 4px · 3 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Container** · `FRAME` · 29×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×24 · “8.9”
+            - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×16 · “/ 10”
+        - **Margin** · `FRAME` · 672×125 · vertical stack, padding 8/0/0/0px · 1 children
+          - **Container** · `FRAME` · 672×117 · vertical stack · 1 children
+            - **In a world where the horizon is no longer a limit but a gateway, Captain Elias Thorne must lead a desperate mission into the Singularity. As the fabric of reality begins to unravel, the crew of the Horizon-1 discovers that the rebirth of humanity may require the ultimate sacrifice in a dimension where time is fluid.** · `TEXT` · 672×117 · “In a world where the horizon is no longer a limit but a gateway, Captain Elias
+T”
+        - **Action Buttons:margin** · `FRAME` · 896×78 · vertical stack, padding 24/0/0/0px · 1 children
+          - **Action Buttons** · `FRAME` · 896×54 · horizontal row, gap 16px · 4 children
+            - **Button** · `FRAME` · 193×52 · horizontal row, gap 12px, padding 14/32/14/32px · 3 children
+              - **Button:shadow** · `RECTANGLE` · 193×52
+              - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×20
+              - **Text** · `TEXT` · 97×24 · “WATCH NOW”
+            - **Button** · `FRAME` · 144×54 · horizontal row, gap 11.989999771118164px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 68×24 · “Watchlist”
+            - **Button** · `FRAME` · 131×54 · horizontal row, gap 12px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 18×16 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×16
+              - **Text** · `TEXT` · 51×24 · “Review”
+            - **Button** · `FRAME` · 48×50 · horizontal row, padding 14px · 1 children
+              - **Container** · `FRAME` · 18×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×20
+    - **Section - More Like This Grid** · `FRAME` · 1024×480 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Heading 2** · `FRAME` · 896×32 · vertical stack · 1 children
+        - **More Like This** · `TEXT` · 896×32 · “More Like This”
+      - **Container** · `FRAME` · 896×288 · horizontal row, gap 24px · 5 children
+        - **Movie Card 1** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 117×20 · “Starbound: Legacy”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 9.2 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuCQ6-Z4ZtNjzlK69SYAcp4fUbGlM1ScCYUrSK1vH2FUcXHu5MtCVB1oXQtpRda6pjdUGdBD8szdz2a8Kdd_MCgtr5cerm_D5BPZrIecT5KBFJHENQlP5Jz8MiYEgLNngECd7T2WhIRbrW8Jywqf_j_LAKCbB5x34A7O85fLpyeaxyN9TfC10EAbizMxSH0Spl71WHX6bSWWdPJ2Srsm9jC8Dmg1oNn-ZTVs0wQzVxxngFa3xHaOXMKu** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 2** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 85×20 · “Neon Drifters”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 8.5 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAKctUbWARVCl59pQSwrq_4o0UaPATm_edDEM_u7XBAm6ZnO9lxDGLB7cOytx8hxdTtEGM7Cw2KQtYRvx4ox4lL3tfng_RYHqQC4_OdMZ5CjcCXDciqvrAV0RIWP8ZTCeCIkHpJ2ouYlzIeZlQ9ZVKmf3ldaTQg4IQ3eWw8KU25XA1eSdqXgRcikOS-htncB4OMz6Akfsof1t2YU5lGYOEiRh-gw8WwtHktmGJL6qJB8vaMfehkxL2W** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 3** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 91×20 · “Chronos Node”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2022 • 8.1 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuBw-44Pw4RMu9bRwY1ue0t9xDhnWSwYfr9ANHeibC0gZ1vLjyme4-Np7TLyGsPQtCRlDHXgpFeehwmPmt83DeZdpuWJW2oNtIrrIm-4wJ2D388hSuDMkVQRjmIfBTacT2h9sL8G4pCTXnh8dswLHS-O39v7oap4jMna4MQ5drUkh4kzV6xxMKJfMQDjuhfatfxbXTQA03z8lNfW4GO4M2_gMj_gy38OYIPnjFAH_crQvoAFlpAyV7wP** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 4** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×20 · “Orbit Protocol”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 7.9 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAuTn7ed1k_hl9I1JEknv-ZSpOesghZ5SHZzdACM18fzYUo9bIE5_AEEiixn3pTt8reKb01rvi4oa6FtBqLdZQaQf3VtfZ4JTp9wcSgrK2SUtzRe5zoaDqyOokOSjwrNLA8xWh1shPxGpRQVawJ3nPBdcFsQxvWBesds-KPUVjv0ooEPtr6zPYDobznZ9eszPq7uSqxgYgC16kWnAiDzWjzk8AXr7rn2JmoIv7ltYLoxnls5gnyi9t0** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 5** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 62×20 · “Sentience”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 9.0 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuDLsTaVTT1j7dKe66dN_9By4KrueSYSwSYArrcpV0QrBbJCddR3opyWUGMq3jQdYvBYsX8f7Su8I_z1aa7md2vnRblTaeUNyl9PMEGYxOOTExNy9xClVXSfNUUkQQDa8YnNyKwibPMsasXRQ_0hr2SqKBBAIJG8HyhpMILh00qbssP0ioozJn5yo-OOK4-dKtBKhOzst37GqN7w4ATQI1wF-0FMUaO_1p5j85avZ9iLFY9LdcBkcySe** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+  - **SideNavBar (Shared Component)** · `FRAME` · 256×800 · vertical stack, padding 24/0/24/0px · 4 children
+    - **SideNavBar (Shared Component):shadow** · `RECTANGLE` · 256×800
+    - **Margin** · `FRAME` · 255×96 · vertical stack, padding 0/0/40/0px · 1 children
+      - **Container** · `FRAME` · 255×56 · horizontal row, gap 12px, padding 0/24/0/24px · 2 children
+        - **Background+Shadow** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 112×56 · vertical stack · 2 children
+          - **Heading 1** · `FRAME` · 112×32 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×32 · “Xplorem”
+          - **Container** · `FRAME` · 112×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 112×24 · “PREMIUM CINEMA”
+    - **Container** · `FRAME` · 255×425 · vertical stack, gap 4px, padding 4/8/157/8px · 5 children
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 38×24 · “Home”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “Trending”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 3 children
+        - **Link:shadow** · `RECTANGLE` · 239×48
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Movies”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “TV Shows”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 86×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 86×24 · “Watchlist”
+    - **Container** · `FRAME` · 255×231 · vertical stack, gap 24px, padding 0/16/0/16px · 2 children
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 223×122 · vertical stack, gap 8px, padding 16px · 3 children
+        - **Container** · `FRAME` · 189×16 · vertical stack · 1 children
+          - **LIMITED OFFER** · `TEXT` · 189×16 · “LIMITED OFFER”
+        - **Container** · `FRAME` · 189×24 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Experience True 4K HDR** · `TEXT` · 189×20 · “Experience True 4K HDR”
+        - **Button** · `FRAME` · 189×32 · horizontal row, padding 8/0/8/0px · 1 children
+          - **Text** · `TEXT` · 78×16 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 223×85 · vertical stack, gap 4px, padding 16/0/0/0px · 2 children
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 29×16 · “Help”
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Container** · `FRAME` · 43×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 43×16 · “Logout”
+  - **Header - TopNavBar (Shared Component)** · `FRAME` · 1280×65 · vertical stack, padding 0/0/0/256px · 1 children
+    - **Container** · `FRAME` · 1024×64 · horizontal row, gap 298.6099853515625px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 285×30 · horizontal row, gap 24px · 4 children
+        - **HorizontalBorder** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Text** · `TEXT` · 68×24 · “Overview”
+        - **Container** · `FRAME` · 54×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 54×24 · “Trailers”
+        - **Container** · `FRAME` · 33×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 33×24 · “Cast”
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Reviews”
+      - **Container** · `FRAME` · 377×50 · horizontal row, gap 16px · 2 children
+        - **Background+Border** · `FRAME` · 237×50 · horizontal row, gap -1.7763568394002505e-14px, padding 6/16/6/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Input** · `FRAME` · 192×36 · vertical stack, padding 9/12/9/12px · 1 children
+            - **Container** · `FRAME` · 168×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 168×18 · “Search titles...”
+        - **Container** · `FRAME` · 124×36 · horizontal row, gap 12px · 3 children
+          - **Container** · `FRAME` · 32×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 36×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+            - **AB6AXuAIZR5txiBskeh3BLYLFA8IIREQGPwNsBJ3L92gAxjbDwPnNv5eZvOaEJzsSHwpDD6KjpTcih8BPN32FhCKk_5F3pVNajQEYHWfGse8qYtK_KO42Rf-IkXgwJrcESaiy5qkAUyT3i84ML3fTofL4hDYTpj5o-V2Ke-8DLAUst_kDxmpnHlqdIT5HeQ5mCs71tvIY4bZm-o6dtSuUEJtxmGLSUQbTBudstYGvWVC_taUHUBGMRTJ6t4_** · `FRAME` · 28×28
+  - **Aside** · `FRAME` · 448×800 · vertical stack · 4 children
+    - **Aside:shadow** · `RECTANGLE` · 448×800
+    - **HorizontalBorder** · `FRAME` · 446×105 · horizontal row, gap 146.88999938964844px, padding 32px · 2 children
+      - **Heading 2** · `FRAME` · 195×32 · vertical stack · 1 children
+        - **Text** · `TEXT` · 195×32 · “Review & Notes”
+      - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+    - **Container** · `FRAME` · 446×572 · vertical stack, gap 32px, padding 32px · 3 children
+      - **Star Rating** · `FRAME` · 382×74 · vertical stack, gap 16px · 2 children
+        - **Label** · `FRAME` · 382×24 · vertical stack · 1 children
+          - **YOUR RATING** · `TEXT` · 382×24 · “YOUR RATING”
+        - **Container** · `FRAME` · 382×34 · horizontal row, gap 8px · 5 children
+          - **Button** · `FRAME` · 30×34 · vertical stack, padding 0/0/5/0px · 1 children · ×5
+            - **Container** · `FRAME` · 30×29 · horizontal row · 1 children
+              - **Icon** · `VECTOR` · 30×29
+      - **Private Notes (Markdown)** · `FRAME` · 382×303 · vertical stack, gap 16px, padding 0/0/7/0px · 2 children
+        - **Container** · `FRAME` · 382×24 · horizontal row, gap 189px · 2 children
+          - **Label** · `FRAME` · 91×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 91×24 · “PRIVATE NOTES”
+          - **Container** · `FRAME` · 102×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×24 · “Supports Markdown”
+        - **Textarea** · `FRAME` · 382×256 · horizontal row, padding 16px · 1 children
+          - **Container** · `FRAME` · 348×48 · vertical stack · 1 children
+            - **Write your thoughts here... Use # for headings, * for lists.** · `TEXT` · 348×48 · “Write your thoughts here... Use # for headings, * 
+for lists.”
+      - **Overlay+Border** · `FRAME` · 382×54 · vertical stack, padding 16px · 1 children
+        - **Container** · `FRAME` · 348×20 · horizontal row, gap 12px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 312×20 · 1 children
+            - **Text** · `TEXT` · 298×39 · “Your reviews and notes are private and encrypted. Only
+you can view this data in”
+    - **HorizontalBorder** · `FRAME` · 446×121 · vertical stack, padding 32px · 1 children
+      - **Button** · `FRAME` · 382×56 · horizontal row, padding 16/0/16/0px · 1 children
+        - **Text** · `TEXT` · 101×24 · “SAVE REVIEW”
+- **Xplorem - Search** · `FRAME` · 1280×1019 · vertical stack · 3 children
+  - **Background Shader** · `FRAME` · 1280×1019 · horizontal row, padding 0/0/0/256px · 1 children
+    - **Main Content Area** · `FRAME` · 1024×1019 · vertical stack · 1 children
+      - **Search Content Canvas** · `FRAME` · 1024×1019 · vertical stack, gap 48px, padding 96/24/48/24px · 2 children
+        - **Search Header Section** · `FRAME` · 976×140 · vertical stack, gap 32px · 2 children
+          - **Container** · `FRAME` · 768×70 · vertical stack · 3 children
+            - **Container** · `FRAME` · 18×70 · horizontal row · 1 children
+              - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×18
+            - **Input** · `FRAME` · 768×70 · horizontal row, padding 21/24/22/56px · 1 children
+              - **Container** · `FRAME` · 686×25 · vertical stack · 1 children
+                - **Search titles, actors, or genres** · `TEXT` · 686×25 · “Search titles, actors, or genres”
+            - **Container** · `FRAME` · 20×70 · horizontal row · 1 children
+              - **Border** · `RECTANGLE` · 20×20
+          - **Container** · `FRAME` · 976×38 · horizontal row, gap 12px · 5 children
+            - **Button** · `FRAME` · 73×38 · vertical stack, padding 9/24/9/24px · 2 children
+              - **Button:shadow** · `RECTANGLE` · 73×38
+              - **Text** · `TEXT` · 25×20 · “All”
+            - **Button** · `FRAME` · 100×38 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 50×20 · “Movies”
+            - **Button** · `FRAME` · 117×38 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 67×20 · “TV Shows”
+            - **Button** · `FRAME` · 115×38 · horizontal row, gap 8px, padding 8/24/8/24px · 2 children
+              - **Text** · `TEXT` · 50×20 · “Genres”
+              - **Container** · `FRAME` · 7×4 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 7×4
+            - **Button** · `FRAME` · 100×38 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 50×20 · “Actors”
+        - **Section - Empty State / Recommended** · `FRAME` · 976×687 · vertical stack, gap 32px · 3 children
+          - **Container** · `FRAME` · 976×40 · horizontal row, gap 569.52001953125px · 2 children
+            - **Heading 3** · `FRAME` · 306×40 · vertical stack · 1 children
+              - **Text** · `TEXT` · 306×40 · “Trending Searches”
+            - **Link** · `FRAME` · 101×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 101×20 · “Refresh List”
+          - **Container** · `FRAME` · 976×383 · horizontal row, gap 24px · 5 children
+            - **Media Card 1** · `FRAME` · 176×383 · vertical stack · 2 children
+              - **Container** · `FRAME` · 174×261 · vertical stack · 4 children
+                - **AB6AXuAeWegMDRRoDX0X0XyT3d3j1oqr1fP7zczNibvNwvbaEL1-cBAJgsTp1bHfCVd2m9DU-d3mL97vPCRiaWYKkhZOOxxeNr6lSWEsmy6KCTcZu9dz5Be5xoiXi4Q8v6vDXVZXp5p4fGyS2TPuoFnPez0FmUB2eg7QNY-vp_s7k5fVrJnuq8nSV768SYx77EWHcH8tpu9XUfRx6AxKwqFpQRz6Px2RAYrfsO86spmb0HYVfxj5iQnK6YAX** · `FRAME` · 174×261
+                - **Gradient** · `RECTANGLE` · 174×261
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 46×34 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 142×30 · vertical stack
+                  - _…and 1 more_
+              - **Background** · `FRAME` · 174×120 · vertical stack, gap 8px, padding 16px · 2 children
+                - **Heading 4** · `FRAME` · 142×48 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 142×32 · horizontal row, gap 16.389999389648438px
+                  - _…and 2 more_
+            - **Media Card 2** · `FRAME` · 176×359 · vertical stack · 2 children
+              - **Container** · `FRAME` · 174×261 · vertical stack · 4 children
+                - **AB6AXuBLKkIs0QU5sB-wfXPlFWfiheFhfS6pQRRShIjK576imTmDsYec9tdeIdqv1JTHgsLoHRwMIjxYJu6ZV4f1fxrmR1y-VIWW9GlZcHvbJwlnyir4qdbGyBlNGYk9ig-snT5hSLregMIKHuxSYnrV_CEuFkh1X63npCkxxuVE5q6w78GoNvPdDs5mQJ6EjHl_whyGcDvjU4-rq8SjTv55PxYtbz6TZ_JyquRqmCurXO6VYWQp6OHMlNAj** · `FRAME` · 174×261
+                - **Gradient** · `RECTANGLE` · 174×261
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 46×34 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Container** · `FRAME` · 142×26 · vertical stack, padding 4/0/3/0px
+                  - _…and 1 more_
+              - **Background** · `FRAME` · 174×96 · vertical stack, gap 8px, padding 16px · 2 children
+                - **Heading 4** · `FRAME` · 142×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 142×32 · horizontal row, gap 1.9800000190734863px
+                  - _…and 2 more_
+            - **Media Card 3** · `FRAME` · 176×359 · vertical stack · 2 children
+              - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+                - **AB6AXuBcpow8ryJRU8lpvT0nAIOt3owa550tOVf0PZke4pwW0BnJ87dXVSY9LyaOsIK0bTu3p_5uVzOSGpLNIGapfXjmx4ICtwo5OQN8Wk_3d1l2-0t5XZAQfUcWATGossCr0OfldoEQ5b7V4sW3Zqhu4IHWZq_EfaiAxp_wfCW1PfDfr778dy7YA4PcU1DRoZoKogRsaXz3TDPvar3oexEUEmYWpcCCEFIOXpJpB6auGWMzrWnSpVMv5Kgj** · `FRAME` · 174×261
+                - **Gradient** · `RECTANGLE` · 174×261
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 46×34 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+              - **Background** · `FRAME` · 174×96 · vertical stack, gap 8px, padding 16px · 2 children
+                - **Heading 4** · `FRAME` · 142×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 142×32 · horizontal row, gap 9.1899995803833px
+                  - _…and 2 more_
+            - **Media Card 4** · `FRAME` · 176×359 · vertical stack · 2 children
+              - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+                - **AB6AXuAYDMD10gjtAl83JTHiooWt4CqBh6w9tTZIbb0_l-iExEelYT-gjNBAixLmArio_KXN3MjA2fLTbgzyPC8qgC0PCTaCrWdp4W44QlZ1F7FIO--eaif8p88qR-tLyEpKXIEtXhKrGJXHhT25mU_Qc2TvX8AVFjTIwxK6HHeh57MIaM41n2uj3vEE6lLF46mscTRpch34kStM1-ag9fZctWuDLLLJiVYIrJ8Dh9pvAxaX_lgOMWJavBkH** · `FRAME` · 174×261
+                - **Gradient** · `RECTANGLE` · 174×261
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 46×34 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+              - **Background** · `FRAME` · 174×96 · vertical stack, gap 8px, padding 16px · 2 children
+                - **Heading 4** · `FRAME` · 142×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 142×32 · horizontal row, gap 16.389999389648438px
+                  - _…and 2 more_
+            - **Media Card 5** · `FRAME` · 176×359 · vertical stack · 2 children
+              - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+                - **AB6AXuBfCTAHt4nFilivxD6Rzeecla-N95CpZRlTiOvm6qOzHqHRx_2UxXSa28l6fIc1ax7T6-0U5OYVnx3UpE-CtnQgcLMb_tfIyS4SsGpgbCbrNSBN8In_VDpHmHbcykT1ZBoukI0bMQl-6I-elyJSXWmZ_xKTzzVvfix92nsEBk8a1b8LMyx9Ck-bs0FPKUHiP7kVMtP4PCiodrN730PsHAiwHtK1gnLAqkZ8grG6nxv7OWLWxZ_QJOzd** · `FRAME` · 174×261
+                - **Gradient** · `RECTANGLE` · 174×261
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 46×34 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+              - **Background** · `FRAME` · 174×96 · vertical stack, gap 8px, padding 16px · 2 children
+                - **Heading 4** · `FRAME` · 142×24 · vertical stack
+                  - _…and 1 more_
+                - **Container** · `FRAME` · 142×32 · horizontal row, gap 9.947598300641403e-14px
+                  - _…and 2 more_
+          - **Recommended Genres Grid** · `FRAME` · 976×200 · vertical stack, gap 32px · 2 children
+            - **Heading 3** · `FRAME` · 976×40 · vertical stack · 1 children
+              - **Browse Genres** · `TEXT` · 976×40 · “Browse Genres”
+            - **Container** · `FRAME` · 976×128 · horizontal row, gap 16px · 4 children
+              - **Border** · `FRAME` · 232×128 · vertical stack · 2 children
+                - **AB6AXuB-GHHI6CFMRpApadxV08boXUQR1vlQSQVDNXwG4mN_dEmvTb29cTWmQ_pU2NupMRxm7fYOUjpW3e38Fu3gv5l1vQSvyjwBCd8yvmrGHD2IvazD7_3ZW4E8e90PT9Cg0Pvj9IQEr5_cGizjjeQSjoEQmOqMeyHe7MnS0JFD-rXBdr7AYSMab7eOKjk4rVuBcKvWmKJCdz3c4vuBTIa9Hdlt1jboAPl0uU2m6AWL109NYi5lTWR5sa9P** · `FRAME` · 230×126
+                - **Container** · `FRAME` · 230×126 · horizontal row
+                  - _…and 1 more_
+              - **Border** · `FRAME` · 232×128 · vertical stack · 2 children
+                - **AB6AXuDGQNyGOHjB_JmWEPUQlK_n0JNxb6ulN9C5cbTozbv1OLhw5WccGNvHWXyiWkIlLs9-i9_RMZc-DfMzC2C61KfhoDjxwXR8uBE_ew6k3fNOwkyDkxxAchOO5tfimOMtGJ9M-cReUlJHIakP5z2NUYbr4kezzO3ARXkWvSDy-2QelaHgOO6P0Quk4M7Jvv0NbptpwuBNmF4RjRc4Lt758z3A0l1F3UY7xQn92Wzugj9PcnEIUNhlve4-** · `FRAME` · 230×126
+                - **Container** · `FRAME` · 230×126 · horizontal row
+                  - _…and 1 more_
+              - **Border** · `FRAME` · 232×128 · vertical stack · 2 children
+                - **AB6AXuCMQLpxB8Zw6PJWx42Yr3luOWivAievsgN5TxI6sgKRwrHnD7GF6N2b7ojVXJoaSUb44HzGrcNGxfL_bqHrvriKtzif67X7m0Cv2OL1nmNst6M6PJgz8uwm_koijU2MnAp0wVqvIk_zPb4wbnwkfRFRxyRQQZ6QuhNXkCIw7xUCpc6PWoybyhBEFy8aHPiTqlYHYuhzKg_m2tA4ufTQ620Z0JEjtFkR7bBYa8JgrQCN-FNmI6AMJrbb** · `FRAME` · 230×126
+                - **Container** · `FRAME` · 230×126 · horizontal row
+                  - _…and 1 more_
+              - **Border** · `FRAME` · 232×128 · vertical stack · 2 children
+                - **AB6AXuC2v3SUXstVuA1jTH1ZoYmrLBypdwUDytBv7Szf7aHAA_oU8ff0HbL6_IKrp2it_hMDZUB1k8ZDvjcu_GgbjwBzVXyMoQCrl2yFK4dNw668-JT6nmHqYG1yC9Blr3ju9eclm4tF9-ReH5iy6biNgVlfhpulTrMa7HmEA28UX_3aXw1lxgDC57-3eOwsTyAUPYvsW83qFQec9nl790R6hNUXuTk67I1af8HWrfWy4kFV9yoAfjulbyP2** · `FRAME` · 230×126
+                - **Container** · `FRAME` · 230×126 · horizontal row
+                  - _…and 1 more_
+  - **Aside - SideNavBar** · `FRAME` · 256×995 · vertical stack, padding 24/0/24/0px · 4 children
+    - **Aside - SideNavBar:shadow** · `RECTANGLE` · 256×995
+    - **Margin** · `FRAME` · 255×96 · vertical stack, padding 0/0/40/0px · 1 children
+      - **Container** · `FRAME` · 255×56 · horizontal row, gap 12px, padding 0/24/0/24px · 2 children
+        - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 107×56 · vertical stack · 2 children
+          - **Heading 1** · `FRAME` · 107×32 · vertical stack · 1 children
+            - **Text** · `TEXT` · 107×32 · “Xplorem”
+          - **Container** · `FRAME` · 107×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 98×24 · “PREMIUM CINEMA”
+    - **Nav** · `FRAME` · 255×601 · vertical stack, gap 4px, padding 4/16/281/16px · 6 children
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 18×18
+        - **Container** · `FRAME` · 64×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 64×20 · “Explore”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Container** · `FRAME` · 255×250 · vertical stack, gap 16px, padding 0/16/0/16px · 2 children
+      - **Background+Border** · `FRAME` · 223×137 · vertical stack, gap 7.300000190734863px, padding 16px · 3 children
+        - **Container** · `FRAME` · 189×16 · vertical stack · 1 children
+          - **LIMITED OFFER** · `TEXT` · 189×16 · “LIMITED OFFER”
+        - **Container** · `FRAME` · 189×40 · vertical stack, padding 0/0/5.449999809265137/0px · 1 children
+          - **Experience 4K Ultra HD Streaming** · `TEXT` · 189×35 · “Experience 4K Ultra HD
+Streaming”
+        - **Button** · `FRAME` · 189×32 · horizontal row, padding 8/0/8/0px · 1 children
+          - **Text** · `TEXT` · 94×16 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 223×97 · vertical stack, padding 16/0/8/0px · 2 children
+        - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Help”
+        - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1024×64 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1024×63 · horizontal row, padding 0/24/0/531.0800170898438px · 1 children
+      - **Container** · `FRAME` · 457×43 · horizontal row, gap 24px · 2 children
+        - **Container** · `FRAME` · 272×24 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 99×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 99×24 · “New Releases”
+          - **Link** · `FRAME` · 72×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 72×24 · “Top Rated”
+          - **Link** · `FRAME` · 53×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 53×24 · “Live TV”
+        - **VerticalBorder** · `FRAME` · 161×43 · horizontal row, gap 16px, padding 0/0/0/24px · 3 children
+          - **Button** · `FRAME` · 32×43 · vertical stack, padding 8/8/15/8px · 2 children
+            - **Container** · `FRAME` · 16×20 · horizontal row · 1 children
+              - **Icon** · `VECTOR` · 16×20
+            - **Background** · `RECTANGLE` · 8×8
+          - **Button** · `FRAME` · 36×43 · vertical stack, padding 8/8/15/8px · 1 children
+            - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+              - **Icon** · `VECTOR` · 20×20
+          - **Border** · `FRAME` · 36×36 · vertical stack · 1 children
+            - **AB6AXuDx_pWmDRb4xY4_ao0ZykV-1IoUEyJy0iqjcOnMAI6zpkMXY5onyMpI8d0J0GiaewUPSB4slzsfdHGy3aCXvvNMInXFfVSyRXQYwskYLTENAYtke_jz9lL_KU9DFGMh6Qv91vHK4vYCbl_am3QvAd40B0k07jSo3llS89KLiQdiEHGHbUvzVKqMpWVIrrmMEB4O7b4d1vMpGdUzuctJjIN_r7702twCWcYRjAp3LYHc6bQNN1lH0phB** · `FRAME` · 32×32
+- **Xplorem - Media Details (Refined Review)** · `FRAME` · 1280×1612 · vertical stack · 4 children
+  - **Main Content Canvas** · `FRAME` · 1280×1612 · 3 children
+    - **Cast & Crew Section** · `FRAME` · 1024×428 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Container** · `FRAME` · 896×32 · horizontal row, gap 698.1099853515625px · 2 children
+        - **Heading 2** · `FRAME` · 109×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 109×32 · “Top Cast”
+        - **Button** · `FRAME` · 85×24 · horizontal row, gap 8px · 2 children
+          - **Text** · `TEXT` · 67×24 · “See All”
+          - **Container** · `FRAME` · 9×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×9
+      - **Container** · `FRAME` · 896×236 · 6 children
+        - **Cast Card 1** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuC17Z3DzNHhYy4ll3rEwCY3lx6D74oZvXuvy4dPpsfAR_8M7PIBOCkPZJvQqJrlokIkHa1x6F-CK0bNwo7HwIhU93QfGNDKcpEWHWykvIEt5wW6rZE5WLl2izFBxVrqsIPa36TDtnWwFfhJYd3A_WMa0iUmvtkabBNoq7F7ED-gAYcX4EfNpnUYx2uYs7ry1ruH2Uz4u6xRV0lt8_b7EcHrGtt3GS1PfKVdreD871IApNfRNHsCr91k** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Julian Vane”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Elias Thorne”
+        - **Cast Card 2** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDFY8-CYYvhELqbVDaVN9EU_s4j1U-qaRTS4ZtecpphUFGbHdNnu31VR3VG_YY7tnqT3WAHUTHpyKP2MFndqX42E8FA4XDy_a-3LjFcgF-zwxDSXUQB3BlhmXrVAL0BXe9npc4TXLyLS2vRxbZ29JiiEJfy2O2r_YvZKX_AYZatZ2HSL-9ScZ3OagNuFMyGOVfYGkjQYs07D4CtcsciRaQG5QG6oD4QRHLr3WQVa4alR1s163Q93IqX** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Amara Keth”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 64×16 · “Dr. Sola Ren”
+        - **Cast Card 3** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDSwM-2GLVYHO7p0yiNK3cRcyvzxxGbW5nhAMtAFtlX3oGJB0jx94qhbMO61VCP-MqBH0CiJOiPFKj4HkmLEibtiFZ47uKQxPHTxk1XDuTCSBcuEgdBihOtXGspJhgDLevKCV6frnD3aY4JAj8PoSXF4lVDgZUcrDNBGHWTk5qn7LnDGQbzxlni8drwIOKpYSEdwtVdqD7GkJTIXAIIEFFE6R9bMZTNWOsORvHUllyBh370gUXjjEjo** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 109×24 · “Marcus Thorne”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 78×16 · “Director Miller”
+        - **Cast Card 4** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuCdV0MdxXZuLxV9spRI-AU-45Mn9dgYhNPy3AvGd_rqob8TIj27SxmqtSj9-HTQYa9C5ybafk51mdrX9TZ67oIw_1m7iIEkSL35qAgmNNODNQCPoXh24W3_am5WDKCSkKbZkZRFNyLIjpD1ReRwwUGg_eyvaT4UzL8x7n-cigPWUlzuifTJ1j3t10ibq6tXGqUd0HcDtYSEB6nO8nDdU76rgRzi6_2gV3DKiaJGq-tQUZHBuUVmOWAZ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Leo Sterling”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 80×16 · “Jax 'Pilot' Reed”
+        - **Cast Card 5** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuBpV4oSoNxALd9FoBsfdbvhAGtn3k84SGi5D3XWlPenNu2sWZEiRwoAo-poO5hes4riSDQfltj16_aEp4PUDwkwlTCzJ9KTt6tk2vJqCNvbhREhau3maG12oxyGtTsrRHzDjc_4li3z5M-TD_TYbW23BEq9J2-hNvUAcSnwX0RbVBHdGyaqMRpe057POKcfiQbVLCu6_oxL9Lf5oJXQ9jvkokWy3mR9RdzH6coNlFwkr0ZOTZRZdWfQ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Sarah Croft”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 72×16 · “AI Voice 'EVE'”
+        - **Cast Card 6** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuAqFRNFxkHOLZS7MvQY8jZkGfoP3ATo_EJ157jps-6RFp-lNh43gsBCYy8xC8gWNvE-MryzZdFFdksse4cf4G-J_QsyeHc4ZU0jMiFWNguP08tOzV4ZphUZUuqVnQvWbHGAfAlxv9YwOmTPW5UwxdT_g8UytV9ZGJR49hezymZeqCC9LBT5Rd71m4_OA-VepYPFJsduwNubxi410v85uIRCKFuK3PUAE36jsyd7cG1q1oV8ziSg0x3F** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 72×24 · “Kenji Sato”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Engineer Kai”
+    - **Immersive Hero Section** · `FRAME` · 1024×640 · 4 children
+      - **Image** · `RECTANGLE` · 1024×640
+      - **Gradient** · `RECTANGLE` · 1024×640
+      - **Play Button Overlay** · `FRAME` · 1024×640 · horizontal row · 1 children
+        - **Button** · `FRAME` · 96×96 · horizontal row · 1 children
+          - **Container** · `FRAME` · 22×28 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 22×28
+      - **Content Metadata Overlay** · `FRAME` · 1024×491 · vertical stack, gap 16px, padding 24/64/64/64px · 5 children
+        - **Container** · `FRAME` · 896×26 · horizontal row, gap 12px · 2 children
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 98×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 72×16 · “4K ULTRA HD”
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 121×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 95×16 · “IMAX ENHANCED”
+        - **Heading 1** · `FRAME` · 768×80 · vertical stack · 1 children
+          - **Text** · `TEXT` · 719×80 · “Project Horizon: Rebirth”
+        - **Container** · `FRAME` · 896×30 · horizontal row, gap 24px · 4 children
+          - **Container** · `FRAME` · 60×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 14×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 14×15
+            - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 38×24 · “2024”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 15×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×15
+            - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 58×24 · “2h 45m”
+          - **Container** · `FRAME` · 273×30 · horizontal row, gap 8px · 2 children
+            - **Border** · `FRAME` · 44×30 · vertical stack, padding 2/6/2/6px · 1 children
+              - **Text** · `TEXT` · 30×24 · “PG-13”
+            - **Container** · `FRAME` · 221×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 221×24 · “Science Fiction / Drama”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 4px · 3 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Container** · `FRAME` · 29×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×24 · “8.9”
+            - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×16 · “/ 10”
+        - **Margin** · `FRAME` · 672×125 · vertical stack, padding 8/0/0/0px · 1 children
+          - **Container** · `FRAME` · 672×117 · vertical stack · 1 children
+            - **In a world where the horizon is no longer a limit but a gateway, Captain Elias Thorne must lead a desperate mission into the Singularity. As the fabric of reality begins to unravel, the crew of the Horizon-1 discovers that the rebirth of humanity may require the ultimate sacrifice in a dimension where time is fluid.** · `TEXT` · 672×117 · “In a world where the horizon is no longer a limit but a gateway, Captain Elias
+T”
+        - **Action Buttons:margin** · `FRAME` · 896×78 · vertical stack, padding 24/0/0/0px · 1 children
+          - **Action Buttons** · `FRAME` · 896×54 · horizontal row, gap 16px · 4 children
+            - **Button** · `FRAME` · 193×52 · horizontal row, gap 12px, padding 14/32/14/32px · 3 children
+              - **Button:shadow** · `RECTANGLE` · 193×52
+              - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×20
+              - **Text** · `TEXT` · 97×24 · “WATCH NOW”
+            - **Button** · `FRAME` · 144×54 · horizontal row, gap 11.989999771118164px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 68×24 · “Watchlist”
+            - **Button** · `FRAME` · 131×54 · horizontal row, gap 12px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 18×16 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×16
+              - **Text** · `TEXT` · 51×24 · “Review”
+            - **Button** · `FRAME` · 48×50 · horizontal row, padding 14px · 1 children
+              - **Container** · `FRAME` · 18×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×20
+    - **Section - More Like This Grid** · `FRAME` · 1024×480 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Heading 2** · `FRAME` · 896×32 · vertical stack · 1 children
+        - **More Like This** · `TEXT` · 896×32 · “More Like This”
+      - **Container** · `FRAME` · 896×288 · horizontal row, gap 24px · 5 children
+        - **Movie Card 1** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 117×20 · “Starbound: Legacy”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 9.2 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuCQ6-Z4ZtNjzlK69SYAcp4fUbGlM1ScCYUrSK1vH2FUcXHu5MtCVB1oXQtpRda6pjdUGdBD8szdz2a8Kdd_MCgtr5cerm_D5BPZrIecT5KBFJHENQlP5Jz8MiYEgLNngECd7T2WhIRbrW8Jywqf_j_LAKCbB5x34A7O85fLpyeaxyN9TfC10EAbizMxSH0Spl71WHX6bSWWdPJ2Srsm9jC8Dmg1oNn-ZTVs0wQzVxxngFa3xHaOXMKu** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 2** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 85×20 · “Neon Drifters”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 8.5 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAKctUbWARVCl59pQSwrq_4o0UaPATm_edDEM_u7XBAm6ZnO9lxDGLB7cOytx8hxdTtEGM7Cw2KQtYRvx4ox4lL3tfng_RYHqQC4_OdMZ5CjcCXDciqvrAV0RIWP8ZTCeCIkHpJ2ouYlzIeZlQ9ZVKmf3ldaTQg4IQ3eWw8KU25XA1eSdqXgRcikOS-htncB4OMz6Akfsof1t2YU5lGYOEiRh-gw8WwtHktmGJL6qJB8vaMfehkxL2W** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 3** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 91×20 · “Chronos Node”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2022 • 8.1 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuBw-44Pw4RMu9bRwY1ue0t9xDhnWSwYfr9ANHeibC0gZ1vLjyme4-Np7TLyGsPQtCRlDHXgpFeehwmPmt83DeZdpuWJW2oNtIrrIm-4wJ2D388hSuDMkVQRjmIfBTacT2h9sL8G4pCTXnh8dswLHS-O39v7oap4jMna4MQ5drUkh4kzV6xxMKJfMQDjuhfatfxbXTQA03z8lNfW4GO4M2_gMj_gy38OYIPnjFAH_crQvoAFlpAyV7wP** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 4** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×20 · “Orbit Protocol”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 7.9 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAuTn7ed1k_hl9I1JEknv-ZSpOesghZ5SHZzdACM18fzYUo9bIE5_AEEiixn3pTt8reKb01rvi4oa6FtBqLdZQaQf3VtfZ4JTp9wcSgrK2SUtzRe5zoaDqyOokOSjwrNLA8xWh1shPxGpRQVawJ3nPBdcFsQxvWBesds-KPUVjv0ooEPtr6zPYDobznZ9eszPq7uSqxgYgC16kWnAiDzWjzk8AXr7rn2JmoIv7ltYLoxnls5gnyi9t0** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 5** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 62×20 · “Sentience”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 9.0 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuDLsTaVTT1j7dKe66dN_9By4KrueSYSwSYArrcpV0QrBbJCddR3opyWUGMq3jQdYvBYsX8f7Su8I_z1aa7md2vnRblTaeUNyl9PMEGYxOOTExNy9xClVXSfNUUkQQDa8YnNyKwibPMsasXRQ_0hr2SqKBBAIJG8HyhpMILh00qbssP0ioozJn5yo-OOK4-dKtBKhOzst37GqN7w4ATQI1wF-0FMUaO_1p5j85avZ9iLFY9LdcBkcySe** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+  - **SideNavBar (Shared Component)** · `FRAME` · 256×800 · vertical stack, padding 24/0/24/0px · 4 children
+    - **SideNavBar (Shared Component):shadow** · `RECTANGLE` · 256×800
+    - **Margin** · `FRAME` · 255×96 · vertical stack, padding 0/0/40/0px · 1 children
+      - **Container** · `FRAME` · 255×56 · horizontal row, gap 12px, padding 0/24/0/24px · 2 children
+        - **Background+Shadow** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 112×56 · vertical stack · 2 children
+          - **Heading 1** · `FRAME` · 112×32 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×32 · “Xplorem”
+          - **Container** · `FRAME` · 112×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 112×24 · “PREMIUM CINEMA”
+    - **Container** · `FRAME` · 255×425 · vertical stack, gap 4px, padding 4/8/157/8px · 5 children
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 38×24 · “Home”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “Trending”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 3 children
+        - **Link:shadow** · `RECTANGLE` · 239×48
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Movies”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “TV Shows”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 86×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 86×24 · “Watchlist”
+    - **Container** · `FRAME` · 255×231 · vertical stack, gap 24px, padding 0/16/0/16px · 2 children
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 223×122 · vertical stack, gap 8px, padding 16px · 3 children
+        - **Container** · `FRAME` · 189×16 · vertical stack · 1 children
+          - **LIMITED OFFER** · `TEXT` · 189×16 · “LIMITED OFFER”
+        - **Container** · `FRAME` · 189×24 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Experience True 4K HDR** · `TEXT` · 189×20 · “Experience True 4K HDR”
+        - **Button** · `FRAME` · 189×32 · horizontal row, padding 8/0/8/0px · 1 children
+          - **Text** · `TEXT` · 78×16 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 223×85 · vertical stack, gap 4px, padding 16/0/0/0px · 2 children
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 29×16 · “Help”
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Container** · `FRAME` · 43×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 43×16 · “Logout”
+  - **Header - TopNavBar (Shared Component)** · `FRAME` · 1280×65 · vertical stack, padding 0/0/0/256px · 1 children
+    - **Container** · `FRAME` · 1024×64 · horizontal row, gap 298.6099853515625px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 285×30 · horizontal row, gap 24px · 4 children
+        - **HorizontalBorder** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Text** · `TEXT` · 68×24 · “Overview”
+        - **Container** · `FRAME` · 54×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 54×24 · “Trailers”
+        - **Container** · `FRAME` · 33×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 33×24 · “Cast”
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Reviews”
+      - **Container** · `FRAME` · 377×50 · horizontal row, gap 16px · 2 children
+        - **Background+Border** · `FRAME` · 237×50 · horizontal row, gap -1.7763568394002505e-14px, padding 6/16/6/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Input** · `FRAME` · 192×36 · vertical stack, padding 9/12/9/12px · 1 children
+            - **Container** · `FRAME` · 168×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 168×18 · “Search titles...”
+        - **Container** · `FRAME` · 124×36 · horizontal row, gap 12px · 3 children
+          - **Container** · `FRAME` · 32×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 36×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+            - **AB6AXuAIZR5txiBskeh3BLYLFA8IIREQGPwNsBJ3L92gAxjbDwPnNv5eZvOaEJzsSHwpDD6KjpTcih8BPN32FhCKk_5F3pVNajQEYHWfGse8qYtK_KO42Rf-IkXgwJrcESaiy5qkAUyT3i84ML3fTofL4hDYTpj5o-V2Ke-8DLAUst_kDxmpnHlqdIT5HeQ5mCs71tvIY4bZm-o6dtSuUEJtxmGLSUQbTBudstYGvWVC_taUHUBGMRTJ6t4_** · `FRAME` · 28×28
+  - **Aside** · `FRAME` · 448×800 · vertical stack · 4 children
+    - **Aside:shadow** · `RECTANGLE` · 448×800
+    - **HorizontalBorder** · `FRAME` · 446×105 · horizontal row, gap 146.88999938964844px, padding 32px · 2 children
+      - **Heading 2** · `FRAME` · 195×32 · vertical stack · 1 children
+        - **Text** · `TEXT` · 195×32 · “Review & Notes”
+      - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+    - **Container** · `FRAME` · 446×572 · 3 children
+      - **Star Rating** · `FRAME` · 382×74 · vertical stack, gap 16px · 2 children
+        - **Label** · `FRAME` · 382×24 · vertical stack · 1 children
+          - **YOUR RATING** · `TEXT` · 382×24 · “YOUR RATING”
+        - **Container** · `FRAME` · 382×34 · horizontal row, gap 8px · 5 children
+          - **Button** · `FRAME` · 30×34 · vertical stack, padding 0/0/5/0px · 1 children · ×5
+            - **Container** · `FRAME` · 30×29 · horizontal row · 1 children
+              - **Icon** · `VECTOR` · 30×29
+      - **Private Notes (Markdown)** · `FRAME` · 382×321 · vertical stack, gap 16px, padding 0/0/7/0px · 2 children
+        - **Container** · `FRAME` · 382×42 · horizontal row, gap 42.83000183105469px · 2 children
+          - **Container** · `FRAME` · 237×42 · horizontal row, gap 16px · 2 children
+            - **Label** · `FRAME` · 91×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 91×24 · “PRIVATE NOTES”
+            - **Overlay+Border** · `FRAME` · 130×42 · horizontal row, gap 2.1316282072803006e-14px, padding 4px · 2 children
+              - **Button** · `FRAME` · 54×32 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 30×24 · “WRITE”
+              - **Button** · `FRAME` · 66×32 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 42×24 · “PREVIEW”
+          - **Container** · `FRAME` · 102×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×24 · “Supports Markdown”
+        - **Textarea** · `FRAME` · 382×256 · horizontal row, padding 16px · 1 children
+          - **Container** · `FRAME` · 348×48 · vertical stack · 1 children
+            - **Write your thoughts here... Use # for headings, * for lists.** · `TEXT` · 348×48 · “Write your thoughts here... Use # for headings, * 
+for lists.”
+      - **Overlay+Border** · `FRAME` · 382×54 · vertical stack, padding 16px · 1 children
+        - **Container** · `FRAME` · 348×20 · horizontal row, gap 12px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 312×20 · 1 children
+            - **Text** · `TEXT` · 298×39 · “Your reviews and notes are private and encrypted. Only
+you can view this data in”
+    - **HorizontalBorder** · `FRAME` · 446×121 · vertical stack, padding 32px · 1 children
+      - **Button** · `FRAME` · 382×56 · horizontal row, padding 16/0/16/0px · 1 children
+        - **Text** · `TEXT` · 101×24 · “SAVE REVIEW”
+- **Xplorem - Watchlist** · `FRAME` · 1280×1046 · vertical stack, padding 64/0/281/256px · 3 children
+  - **Main Content Canvas** · `FRAME` · 1024×701 · vertical stack, gap 32px, padding 48/24/48/24px · 3 children
+    - **Header Section** · `FRAME` · 976×120 · horizontal row, gap 115.2699966430664px · 2 children
+      - **Container** · `FRAME` · 508×120 · vertical stack, gap 8px · 2 children
+        - **Heading 1** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 312×56 · “My Watchlist”
+        - **Container** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 508×56 · “Curated collection of your next adventures. 14 titles waiting for
+exploration.”
+      - **Container** · `FRAME` · 285×46 · horizontal row · 1 children
+        - **Background+Border** · `FRAME` · 285×46 · horizontal row, padding 4px · 3 children
+          - **Button** · `FRAME` · 67×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 27×20 · “All”
+          - **Button** · `FRAME` · 95×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+          - **Button** · `FRAME` · 113×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+    - **Filters Bar** · `FRAME` · 976×42 · horizontal row, gap 524.969970703125px, padding 8/0/0/0px · 2 children
+      - **Container** · `FRAME` · 385×34 · horizontal row, gap 16px · 3 children
+        - **Button** · `FRAME` · 102×34 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 14×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×9
+          - **Text** · `TEXT` · 47×16 · “Filter”
+        - **Button** · `FRAME` · 160×34 · horizontal row, gap 8.010000228881836px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 109×16 · “Recently Added”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+        - **Button** · `FRAME` · 90×34 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 39×16 · “Genre”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+      - **Container** · `FRAME` · 35×14 · horizontal row, gap 8px · 2 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+        - **Container** · `FRAME` · 14×8 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×8
+    - **Media Grid** · `FRAME` · 976×379 · horizontal row, gap 24px · 5 children
+      - **Card 1** · `FRAME` · 176×355 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 5 children
+          - **Neon Horizon Movie Poster** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Top Badges** · `FRAME` · 63×20 · vertical stack · 1 children
+            - **Overlay+OverlayBlur** · `FRAME` · 63×20 · vertical stack, padding 2/8/2/8px · 1 children
+              - **Text** · `TEXT` · 47×16 · “4K UHD”
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Hover Rating** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×76 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Neon Horizon** · `TEXT` · 142×24 · “Neon Horizon”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 6.96999979019165px · 2 children
+            - **Container** · `FRAME` · 94×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×16 · “2024 • Movie”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “8.4”
+      - **Card 2** · `FRAME` · 176×355 · vertical stack · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 5 children
+          - **The Silent Tide Poster** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Container** · `FRAME` · 71×20 · vertical stack · 1 children
+            - **Overlay+OverlayBlur** · `FRAME` · 71×20 · vertical stack, padding 2/8/2/8px · 1 children
+              - **Text** · `TEXT` · 55×16 · “S3 EP12”
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×92 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **The Silent Tide** · `TEXT` · 142×24 · “The Silent Tide”
+          - **Container** · `FRAME` · 142×32 · horizontal row, gap 4.263256414560601e-14px · 2 children
+            - **Container** · `FRAME` · 101×32 · vertical stack, padding 0/30.3799991607666/0/0px · 1 children
+              - **Text** · `TEXT` · 70×32 · “2023 • TV
+Series”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “9.1”
+      - **Card 3** · `FRAME` · 176×355 · vertical stack · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 4 children
+          - **Skyward Bound Poster** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 174×261 · vertical stack · 2 children
+            - **Margin** · `FRAME` · 116×35 · vertical stack, padding 0/0/16/0px · 1 children
+              - **Container** · `FRAME` · 116×19 · horizontal row, gap 4px · 5 children
+                - **Container** · `FRAME` · 20×19 · vertical stack · ×5
+                  - _…and 1 more_
+            - **Button** · `FRAME` · 157×36 · vertical stack, padding 8/24/8/24px · 1 children
+              - **Text** · `TEXT` · 109×20 · “Quick Review”
+        - **Background** · `FRAME` · 174×92 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Skyward Bound** · `TEXT` · 142×24 · “Skyward Bound”
+          - **Container** · `FRAME` · 142×32 · horizontal row, gap -1.4210854715202004e-14px · 2 children
+            - **Container** · `FRAME` · 81×32 · vertical stack, padding 0/34.33000183105469/0/0px · 1 children
+              - **Text** · `TEXT` · 47×32 · “2024 •
+Movie”
+            - **Container** · `FRAME` · 61×32 · vertical stack, padding 0/21.84000015258789/0/0px · 1 children
+              - **Text** · `TEXT` · 39×32 · “Not
+Rated”
+      - **Card 4** · `FRAME` · 176×355 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+          - **Digital Frontier Poster** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+        - **Background** · `FRAME` · 174×76 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×24 · vertical stack · 1 children
+            - **Digital Frontier** · `TEXT` · 142×24 · “Digital Frontier”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 14.770000457763672px · 2 children
+            - **Container** · `FRAME` · 86×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 86×16 · “2023 • Docu”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “7.9”
+      - **Card 5** · `FRAME` · 176×379 · vertical stack, padding 0/0/16/0px · 2 children
+        - **Container** · `FRAME` · 174×261 · vertical stack · 3 children
+          - **Vanguard Protocol Poster** · `FRAME` · 174×261
+          - **Gradient** · `RECTANGLE` · 174×261
+          - **Button** · `FRAME` · 32×32 · horizontal row · 1 children
+            - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 12×12
+        - **Background** · `FRAME` · 174×100 · vertical stack, gap 4px, padding 16px · 2 children
+          - **Heading 3** · `FRAME` · 142×48 · vertical stack · 1 children
+            - **Vanguard Protocol** · `TEXT` · 142×48 · “Vanguard Protocol”
+          - **Container** · `FRAME` · 142×16 · horizontal row, gap 6.96999979019165px, padding 0/5.684341886080802e-14/0/0px · 2 children
+            - **Container** · `FRAME` · 94×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 94×16 · “2024 • Movie”
+            - **Container** · `FRAME` · 39×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 12×11 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 12×11
+              - **Text** · `TEXT` · 23×16 · “8.8”
+  - **Aside - SideNavBar** · `FRAME` · 256×1024 · vertical stack, padding 24/0/24/0px · 4 children
+    - **Aside - SideNavBar:shadow** · `RECTANGLE` · 256×1024
+    - **Margin** · `FRAME` · 255×142 · vertical stack, padding 64/24/32/24px · 1 children
+      - **Container** · `FRAME` · 207×46 · horizontal row, gap 12px · 2 children
+        - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 118×46 · vertical stack · 2 children
+          - **Heading 2** · `FRAME` · 118×30 · vertical stack · 1 children
+            - **Text** · `TEXT` · 105×30 · “Xplorem”
+          - **Container** · `FRAME` · 118×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 118×16 · “PREMIUM CINEMA”
+    - **Nav** · `FRAME` · 255×661 · vertical stack, gap 4px, padding 4/16/393/16px · 5 children
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Container** · `FRAME` · 255×173 · vertical stack, gap 24px, padding 0/24/0/24px · 2 children
+      - **Button** · `FRAME` · 207×44 · horizontal row, padding 12/16/12/16px · 2 children
+        - **Button:shadow** · `RECTANGLE` · 207×44
+        - **Text** · `TEXT` · 118×20 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 207×105 · vertical stack, padding 16/8/0/8px · 2 children
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Help”
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 478.2799987792969px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 372×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 102×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 102×32 · “Xplorem”
+        - **Nav** · `FRAME` · 237×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 51×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 51×24 · “Movies”
+          - **Link** · `FRAME` · 71×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 71×24 · “TV Shows”
+          - **Link** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Text** · `TEXT` · 68×24 · “Watchlist”
+      - **Container** · `FRAME` · 365×38 · horizontal row, gap 16px · 4 children
+        - **Background+Border** · `FRAME` · 249×38 · horizontal row, padding 6/16/6/16px · 2 children
+          - **Margin** · `FRAME` · 23×15 · vertical stack, padding 0/8/0/0px · 1 children
+            - **Icon** · `VECTOR` · 15×15
+          - **Input** · `FRAME` · 192×24 · vertical stack, padding 1/0/2/0px · 1 children
+            - **Container** · `FRAME` · 192×21 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 192×21 · “Search titles...”
+        - **Button** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×20
+        - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+          - **Profile** · `FRAME` · 30×30
+- **Xplorem - Media Details (Refined Review)** · `FRAME` · 1280×1612 · vertical stack · 4 children
+  - **Main Content Canvas** · `FRAME` · 1280×1612 · 3 children
+    - **Cast & Crew Section** · `FRAME` · 1024×428 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Container** · `FRAME` · 896×32 · horizontal row, gap 698.1099853515625px · 2 children
+        - **Heading 2** · `FRAME` · 109×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 109×32 · “Top Cast”
+        - **Button** · `FRAME` · 85×24 · horizontal row, gap 8px · 2 children
+          - **Text** · `TEXT` · 67×24 · “See All”
+          - **Container** · `FRAME` · 9×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×9
+      - **Container** · `FRAME` · 896×236 · 6 children
+        - **Cast Card 1** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuC17Z3DzNHhYy4ll3rEwCY3lx6D74oZvXuvy4dPpsfAR_8M7PIBOCkPZJvQqJrlokIkHa1x6F-CK0bNwo7HwIhU93QfGNDKcpEWHWykvIEt5wW6rZE5WLl2izFBxVrqsIPa36TDtnWwFfhJYd3A_WMa0iUmvtkabBNoq7F7ED-gAYcX4EfNpnUYx2uYs7ry1ruH2Uz4u6xRV0lt8_b7EcHrGtt3GS1PfKVdreD871IApNfRNHsCr91k** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Julian Vane”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Elias Thorne”
+        - **Cast Card 2** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDFY8-CYYvhELqbVDaVN9EU_s4j1U-qaRTS4ZtecpphUFGbHdNnu31VR3VG_YY7tnqT3WAHUTHpyKP2MFndqX42E8FA4XDy_a-3LjFcgF-zwxDSXUQB3BlhmXrVAL0BXe9npc4TXLyLS2vRxbZ29JiiEJfy2O2r_YvZKX_AYZatZ2HSL-9ScZ3OagNuFMyGOVfYGkjQYs07D4CtcsciRaQG5QG6oD4QRHLr3WQVa4alR1s163Q93IqX** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Amara Keth”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 64×16 · “Dr. Sola Ren”
+        - **Cast Card 3** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuDSwM-2GLVYHO7p0yiNK3cRcyvzxxGbW5nhAMtAFtlX3oGJB0jx94qhbMO61VCP-MqBH0CiJOiPFKj4HkmLEibtiFZ47uKQxPHTxk1XDuTCSBcuEgdBihOtXGspJhgDLevKCV6frnD3aY4JAj8PoSXF4lVDgZUcrDNBGHWTk5qn7LnDGQbzxlni8drwIOKpYSEdwtVdqD7GkJTIXAIIEFFE6R9bMZTNWOsORvHUllyBh370gUXjjEjo** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 109×24 · “Marcus Thorne”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 78×16 · “Director Miller”
+        - **Cast Card 4** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuCdV0MdxXZuLxV9spRI-AU-45Mn9dgYhNPy3AvGd_rqob8TIj27SxmqtSj9-HTQYa9C5ybafk51mdrX9TZ67oIw_1m7iIEkSL35qAgmNNODNQCPoXh24W3_am5WDKCSkKbZkZRFNyLIjpD1ReRwwUGg_eyvaT4UzL8x7n-cigPWUlzuifTJ1j3t10ibq6tXGqUd0HcDtYSEB6nO8nDdU76rgRzi6_2gV3DKiaJGq-tQUZHBuUVmOWAZ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 85×24 · “Leo Sterling”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 80×16 · “Jax 'Pilot' Reed”
+        - **Cast Card 5** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuBpV4oSoNxALd9FoBsfdbvhAGtn3k84SGi5D3XWlPenNu2sWZEiRwoAo-poO5hes4riSDQfltj16_aEp4PUDwkwlTCzJ9KTt6tk2vJqCNvbhREhau3maG12oxyGtTsrRHzDjc_4li3z5M-TD_TYbW23BEq9J2-hNvUAcSnwX0RbVBHdGyaqMRpe057POKcfiQbVLCu6_oxL9Lf5oJXQ9jvkokWy3mR9RdzH6coNlFwkr0ZOTZRZdWfQ** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 84×24 · “Sarah Croft”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 72×16 · “AI Voice 'EVE'”
+        - **Cast Card 6** · `FRAME` · 160×220 · vertical stack, gap 4px · 3 children
+          - **Border** · `FRAME` · 160×160 · vertical stack, padding 4px · 1 children
+            - **AB6AXuAqFRNFxkHOLZS7MvQY8jZkGfoP3ATo_EJ157jps-6RFp-lNh43gsBCYy8xC8gWNvE-MryzZdFFdksse4cf4G-J_QsyeHc4ZU0jMiFWNguP08tOzV4ZphUZUuqVnQvWbHGAfAlxv9YwOmTPW5UwxdT_g8UytV9ZGJR49hezymZeqCC9LBT5Rd71m4_OA-VepYPFJsduwNubxi410v85uIRCKFuK3PUAE36jsyd7cG1q1oV8ziSg0x3F** · `FRAME` · 148×148
+          - **Container** · `FRAME` · 160×36 · vertical stack, padding 12/0/0/0px · 1 children
+            - **Text** · `TEXT` · 72×24 · “Kenji Sato”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 67×16 · “Engineer Kai”
+    - **Immersive Hero Section** · `FRAME` · 1024×640 · 4 children
+      - **Actual Hero Backdrop** · `RECTANGLE` · 1024×640
+      - **Gradient** · `RECTANGLE` · 1024×640
+      - **Play Button Overlay** · `FRAME` · 1024×640 · horizontal row · 1 children
+        - **Button** · `FRAME` · 96×96 · horizontal row · 1 children
+          - **Container** · `FRAME` · 22×28 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 22×28
+      - **Content Metadata Overlay** · `FRAME` · 1024×491 · vertical stack, gap 16px, padding 24/64/64/64px · 5 children
+        - **Container** · `FRAME` · 896×26 · horizontal row, gap 12px · 2 children
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 98×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 72×16 · “4K ULTRA HD”
+          - **Overlay+Border+OverlayBlur** · `FRAME` · 121×26 · vertical stack, padding 4/12/4/12px · 1 children
+            - **Text** · `TEXT` · 95×16 · “IMAX ENHANCED”
+        - **Heading 1** · `FRAME` · 768×80 · vertical stack · 1 children
+          - **Text** · `TEXT` · 719×80 · “Project Horizon: Rebirth”
+        - **Container** · `FRAME` · 896×30 · horizontal row, gap 24px · 4 children
+          - **Container** · `FRAME` · 60×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 14×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 14×15
+            - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 38×24 · “2024”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 8px · 2 children
+            - **Container** · `FRAME` · 15×15 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×15
+            - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 58×24 · “2h 45m”
+          - **Container** · `FRAME` · 273×30 · horizontal row, gap 8px · 2 children
+            - **Border** · `FRAME` · 44×30 · vertical stack, padding 2/6/2/6px · 1 children
+              - **Text** · `TEXT` · 30×24 · “PG-13”
+            - **Container** · `FRAME` · 221×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 221×24 · “Science Fiction / Drama”
+          - **Container** · `FRAME` · 81×24 · horizontal row, gap 4px · 3 children
+            - **Container** · `FRAME` · 15×14 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 15×14
+            - **Container** · `FRAME` · 29×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×24 · “8.9”
+            - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+              - **Text** · `TEXT` · 29×16 · “/ 10”
+        - **Margin** · `FRAME` · 672×125 · vertical stack, padding 8/0/0/0px · 1 children
+          - **Container** · `FRAME` · 672×117 · vertical stack · 1 children
+            - **In a world where the horizon is no longer a limit but a gateway, Captain Elias Thorne must lead a desperate mission into the Singularity. As the fabric of reality begins to unravel, the crew of the Horizon-1 discovers that the rebirth of humanity may require the ultimate sacrifice in a dimension where time is fluid.** · `TEXT` · 672×117 · “In a world where the horizon is no longer a limit but a gateway, Captain Elias
+T”
+        - **Action Buttons:margin** · `FRAME` · 896×78 · vertical stack, padding 24/0/0/0px · 1 children
+          - **Action Buttons** · `FRAME` · 896×54 · horizontal row, gap 16px · 4 children
+            - **Button** · `FRAME` · 193×52 · horizontal row, gap 12px, padding 14/32/14/32px · 3 children
+              - **Button:shadow** · `RECTANGLE` · 193×52
+              - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×20
+              - **Text** · `TEXT` · 97×24 · “WATCH NOW”
+            - **Button** · `FRAME` · 144×54 · horizontal row, gap 11.989999771118164px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 14×14
+              - **Text** · `TEXT` · 68×24 · “Watchlist”
+            - **Button** · `FRAME` · 131×54 · horizontal row, gap 12px, padding 14/24/14/24px · 2 children
+              - **Container** · `FRAME` · 18×16 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×16
+              - **Text** · `TEXT` · 51×24 · “Review”
+            - **Button** · `FRAME` · 48×50 · horizontal row, padding 14px · 1 children
+              - **Container** · `FRAME` · 18×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×20
+    - **More Like This Grid Section** · `FRAME` · 1024×480 · vertical stack, gap 32px, padding 64px · 2 children
+      - **Heading 2** · `FRAME` · 896×32 · vertical stack · 1 children
+        - **More Like This** · `TEXT` · 896×32 · “More Like This”
+      - **Container** · `FRAME` · 896×288 · horizontal row, gap 24px · 5 children
+        - **Movie Card 1** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 117×20 · “Starbound: Legacy”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 9.2 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuCQ6-Z4ZtNjzlK69SYAcp4fUbGlM1ScCYUrSK1vH2FUcXHu5MtCVB1oXQtpRda6pjdUGdBD8szdz2a8Kdd_MCgtr5cerm_D5BPZrIecT5KBFJHENQlP5Jz8MiYEgLNngECd7T2WhIRbrW8Jywqf_j_LAKCbB5x34A7O85fLpyeaxyN9TfC10EAbizMxSH0Spl71WHX6bSWWdPJ2Srsm9jC8Dmg1oNn-ZTVs0wQzVxxngFa3xHaOXMKu** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 2** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 85×20 · “Neon Drifters”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 8.5 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAKctUbWARVCl59pQSwrq_4o0UaPATm_edDEM_u7XBAm6ZnO9lxDGLB7cOytx8hxdTtEGM7Cw2KQtYRvx4ox4lL3tfng_RYHqQC4_OdMZ5CjcCXDciqvrAV0RIWP8ZTCeCIkHpJ2ouYlzIeZlQ9ZVKmf3ldaTQg4IQ3eWw8KU25XA1eSdqXgRcikOS-htncB4OMz6Akfsof1t2YU5lGYOEiRh-gw8WwtHktmGJL6qJB8vaMfehkxL2W** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 3** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 91×20 · “Chronos Node”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2022 • 8.1 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuBw-44Pw4RMu9bRwY1ue0t9xDhnWSwYfr9ANHeibC0gZ1vLjyme4-Np7TLyGsPQtCRlDHXgpFeehwmPmt83DeZdpuWJW2oNtIrrIm-4wJ2D388hSuDMkVQRjmIfBTacT2h9sL8G4pCTXnh8dswLHS-O39v7oap4jMna4MQ5drUkh4kzV6xxMKJfMQDjuhfatfxbXTQA03z8lNfW4GO4M2_gMj_gy38OYIPnjFAH_crQvoAFlpAyV7wP** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 4** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×20 · “Orbit Protocol”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2023 • 7.9 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuAuTn7ed1k_hl9I1JEknv-ZSpOesghZ5SHZzdACM18fzYUo9bIE5_AEEiixn3pTt8reKb01rvi4oa6FtBqLdZQaQf3VtfZ4JTp9wcSgrK2SUtzRe5zoaDqyOokOSjwrNLA8xWh1shPxGpRQVawJ3nPBdcFsQxvWBesds-KPUVjv0ooEPtr6zPYDobznZ9eszPq7uSqxgYgC16kWnAiDzWjzk8AXr7rn2JmoIv7ltYLoxnls5gnyi9t0** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+        - **Movie Card 5** · `FRAME` · 160×288 · 3 children
+          - **Heading 3** · `FRAME` · 160×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 62×20 · “Sentience”
+          - **Container** · `FRAME` · 160×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 90×16 · “2024 • 9.0 Rating”
+          - **Overlay+Border+Shadow** · `FRAME` · 160×240 · vertical stack · 2 children
+            - **AB6AXuDLsTaVTT1j7dKe66dN_9By4KrueSYSwSYArrcpV0QrBbJCddR3opyWUGMq3jQdYvBYsX8f7Su8I_z1aa7md2vnRblTaeUNyl9PMEGYxOOTExNy9xClVXSfNUUkQQDa8YnNyKwibPMsasXRQ_0hr2SqKBBAIJG8HyhpMILh00qbssP0ioozJn5yo-OOK4-dKtBKhOzst37GqN7w4ATQI1wF-0FMUaO_1p5j85avZ9iLFY9LdcBkcySe** · `FRAME` · 158×238
+            - **Background** · `FRAME` · 158×238 · horizontal row, padding 16px · 1 children
+              - **Container** · `FRAME` · 90×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “WATCH TRAILER”
+  - **SideNavBar (Shared Component)** · `FRAME` · 256×800 · vertical stack, padding 24/0/24/0px · 4 children
+    - **SideNavBar (Shared Component):shadow** · `RECTANGLE` · 256×800
+    - **Margin** · `FRAME` · 255×96 · vertical stack, padding 0/0/40/0px · 1 children
+      - **Container** · `FRAME` · 255×56 · horizontal row, gap 12px, padding 0/24/0/24px · 2 children
+        - **Background+Shadow** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 112×56 · vertical stack · 2 children
+          - **Heading 1** · `FRAME` · 112×32 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×32 · “Xplorem”
+          - **Container** · `FRAME` · 112×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 112×24 · “PREMIUM CINEMA”
+    - **Container** · `FRAME` · 255×425 · vertical stack, gap 4px, padding 4/8/157/8px · 5 children
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 38×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 38×24 · “Home”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “Trending”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 3 children
+        - **Link:shadow** · `RECTANGLE` · 239×48
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Movies”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 77×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 77×24 · “TV Shows”
+      - **Link** · `FRAME` · 239×48 · horizontal row, gap 16px, padding 12/24/12/24px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 86×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 86×24 · “Watchlist”
+    - **Container** · `FRAME` · 255×231 · vertical stack, gap 24px, padding 0/16/0/16px · 2 children
+      - **Overlay+Border+OverlayBlur** · `FRAME` · 223×122 · vertical stack, gap 8px, padding 16px · 3 children
+        - **Container** · `FRAME` · 189×16 · vertical stack · 1 children
+          - **LIMITED OFFER** · `TEXT` · 189×16 · “LIMITED OFFER”
+        - **Container** · `FRAME` · 189×24 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Experience True 4K HDR** · `TEXT` · 189×20 · “Experience True 4K HDR”
+        - **Button** · `FRAME` · 189×32 · horizontal row, padding 8/0/8/0px · 1 children
+          - **Text** · `TEXT` · 78×16 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 223×85 · vertical stack, gap 4px, padding 16/0/0/0px · 2 children
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 12×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 12×12
+          - **Container** · `FRAME` · 29×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 29×16 · “Help”
+        - **Link** · `FRAME` · 223×32 · horizontal row, gap 16px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Container** · `FRAME` · 43×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 43×16 · “Logout”
+  - **Header - TopNavBar (Shared Component)** · `FRAME` · 1280×65 · vertical stack, padding 0/0/0/256px · 1 children
+    - **Container** · `FRAME` · 1024×64 · horizontal row, gap 298.6099853515625px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 285×30 · horizontal row, gap 24px · 4 children
+        - **HorizontalBorder** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+          - **Text** · `TEXT` · 68×24 · “Overview”
+        - **Container** · `FRAME` · 54×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 54×24 · “Trailers”
+        - **Container** · `FRAME` · 33×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 33×24 · “Cast”
+        - **Container** · `FRAME` · 58×24 · vertical stack · 1 children
+          - **Text** · `TEXT` · 58×24 · “Reviews”
+      - **Container** · `FRAME` · 377×50 · horizontal row, gap 16px · 2 children
+        - **Background+Border** · `FRAME` · 237×50 · horizontal row, gap -1.7763568394002505e-14px, padding 6/16/6/16px · 2 children
+          - **Container** · `FRAME` · 11×11 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+          - **Input** · `FRAME` · 192×36 · vertical stack, padding 9/12/9/12px · 1 children
+            - **Container** · `FRAME` · 168×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 168×18 · “Search titles...”
+        - **Container** · `FRAME` · 124×36 · horizontal row, gap 12px · 3 children
+          - **Container** · `FRAME` · 32×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 36×36 · vertical stack, padding 8px · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+            - **AB6AXuAIZR5txiBskeh3BLYLFA8IIREQGPwNsBJ3L92gAxjbDwPnNv5eZvOaEJzsSHwpDD6KjpTcih8BPN32FhCKk_5F3pVNajQEYHWfGse8qYtK_KO42Rf-IkXgwJrcESaiy5qkAUyT3i84ML3fTofL4hDYTpj5o-V2Ke-8DLAUst_kDxmpnHlqdIT5HeQ5mCs71tvIY4bZm-o6dtSuUEJtxmGLSUQbTBudstYGvWVC_taUHUBGMRTJ6t4_** · `FRAME` · 28×28
+  - **Aside** · `FRAME` · 448×800 · vertical stack · 4 children
+    - **Aside:shadow** · `RECTANGLE` · 448×800
+    - **HorizontalBorder** · `FRAME` · 446×105 · horizontal row, gap 146.88999938964844px, padding 32px · 2 children
+      - **Heading 2** · `FRAME` · 195×32 · vertical stack · 1 children
+        - **Text** · `TEXT` · 195×32 · “Review & Notes”
+      - **Button** · `FRAME` · 40×40 · horizontal row · 1 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+    - **Container** · `FRAME` · 446×572 · 3 children
+      - **Star Rating** · `FRAME` · 382×74 · vertical stack, gap 16px · 2 children
+        - **Label** · `FRAME` · 382×24 · vertical stack · 1 children
+          - **YOUR RATING** · `TEXT` · 382×24 · “YOUR RATING”
+        - **Container** · `FRAME` · 382×34 · horizontal row, gap 8px · 5 children
+          - **Button** · `FRAME` · 30×34 · vertical stack, padding 0/0/5/0px · 1 children · ×5
+            - **Container** · `FRAME` · 30×29 · horizontal row · 1 children
+              - **Icon** · `VECTOR` · 30×29
+      - **Private Notes (Markdown)** · `FRAME` · 382×321 · vertical stack, gap 16px, padding 0/0/7/0px · 2 children
+        - **Container** · `FRAME` · 382×42 · horizontal row, gap 42.83000183105469px · 2 children
+          - **Container** · `FRAME` · 237×42 · horizontal row, gap 16px · 2 children
+            - **Label** · `FRAME` · 91×24 · vertical stack · 1 children
+              - **Text** · `TEXT` · 91×24 · “PRIVATE NOTES”
+            - **Overlay+Border** · `FRAME` · 130×42 · horizontal row, gap 2.1316282072803006e-14px, padding 4px · 2 children
+              - **Button** · `FRAME` · 54×32 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 30×24 · “WRITE”
+              - **Button** · `FRAME` · 66×32 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 42×24 · “PREVIEW”
+          - **Container** · `FRAME` · 102×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 102×24 · “Supports Markdown”
+        - **Textarea** · `FRAME` · 382×256 · horizontal row, padding 16px · 1 children
+          - **Container** · `FRAME` · 348×48 · vertical stack · 1 children
+            - **Write your thoughts here... Use # for headings, * for lists.** · `TEXT` · 348×48 · “Write your thoughts here... Use # for headings, * 
+for lists.”
+      - **Overlay+Border** · `FRAME` · 382×54 · vertical stack, padding 16px · 1 children
+        - **Container** · `FRAME` · 348×20 · horizontal row, gap 12px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 312×20 · 1 children
+            - **Text** · `TEXT` · 298×39 · “Your reviews and notes are private and encrypted. Only
+you can view this data in”
+    - **HorizontalBorder** · `FRAME` · 446×121 · vertical stack, padding 32px · 1 children
+      - **Button** · `FRAME` · 382×56 · horizontal row, padding 16/0/16/0px · 1 children
+        - **Text** · `TEXT` · 101×24 · “SAVE REVIEW”
+- **Xplorem - Home** · `FRAME` · 1280×2042 · vertical stack, padding 0/0/0/256px · 4 children
+  - **Main Content** · `FRAME` · 1024×2042 · vertical stack, padding 64/0/0/0px · 2 children
+    - **Hero Section** · `FRAME` · 1024×716 · 2 children
+      - **Actual Content** · `FRAME` · 1024×716 · 4 children
+        - **Image** · `RECTANGLE` · 1024×716
+        - **Gradient** · `RECTANGLE` · 1024×716 · ×2
+        - **Container** · `FRAME` · 768×716 · vertical stack, padding 0/24/48/24px · 4 children
+          - **Margin** · `FRAME` · 720×42 · vertical stack, padding 0/0/16/0px · 1 children
+            - **Container** · `FRAME` · 720×26 · horizontal row, gap 8px · 2 children
+              - **Overlay+Border** · `FRAME` · 182×26 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 156×16 · “BLOCKBUSTER TRENDING”
+              - **Container** · `FRAME` · 37×24 · horizontal row, gap 3.990000009536743px · 2 children
+                - **Container** · `FRAME` · 12×11 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 22×24 · “4.9”
+          - **Heading 1:margin** · `FRAME` · 720×76 · vertical stack, padding 0/0/16/0px · 1 children
+            - **Heading 1** · `FRAME` · 720×60 · vertical stack · 1 children
+              - **Project Horizon: Rebirth** · `TEXT` · 720×60 · “Project Horizon: Rebirth”
+          - **Margin** · `FRAME` · 720×116 · vertical stack, padding 0/0/32/0px · 1 children
+            - **Container** · `FRAME` · 720×84 · vertical stack · 1 children
+              - **In a world where digital consciousness is the new frontier, one renegade architect must breach the ultimate firewall to save a lost civilization. A visual masterpiece that redefines modern sci-fi.** · `TEXT` · 720×84 · “In a world where digital consciousness is the new frontier, one renegade archite”
+          - **Container** · `FRAME` · 720×50 · horizontal row, gap 16px · 2 children
+            - **Button** · `FRAME` · 169×50 · horizontal row, gap 8px, padding 12.5/32/13/32px · 2 children
+              - **Container** · `FRAME` · 11×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 11×14
+              - **Text** · `TEXT` · 86×24 · “Watch Now”
+            - **Button** · `FRAME` · 180×50 · horizontal row, gap 8px, padding 12/32/12/32px · 2 children
+              - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×20
+              - **Text** · `TEXT` · 86×24 · “More Info”
+      - **Skeleton State** · `FRAME` · 1024×716 · horizontal row, padding 0/232/96/24px · 2 children
+        - **Gradient** · `RECTANGLE` · 1024×716
+        - **Container** · `FRAME` · 768×280 · vertical stack, gap 16px · 4 children
+          - **Gradient** · `RECTANGLE` · 128×24
+          - **Gradient** · `RECTANGLE` · 576×64
+          - **Gradient** · `RECTANGLE` · 384×96
+          - **Container** · `FRAME` · 768×48 · horizontal row, gap 16px · 2 children
+            - **Gradient** · `RECTANGLE` · 160×48 · ×2
+    - **Content Rows** · `FRAME` · 1024×1262 · vertical stack, gap 48px, padding 0/24/96/24px · 3 children
+      - **Section - Continue Watching** · `FRAME` · 976×306 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 600.22998046875px · 2 children
+          - **Heading 2** · `FRAME` · 320×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 320×40 · “Continue Watching”
+          - **Link** · `FRAME` · 56×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 56×20 · “View All”
+        - **Container** · `FRAME` · 1000×242 · vertical stack · 2 children
+          - **Actual Content** · `FRAME` · 1024×242 · horizontal row, gap 24px, padding 0/24/16/24px · 3 children
+            - **Progress Card 1** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 133×24 · “The Architect: E04”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 97×16 · “18M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuCBM0vmbl61JOG6onRLowi1ZsMFAf7X8tIfvUH6NB7U0-AMG24aCEOpBUZDiXiyb4JZVEcB0xuYYf1dv0hMZ1K-HEwKURkzTJKVlqkeF8nWH5fiDXVI5WgK2a4tCVRvv__MEQnbTR6_F6_3BlrVdHSMkbmb01Euc4f64ph4evDJFyBndUCY-e1gGD82eFEvhZJg0gRWIG04EN02-EHIMSqx1MXJ2kx4LkfycxzjdHxWmKoBCdFV2EX8** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Progress Bar** · `FRAME` · 307×6
+                  - _…and 1 more_
+            - **Progress Card 2** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 88×24 · “Nebula Drift”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 117×16 · “1H 12M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuDBfyggIbBM3YYqlnYP0Sqe6N2V2nZKZCSPkx9QuEcH4s0RLivHugdLFAwGNyueYsfUxk9xpQQBYJAyu2ErLXK4L_cOoii-wq-DgWMd-h8RmdWPBFvxbDjLFXJWg73MJeiTfKzjgfdJnAMXl9ibsIbN8ZNsaaocSvnLpvD0fxOV-NdRZcb6Rqb6VKPpThvvWAxO8BGukbH6nB1KsF8fqhpPHUc_q1TGCc9QBcrGb2fSK4lZcYX9JstM** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 307×6
+                  - _…and 1 more_
+            - **Progress Card 3** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 97×24 · “Asphalt Neon”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “4M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuDq1Xr0FCwUCB1hHRARNXlHipBfrUW3PkTfWDiDupbeatw_tvFbPxF4l7w1uNPvWXoFJPTvyS77SJ-tNUcHVO2HUOufx0VTLm_aQi-l8hOU0knOEgHxkchFyoE_0_XlThPTClo7MRrccloymQxBPhBbVrxD6oDGTH0En2yp-dSsL2Z6PUNXoY3yNOY9GYolXBOVy3o4hhCeI1KL5zhTEeK7LReUTFM0xe_woOM8XCjfST4Wi7ZqzpHW** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 307×6
+                  - _…and 1 more_
+          - **Skeleton Grid** · `FRAME` · 976×242 · horizontal row, gap 24px · 3 children
+            - **Gradient** · `RECTANGLE` · 430×242 · ×3
+      - **Section - Trending Now (Vertical Posters)** · `FRAME` · 976×432 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 671.6400146484375px · 2 children
+          - **Heading 2** · `FRAME` · 232×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 232×40 · “Trending Now”
+          - **Container** · `FRAME` · 72×32 · horizontal row, gap 8px · 2 children
+            - **Button** · `FRAME` · 32×32 · horizontal row · 1 children · ×2
+              - **Container** · `FRAME` · 4×7 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 4×7
+        - **Container** · `FRAME` · 1000×368 · vertical stack · 2 children
+          - **Actual Content** · `FRAME` · 1024×368 · 5 children
+            - **Movie Card 1** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 93×24 · “Elysium Falls”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 84×16 · “Drama • Sci-Fi”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuD3CV5ROjKmgYRcclETGvR5QxkdywSnDZctKs6MUQkdfBVd5UTDEHkmN26GKbfIOQJb6OL_QNPAFwGiz3R40x0FVqoUZLit9G5ngUKqbG4HdKdJf3G_k0MHwshII8R5_hhFGR5eKnG_Yvnk3dDYJdQ3LOJBZKwGKpaF5Bojvo1CHd4a_1t-nloYt9LcVdXZTNjglo6WZjHX9lmf7jeXx774kkMjClROGiXPvW7ykWsiqXugJnvrPuSV** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 2** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 108×24 · “The Last Signal”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 104×16 · “Mystery • Thriller”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuCedgLDn8C8cqhXH3s_nJ6eOBBA2KxC09BfQ3ERf9JRmMxTyeS-I5HRs47DskYs5TuUCmHUYwjtgp0VNtDYmVGJwvJRwK4hPLnkmSMPVSuGC9ZphOv9CsrsLyob7KWP5aspdNsU8mSCH2XDo8Lt9KQFuS7b2JYv6NEcYVvwuL_zySsSODgWxQwqupJG8sOxqerq2X83_b1DvL9wl33dfhC7DJ_ncRuNZ_45duCEOe6Doe7i_8-drHNL** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 3** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 72×24 · “Velocity X”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 111×16 · “Action • Adventure”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuDdMCJYsCmFajTL1goMbYyiuHyxLsuy_2SydIkkSkT8IftcT7PE5P_BRgn7-sy-00Pw9uhO7cRK3A-ezp1zwGU-IX44fIkY0U5iPmdP3bJaMR3ItRX2nkij-vfyj7_g-OD1Q9z2uu5TEL9qNLHZSbSB8Lz7wn2nroawhQQtp57SL7oyIyeMRVq8Ic4LB7qH1UkRkPJESV63Iqapcn-o1vJJZKYBDdIBYG3ro4wlH9KPbpAoc8k2pb-J** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 4** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 123×24 · “Human: Decoded”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 79×16 · “Documentary”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuDYNGNplmbiWfvQoF86ykhzPsw3U25JPq-1UkBI7Nx1DzEYFqj3r9VpGopWG0pXI4Sjbninfv32h9Nu0LSRfdOhJXQkLKKvpw5E-bPhVjzwEIkVKTIOpxG1HdDbnECeTZ7WJkO136XQoQPUcCqH8QHh33aqXJRrKyegNz3GZcdT7VFBTLnfwu5dtqsUxxz4zeRiuiNSLdmQljUHpLaaizwBYsQ0iiE3h6hndw6GVtXzEaMoQpBHQIMW** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 5** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 71×24 · “Void Echo”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 129×16 · “Horror • Supernatural”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuBKMQx_YcHOtxRHdbZmLNrhTOZWW3giPg9aEo5Bmh-7PFX_lF9jW7Ji4XWcrdf4SCHwajA-ik0WZs4leXMxxImJS556euWlXXs7qEf6SHEru5X3SIloo7CHZ8EpPnA-v0VhME9dQpJ00kOCw3Qi3-T6ChOtBtgeJu_ULfNidhoWAzuk7bqXOCHhN8Pkvf2o2vZ4N1T_UGXliGAexnGjrN3KZY2SWUWMTCkOMJukJMMzL_xai8fcS281** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+          - **Skeleton Grid** · `FRAME` · 976×368 · 5 children
+            - **Gradient** · `RECTANGLE` · 245×368 · ×5
+      - **Section - Popular TV Shows** · `FRAME` · 976×332 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 616.9500122070312px, padding 0/1.1368683772161603e-13/0/0px · 2 children
+          - **Heading 2** · `FRAME` · 294×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 294×40 · “Popular TV Shows”
+          - **Link** · `FRAME` · 65×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 65×20 · “See More”
+        - **Container** · `FRAME` · 976×268 · horizontal row, gap 24px · 6 children
+          - **Show Card 1** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 36.86000061035156px, padding 0/0.009999999776482582/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 80×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 72×20 · “Protocol 7”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.7”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBLG9r_7mik7clJVHAaLObntz-DWto2m8a4CvY-K9CvqaKrrvE0jdFqw7jcZr9owwK9lb4xON4IS_zz9AhZWR5NIZNeVOSs_59IGDmPiDG480ysPa0k2BJCWARyI7400_sT1do6CIa6CL-_2rZFUjZQLIXU3dSCxTYvfsgtxOXZOSzBqpY5JJLs8wH2T7VnaS-96RP1__lymY-V0TAmjjXLnX_m2wAvKuwU1zTPjt_FTekDj3r2iqsG** · `FRAME` · 141×212
+          - **Show Card 2** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 10.529999732971191px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 98×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 90×20 · “Star Runners”
+              - **Background** · `FRAME` · 34×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 22×24 · “NEW”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.9”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuB5uzkp0RdSBTKlKbenqrpYLYBsTZlmmBzk6t1IOoF-na6MdgA7jRoATsTpsbK2afgUvzAn6q23UVmpAbTuNUmSj76FM3SXIA20WZ9cjJAXQncvQ2avqThaQ3VNYXorcv2z66NlEM67PTkqejoG6rIq1SXWXduAgOa3hX2fr3DeQkLWPN0iVUn0HcRSdgEqU3PuYpWa5w4q-lVINHgVMJhVJ-p_zFvPWzxxzE_ihwVjylj-7qMdqyeg** · `FRAME` · 141×212
+          - **Show Card 3** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 28.469999313354492px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 87×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 79×20 · “Blue Velvet”
+              - **Overlay+Border** · `FRAME` · 28×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 14×24 · “HD”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.4”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBVSPteifgnnhElG1hsIOlZYGIdmThph6ik_2SQBD-QJPO23OUP4YoZ5Xr48jCWbxsVGuco5fUVyxQnD7seNd5Lv5lucZMqEiBJMcR72oNNDCcIYOD9i3iYAn3XXohxeasGGXYfEOdjrRpmfizkFUS3aXFPthtArxTa0t7J1_IFe_afm5Ch5INEZv1O8i07IKhMIX2ucDBYIqiLVd8Gk-itibhe0dgmAAneQS4H2lraWCCMBFCYTQCP** · `FRAME` · 141×212
+          - **Show Card 4** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 44.2400016784668px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 75×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 67×20 · “The Pulse”
+              - **Background** · `FRAME` · 23×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 11×24 · “S3”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.6”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCodhdRzwtuiu5Tg38JaH7Bsxyypr74yfqJWQbtlqHr2sNIPjEMMc8uFPyDfw3NN900E_zflM8eeWS9DC4buruZlaF2C8mLvuyau99ClaCugdULweavD2uexxyR-4dtQ48Y03y44zR7g93D_0MBBqwO1MU6E6QEK-d22w7U3QRSDgXqRhE60ow0SyskYlEzUqmKeVKSbGOf1mR_5nEmCw0ahIoDZnWrXrFuepacT7jpu9aeJYgtm8Xa** · `FRAME` · 141×212
+          - **Show Card 5** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 30.719999313354492px · 2 children
+              - **Heading 3** · `FRAME` · 86×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 78×20 · “Old Throne”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.8”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCjuRbuaNUxaQf2xBolAHUmfvePqYnTNnC6L9KnZ7YtuFmGXRhNnzWuHVDMCT6a7CNY2VH-4eYrASWRtx2YuJ0AIUqwm1UdScbWZJPxxEAm44FeYUibJRthUlMTY-wCumGHbNP7PGQeB9Sm9cwuxG24RqIJbcR5hlBtIRPNFB3j0YIjEO7JWnmy5xUvmxoCO1mPI6kKYci7OaCpdR15U-ryWyvIRPJHAtttxX5osBG9EGBLoyj9qb_V** · `FRAME` · 141×212
+          - **Show Card 6** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 20.420000076293945px · 2 children
+              - **Heading 3** · `FRAME` · 68×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 60×20 · “Mid Tide”
+              - **Background** · `FRAME` · 54×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 42×24 · “POPULAR”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.3”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCCjJeexVp1_FBvb0tPAc5ndZ1K9ndR3xTnwNlTralrysgMXS4JxIt_mJarT3RTv3B-gM7JsqVs0AL8_MDjjLMxqAKIGscL0Dde8Gn3Rgj3WAtdUROveNuKpK9xQgD7XP1iXAiLMPLPHZ5_0iW8SOj9PyOuaxHnZTIUhspBMzopIxcTS5-V1SrOykosE6O9R0C381kBEbcf_Hof3YS4ztZ_fXXdg1wBkDqSQhEnWucgrghnsT14Dpg4** · `FRAME` · 141×212
+  - **Aside - SideNavBar (Hidden on Mobile)** · `FRAME` · 256×800 · vertical stack, padding 96/0/24/0px · 3 children
+    - **Aside - SideNavBar (Hidden on Mobile):shadow** · `RECTANGLE` · 256×800
+    - **Container** · `FRAME` · 255×276 · vertical stack, gap 4px, padding 0/8/0/8px · 5 children
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×18
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×12
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×18
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Margin** · `FRAME` · 255×404 · vertical stack, padding 77/0/0/0px · 1 children
+      - **HorizontalBorder** · `FRAME` · 255×299 · vertical stack, gap 24px, padding 24/16/24/16px · 2 children
+        - **Background+Border** · `FRAME` · 223×150 · vertical stack, gap 8px, padding 16px · 3 children
+          - **Container** · `FRAME` · 189×20 · vertical stack · 1 children
+            - **Upgrade to 4K** · `TEXT` · 189×20 · “Upgrade to 4K”
+          - **Container** · `FRAME` · 189×40 · vertical stack, padding 0/0/8/0px · 1 children
+            - **Experience cinema in ultra high definition.** · `TEXT` · 189×32 · “Experience cinema in ultra high
+definition.”
+          - **Button** · `FRAME` · 189×40 · horizontal row, padding 8/0/8/0px · 1 children
+            - **Text** · `TEXT` · 96×24 · “Go Premium”
+        - **Container** · `FRAME` · 223×76 · vertical stack, gap 4px · 2 children
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×20
+            - **Text** · `TEXT` · 32×20 · “Help”
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 18×18
+            - **Text** · `TEXT` · 47×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 522.1699829101562px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 326×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 102×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 102×32 · “Xplorem”
+        - **Nav** · `FRAME` · 191×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 53×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Text** · `TEXT` · 53×24 · “Browse”
+          - **Link** · `FRAME` · 51×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 51×24 · “Library”
+          - **Link** · `FRAME` · 39×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 39×24 · “News”
+      - **Container** · `FRAME` · 372×34 · horizontal row, gap 16px · 4 children
+        - **Container** · `FRAME` · 256×34 · vertical stack · 2 children
+          - **Input** · `FRAME` · 256×34 · horizontal row, padding 7/16/7/40px · 1 children
+            - **Container** · `FRAME` · 198×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 198×18 · “Search titles...”
+          - **Container** · `FRAME` · 11×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+        - **Button** · `FRAME` · 16×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 16×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 20×20
+        - **Background+Border** · `FRAME` · 32×32 · horizontal row · 1 children
+          - **AB6AXuA_ktICVXJjDD8pprMdnr7vOikry5N7Q4V-VlxOxD-fMsofE9WK8xLPBqQp1ftIaG18Y4ajvbHFa-sW3tEJsGisdylP5XCNILFPCgq4Rif3SuMu_y2zNa8y5UkaPzXfr8tRu70zAcj6S9T_6hdBmjabSXPU5-f0REacTYIxPkeYzW-_0X5VLwcuPfW0_PHjUrApZm19ehDCP9NzaxBgSEOqLKXfL1AGBD1ZJYnsWnUMNvLy5ISl3xag** · `FRAME` · 30×30
+  - **Preloader Overlay** · `FRAME` · 1280×800 · horizontal row, padding 387.5/0/388.5/0px · 1 children
+    - **Text** · `TEXT` · 194×24 · “{{DATA:SCREEN:SCREEN_8}}”
+- **Xplorem - Watchlist** · `FRAME` · 1280×1088 · vertical stack, padding 64/0/0/256px · 4 children
+  - **Main Content Canvas** · `FRAME` · 1024×1024 · vertical stack, gap 32px, padding 48/24/48/24px · 3 children
+    - **Header Section** · `FRAME` · 976×120 · horizontal row, gap 115.2699966430664px · 2 children
+      - **Container** · `FRAME` · 508×120 · vertical stack, gap 8px · 2 children
+        - **Heading 1** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 312×56 · “My Watchlist”
+        - **Container** · `FRAME` · 508×56 · vertical stack · 1 children
+          - **Text** · `TEXT` · 508×56 · “Curated collection of your next adventures. 14 titles waiting for
+exploration.”
+      - **Container** · `FRAME` · 285×46 · horizontal row · 1 children
+        - **Background+Border** · `FRAME` · 285×46 · horizontal row, padding 4px · 3 children
+          - **Button** · `FRAME` · 67×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 27×20 · “All”
+          - **Button** · `FRAME` · 95×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+          - **Button** · `FRAME` · 113×36 · vertical stack, padding 8/20/8/20px · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+    - **Filters Bar** · `FRAME` · 976×42 · horizontal row, gap 524.969970703125px, padding 8/0/0/0px · 2 children
+      - **Container** · `FRAME` · 385×34 · horizontal row, gap 16px · 3 children
+        - **Button** · `FRAME` · 102×34 · horizontal row, gap 8px, padding 8/16/8/16px · 2 children
+          - **Container** · `FRAME` · 14×9 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×9
+          - **Text** · `TEXT` · 47×16 · “Filter”
+        - **Button** · `FRAME` · 160×34 · horizontal row, gap 8.010000228881836px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 109×16 · “Recently Added”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+        - **Button** · `FRAME` · 90×34 · horizontal row, gap 7.989999771118164px, padding 8/16/8/16px · 2 children
+          - **Text** · `TEXT` · 39×16 · “Genre”
+          - **Container** · `FRAME` · 9×6 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 9×6
+      - **Container** · `FRAME` · 35×14 · horizontal row, gap 8px · 2 children
+        - **Container** · `FRAME` · 14×14 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×14
+        - **Container** · `FRAME` · 14×8 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 14×8
+    - **Skeleton Grid** · `FRAME` · 976×702 · vertical stack · 10 children
+      - **Background+Border** · `FRAME` · 176×339 · vertical stack · 2 children · ×10
+        - **Gradient** · `RECTANGLE` · 174×261
+        - **Container** · `FRAME` · 174×76 · vertical stack, gap 12px, padding 16px · 2 children
+          - **Gradient** · `RECTANGLE` · 107×20
+          - **Container** · `FRAME` · 142×12 · horizontal row, gap 59.16999816894531px · 2 children
+            - **Gradient** · `RECTANGLE` · 47×12
+            - **Gradient** · `RECTANGLE` · 36×12
+  - **Aside - SideNavBar** · `FRAME` · 256×1090 · vertical stack, padding 24/0/24/0px · 4 children
+    - **Aside - SideNavBar:shadow** · `RECTANGLE` · 256×1090
+    - **Margin** · `FRAME` · 255×142 · vertical stack, padding 64/24/32/24px · 1 children
+      - **Container** · `FRAME` · 207×46 · horizontal row, gap 12px · 2 children
+        - **Background** · `FRAME` · 40×40 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 118×46 · vertical stack · 2 children
+          - **Heading 2** · `FRAME` · 118×30 · vertical stack · 1 children
+            - **Text** · `TEXT` · 105×30 · “Xplorem”
+          - **Container** · `FRAME` · 118×16 · vertical stack · 1 children
+            - **Text** · `TEXT` · 118×16 · “PREMIUM CINEMA”
+    - **Nav** · `FRAME` · 255×727 · vertical stack, gap 4px, padding 4/16/459/16px · 5 children
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×18
+        - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×12
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×18
+        - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+        - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+          - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Container** · `FRAME` · 255×173 · vertical stack, gap 24px, padding 0/24/0/24px · 2 children
+      - **Button** · `FRAME` · 207×44 · horizontal row, padding 12/16/12/16px · 2 children
+        - **Button:shadow** · `RECTANGLE` · 207×44
+        - **Text** · `TEXT` · 118×20 · “Upgrade to 4K”
+      - **HorizontalBorder** · `FRAME` · 207×105 · vertical stack, padding 16/8/0/8px · 2 children
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Help”
+        - **Link** · `FRAME` · 191×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 478.2799987792969px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 372×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 102×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 102×32 · “Xplorem”
+        - **Nav** · `FRAME` · 237×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 51×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 51×24 · “Movies”
+          - **Link** · `FRAME` · 71×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 71×24 · “TV Shows”
+          - **Link** · `FRAME` · 68×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Text** · `TEXT` · 68×24 · “Watchlist”
+      - **Container** · `FRAME` · 365×38 · horizontal row, gap 16px · 4 children
+        - **Background+Border** · `FRAME` · 249×38 · horizontal row, padding 6/16/6/16px · 2 children
+          - **Margin** · `FRAME` · 23×15 · vertical stack, padding 0/8/0/0px · 1 children
+            - **Icon** · `VECTOR` · 15×15
+          - **Input** · `FRAME` · 192×24 · vertical stack, padding 1/0/2/0px · 1 children
+            - **Container** · `FRAME` · 192×21 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 192×21 · “Search titles...”
+        - **Button** · `FRAME` · 16×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×20 · vertical stack · 1 children
+          - **Icon** · `VECTOR` · 20×20
+        - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+          - **AB6AXuCyRI6do8kl_5034e_NwpLtR3EW1rFQywyh0CRN7E9eQUxKSzvS3GY5WYc1bpchQrJw9CBkIwVsTWLk1SyAOHHrmuvU1MG3_2j4w5Lf6TaHkcPo1t-PcnqF4p3dbKXu8cTSuH2zYwcxSIpgFZxMAYO212GoWc-zUjiNmJhRM7cNojjOIxIghwQpJbJmCIIMydZAQv0uQlPQ97RuYfujOZ3NqyfzH0YZVu5V3GUX2fmJrRKNbKmWZeTC** · `FRAME` · 30×30
+  - **Splash Screen Loader** · `FRAME` · 1280×1088 · horizontal row · 1 children
+    - **Container** · `FRAME` · 320×61 · vertical stack, gap 32.5px, padding 0/32/0/32px · 2 children
+      - **Text** · `TEXT` · 194×24 · “{{DATA:SCREEN:SCREEN_8}}”
+      - **Background** · `FRAME` · 192×4 · vertical stack · 1 children
+        - **Gradient** · `RECTANGLE` · 192×4
+- **Xplorem - Home (Parallax Media Cards)** · `FRAME` · 1280×2042 · vertical stack, padding 0/0/0/256px · 4 children
+  - **Main Content** · `FRAME` · 1024×2042 · vertical stack, padding 64/0/0/0px · 2 children
+    - **Hero Section** · `FRAME` · 1024×716 · 2 children
+      - **Actual Content** · `FRAME` · 1024×716 · 4 children
+        - **Image** · `RECTANGLE` · 1024×716
+        - **Gradient** · `RECTANGLE` · 1024×716 · ×2
+        - **Container** · `FRAME` · 768×716 · vertical stack, padding 0/24/48/24px · 4 children
+          - **Margin** · `FRAME` · 720×42 · vertical stack, padding 0/0/16/0px · 1 children
+            - **Container** · `FRAME` · 720×26 · horizontal row, gap 8px · 2 children
+              - **Overlay+Border** · `FRAME` · 182×26 · vertical stack, padding 4/12/4/12px · 1 children
+                - **Text** · `TEXT` · 156×16 · “BLOCKBUSTER TRENDING”
+              - **Container** · `FRAME` · 37×24 · horizontal row, gap 3.990000009536743px · 2 children
+                - **Container** · `FRAME` · 12×11 · vertical stack
+                  - _…and 1 more_
+                - **Text** · `TEXT` · 22×24 · “4.9”
+          - **Heading 1:margin** · `FRAME` · 720×76 · vertical stack, padding 0/0/16/0px · 1 children
+            - **Heading 1** · `FRAME` · 720×60 · vertical stack · 1 children
+              - **Project Horizon: Rebirth** · `TEXT` · 720×60 · “Project Horizon: Rebirth”
+          - **Margin** · `FRAME` · 720×116 · vertical stack, padding 0/0/32/0px · 1 children
+            - **Container** · `FRAME` · 720×84 · vertical stack · 1 children
+              - **In a world where digital consciousness is the new frontier, one renegade architect must breach the ultimate firewall to save a lost civilization. A visual masterpiece that redefines modern sci-fi.** · `TEXT` · 720×84 · “In a world where digital consciousness is the new frontier, one renegade archite”
+          - **Container** · `FRAME` · 720×50 · horizontal row, gap 16px · 2 children
+            - **Button** · `FRAME` · 169×50 · horizontal row, gap 8px, padding 12.5/32/13/32px · 2 children
+              - **Container** · `FRAME` · 11×14 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 11×14
+              - **Text** · `TEXT` · 86×24 · “Watch Now”
+            - **Button** · `FRAME` · 180×50 · horizontal row, gap 8px, padding 12/32/12/32px · 2 children
+              - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 20×20
+              - **Text** · `TEXT` · 86×24 · “More Info”
+      - **Skeleton State** · `FRAME` · 1024×716 · horizontal row, padding 0/232/96/24px · 2 children
+        - **Gradient** · `RECTANGLE` · 1024×716
+        - **Container** · `FRAME` · 768×280 · vertical stack, gap 16px · 4 children
+          - **Gradient** · `RECTANGLE` · 128×24
+          - **Gradient** · `RECTANGLE` · 576×64
+          - **Gradient** · `RECTANGLE` · 384×96
+          - **Container** · `FRAME` · 768×48 · horizontal row, gap 16px · 2 children
+            - **Gradient** · `RECTANGLE` · 160×48 · ×2
+    - **Content Rows** · `FRAME` · 1024×1262 · vertical stack, gap 48px, padding 0/24/96/24px · 3 children
+      - **Section - Continue Watching** · `FRAME` · 976×306 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 600.22998046875px · 2 children
+          - **Heading 2** · `FRAME` · 320×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 320×40 · “Continue Watching”
+          - **Link** · `FRAME` · 56×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 56×20 · “View All”
+        - **Container** · `FRAME` · 1000×242 · vertical stack · 2 children
+          - **Actual Content** · `FRAME` · 1024×242 · horizontal row, gap 24px, padding 0/24/16/24px · 3 children
+            - **Progress Card 1** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 133×24 · “The Architect: E04”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 97×16 · “18M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuCBM0vmbl61JOG6onRLowi1ZsMFAf7X8tIfvUH6NB7U0-AMG24aCEOpBUZDiXiyb4JZVEcB0xuYYf1dv0hMZ1K-HEwKURkzTJKVlqkeF8nWH5fiDXVI5WgK2a4tCVRvv__MEQnbTR6_F6_3BlrVdHSMkbmb01Euc4f64ph4evDJFyBndUCY-e1gGD82eFEvhZJg0gRWIG04EN02-EHIMSqx1MXJ2kx4LkfycxzjdHxWmKoBCdFV2EX8** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Progress Bar** · `FRAME` · 307×6
+                  - _…and 1 more_
+            - **Progress Card 2** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 88×24 · “Nebula Drift”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 117×16 · “1H 12M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuDBfyggIbBM3YYqlnYP0Sqe6N2V2nZKZCSPkx9QuEcH4s0RLivHugdLFAwGNyueYsfUxk9xpQQBYJAyu2ErLXK4L_cOoii-wq-DgWMd-h8RmdWPBFvxbDjLFXJWg73MJeiTfKzjgfdJnAMXl9ibsIbN8ZNsaaocSvnLpvD0fxOV-NdRZcb6Rqb6VKPpThvvWAxO8BGukbH6nB1KsF8fqhpPHUc_q1TGCc9QBcrGb2fSK4lZcYX9JstM** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 307×6
+                  - _…and 1 more_
+            - **Progress Card 3** · `FRAME` · 309×226 · 3 children
+              - **Heading 3** · `FRAME` · 309×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 97×24 · “Asphalt Neon”
+              - **Container** · `FRAME` · 309×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 90×16 · “4M REMAINING”
+              - **Border** · `FRAME` · 309×174 · vertical stack · 3 children
+                - **AB6AXuDq1Xr0FCwUCB1hHRARNXlHipBfrUW3PkTfWDiDupbeatw_tvFbPxF4l7w1uNPvWXoFJPTvyS77SJ-tNUcHVO2HUOufx0VTLm_aQi-l8hOU0knOEgHxkchFyoE_0_XlThPTClo7MRrccloymQxBPhBbVrxD6oDGTH0En2yp-dSsL2Z6PUNXoY3yNOY9GYolXBOVy3o4hhCeI1KL5zhTEeK7LReUTFM0xe_woOM8XCjfST4Wi7ZqzpHW** · `FRAME` · 307×172
+                - **Overlay** · `FRAME` · 307×172 · horizontal row
+                  - _…and 1 more_
+                - **Background** · `FRAME` · 307×6
+                  - _…and 1 more_
+          - **Skeleton Grid** · `FRAME` · 976×242 · horizontal row, gap 24px · 3 children
+            - **Gradient** · `RECTANGLE` · 430×242 · ×3
+      - **Section - Trending Now (Vertical Posters)** · `FRAME` · 976×432 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 671.6400146484375px · 2 children
+          - **Heading 2** · `FRAME` · 232×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 232×40 · “Trending Now”
+          - **Container** · `FRAME` · 72×32 · horizontal row, gap 8px · 2 children
+            - **Button** · `FRAME` · 32×32 · horizontal row · 1 children · ×2
+              - **Container** · `FRAME` · 4×7 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 4×7
+        - **Container** · `FRAME` · 1000×368 · vertical stack · 2 children
+          - **Actual Content** · `FRAME` · 1024×368 · 5 children
+            - **Movie Card 1** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 93×24 · “Elysium Falls”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 84×16 · “Drama • Sci-Fi”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuD3CV5ROjKmgYRcclETGvR5QxkdywSnDZctKs6MUQkdfBVd5UTDEHkmN26GKbfIOQJb6OL_QNPAFwGiz3R40x0FVqoUZLit9G5ngUKqbG4HdKdJf3G_k0MHwshII8R5_hhFGR5eKnG_Yvnk3dDYJdQ3LOJBZKwGKpaF5Bojvo1CHd4a_1t-nloYt9LcVdXZTNjglo6WZjHX9lmf7jeXx774kkMjClROGiXPvW7ykWsiqXugJnvrPuSV** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 2** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 108×24 · “The Last Signal”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 104×16 · “Mystery • Thriller”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuCedgLDn8C8cqhXH3s_nJ6eOBBA2KxC09BfQ3ERf9JRmMxTyeS-I5HRs47DskYs5TuUCmHUYwjtgp0VNtDYmVGJwvJRwK4hPLnkmSMPVSuGC9ZphOv9CsrsLyob7KWP5aspdNsU8mSCH2XDo8Lt9KQFuS7b2JYv6NEcYVvwuL_zySsSODgWxQwqupJG8sOxqerq2X83_b1DvL9wl33dfhC7DJ_ncRuNZ_45duCEOe6Doe7i_8-drHNL** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 3** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 72×24 · “Velocity X”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 111×16 · “Action • Adventure”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuDdMCJYsCmFajTL1goMbYyiuHyxLsuy_2SydIkkSkT8IftcT7PE5P_BRgn7-sy-00Pw9uhO7cRK3A-ezp1zwGU-IX44fIkY0U5iPmdP3bJaMR3ItRX2nkij-vfyj7_g-OD1Q9z2uu5TEL9qNLHZSbSB8Lz7wn2nroawhQQtp57SL7oyIyeMRVq8Ic4LB7qH1UkRkPJESV63Iqapcn-o1vJJZKYBDdIBYG3ro4wlH9KPbpAoc8k2pb-J** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 4** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 123×24 · “Human: Decoded”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 79×16 · “Documentary”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuDYNGNplmbiWfvQoF86ykhzPsw3U25JPq-1UkBI7Nx1DzEYFqj3r9VpGopWG0pXI4Sjbninfv32h9Nu0LSRfdOhJXQkLKKvpw5E-bPhVjzwEIkVKTIOpxG1HdDbnECeTZ7WJkO136XQoQPUcCqH8QHh33aqXJRrKyegNz3GZcdT7VFBTLnfwu5dtqsUxxz4zeRiuiNSLdmQljUHpLaaizwBYsQ0iiE3h6hndw6GVtXzEaMoQpBHQIMW** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+            - **Movie Card 5** · `FRAME` · 200×352 · 3 children
+              - **Heading 3** · `FRAME` · 200×24 · vertical stack · 1 children
+                - **Text** · `TEXT` · 71×24 · “Void Echo”
+              - **Container** · `FRAME` · 200×16 · vertical stack · 1 children
+                - **Text** · `TEXT` · 129×16 · “Horror • Supernatural”
+              - **Border** · `FRAME` · 200×300 · vertical stack · 3 children
+                - **AB6AXuBKMQx_YcHOtxRHdbZmLNrhTOZWW3giPg9aEo5Bmh-7PFX_lF9jW7Ji4XWcrdf4SCHwajA-ik0WZs4leXMxxImJS556euWlXXs7qEf6SHEru5X3SIloo7CHZ8EpPnA-v0VhME9dQpJ00kOCw3Qi3-T6ChOtBtgeJu_ULfNidhoWAzuk7bqXOCHhN8Pkvf2o2vZ4N1T_UGXliGAexnGjrN3KZY2SWUWMTCkOMJukJMMzL_xai8fcS281** · `FRAME` · 198×298
+                - **Overlay+Border+OverlayBlur** · `FRAME` · 55×26 · horizontal row, gap 3.990000009536743px, padding 4/8/4/8px
+                  - _…and 2 more_
+                - **Background** · `FRAME` · 198×298 · vertical stack, padding 16px
+                  - _…and 1 more_
+          - **Skeleton Grid** · `FRAME` · 976×368 · 5 children
+            - **Gradient** · `RECTANGLE` · 245×368 · ×5
+      - **Section - Popular TV Shows** · `FRAME` · 976×332 · vertical stack, gap 24px · 2 children
+        - **Container** · `FRAME` · 976×40 · horizontal row, gap 616.9500122070312px, padding 0/1.1368683772161603e-13/0/0px · 2 children
+          - **Heading 2** · `FRAME` · 294×40 · vertical stack · 1 children
+            - **Text** · `TEXT` · 294×40 · “Popular TV Shows”
+          - **Link** · `FRAME` · 65×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 65×20 · “See More”
+        - **Container** · `FRAME` · 976×268 · horizontal row, gap 24px · 6 children
+          - **Show Card 1** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 36.86000061035156px, padding 0/0.009999999776482582/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 80×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 72×20 · “Protocol 7”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.7”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBLG9r_7mik7clJVHAaLObntz-DWto2m8a4CvY-K9CvqaKrrvE0jdFqw7jcZr9owwK9lb4xON4IS_zz9AhZWR5NIZNeVOSs_59IGDmPiDG480ysPa0k2BJCWARyI7400_sT1do6CIa6CL-_2rZFUjZQLIXU3dSCxTYvfsgtxOXZOSzBqpY5JJLs8wH2T7VnaS-96RP1__lymY-V0TAmjjXLnX_m2wAvKuwU1zTPjt_FTekDj3r2iqsG** · `FRAME` · 141×212
+          - **Show Card 2** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 10.529999732971191px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 98×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 90×20 · “Star Runners”
+              - **Background** · `FRAME` · 34×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 22×24 · “NEW”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.9”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuB5uzkp0RdSBTKlKbenqrpYLYBsTZlmmBzk6t1IOoF-na6MdgA7jRoATsTpsbK2afgUvzAn6q23UVmpAbTuNUmSj76FM3SXIA20WZ9cjJAXQncvQ2avqThaQ3VNYXorcv2z66NlEM67PTkqejoG6rIq1SXWXduAgOa3hX2fr3DeQkLWPN0iVUn0HcRSdgEqU3PuYpWa5w4q-lVINHgVMJhVJ-p_zFvPWzxxzE_ihwVjylj-7qMdqyeg** · `FRAME` · 141×212
+          - **Show Card 3** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 28.469999313354492px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 87×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 79×20 · “Blue Velvet”
+              - **Overlay+Border** · `FRAME` · 28×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 14×24 · “HD”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.4”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuBVSPteifgnnhElG1hsIOlZYGIdmThph6ik_2SQBD-QJPO23OUP4YoZ5Xr48jCWbxsVGuco5fUVyxQnD7seNd5Lv5lucZMqEiBJMcR72oNNDCcIYOD9i3iYAn3XXohxeasGGXYfEOdjrRpmfizkFUS3aXFPthtArxTa0t7J1_IFe_afm5Ch5INEZv1O8i07IKhMIX2ucDBYIqiLVd8Gk-itibhe0dgmAAneQS4H2lraWCCMBFCYTQCP** · `FRAME` · 141×212
+          - **Show Card 4** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 44.2400016784668px, padding 0/2.842170943040401e-14/0/0px · 2 children
+              - **Heading 3** · `FRAME` · 75×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 67×20 · “The Pulse”
+              - **Background** · `FRAME` · 23×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 11×24 · “S3”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 4px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.6”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCodhdRzwtuiu5Tg38JaH7Bsxyypr74yfqJWQbtlqHr2sNIPjEMMc8uFPyDfw3NN900E_zflM8eeWS9DC4buruZlaF2C8mLvuyau99ClaCugdULweavD2uexxyR-4dtQ48Y03y44zR7g93D_0MBBqwO1MU6E6QEK-d22w7U3QRSDgXqRhE60ow0SyskYlEzUqmKeVKSbGOf1mR_5nEmCw0ahIoDZnWrXrFuepacT7jpu9aeJYgtm8Xa** · `FRAME` · 141×212
+          - **Show Card 5** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×30 · horizontal row, gap 30.719999313354492px · 2 children
+              - **Heading 3** · `FRAME` · 86×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 78×20 · “Old Throne”
+              - **Overlay+Border** · `FRAME` · 26×30 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 12×24 · “4K”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.8”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCjuRbuaNUxaQf2xBolAHUmfvePqYnTNnC6L9KnZ7YtuFmGXRhNnzWuHVDMCT6a7CNY2VH-4eYrASWRtx2YuJ0AIUqwm1UdScbWZJPxxEAm44FeYUibJRthUlMTY-wCumGHbNP7PGQeB9Sm9cwuxG24RqIJbcR5hlBtIRPNFB3j0YIjEO7JWnmy5xUvmxoCO1mPI6kKYci7OaCpdR15U-ryWyvIRPJHAtttxX5osBG9EGBLoyj9qb_V** · `FRAME` · 141×212
+          - **Show Card 6** · `FRAME` · 143×268 · 3 children
+            - **Container** · `FRAME` · 143×28 · horizontal row, gap 20.420000076293945px · 2 children
+              - **Heading 3** · `FRAME` · 68×20 · vertical stack, padding 0/8/0/0px · 1 children
+                - **Text** · `TEXT` · 60×20 · “Mid Tide”
+              - **Background** · `FRAME` · 54×28 · vertical stack, padding 2/6/2/6px · 1 children
+                - **Text** · `TEXT` · 42×24 · “POPULAR”
+            - **Container** · `FRAME` · 143×16 · horizontal row, gap 3.990000009536743px · 2 children
+              - **Container** · `FRAME` · 10×10 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 10×10
+              - **Text** · `TEXT` · 18×16 · “4.3”
+            - **Border** · `FRAME` · 143×214 · vertical stack · 1 children
+              - **AB6AXuCCjJeexVp1_FBvb0tPAc5ndZ1K9ndR3xTnwNlTralrysgMXS4JxIt_mJarT3RTv3B-gM7JsqVs0AL8_MDjjLMxqAKIGscL0Dde8Gn3Rgj3WAtdUROveNuKpK9xQgD7XP1iXAiLMPLPHZ5_0iW8SOj9PyOuaxHnZTIUhspBMzopIxcTS5-V1SrOykosE6O9R0C381kBEbcf_Hof3YS4ztZ_fXXdg1wBkDqSQhEnWucgrghnsT14Dpg4** · `FRAME` · 141×212
+  - **Aside - SideNavBar (Hidden on Mobile)** · `FRAME` · 256×800 · vertical stack, padding 96/0/24/0px · 3 children
+    - **Aside - SideNavBar (Hidden on Mobile):shadow** · `RECTANGLE` · 256×800
+    - **Container** · `FRAME` · 255×276 · vertical stack, gap 4px, padding 0/8/0/8px · 5 children
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×18
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×12
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×18
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link:margin** · `FRAME` · 239×52 · vertical stack, padding 4/8/4/8px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12px · 2 children
+          - **Container** · `FRAME` · 16×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×20
+          - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Margin** · `FRAME` · 255×404 · vertical stack, padding 77/0/0/0px · 1 children
+      - **HorizontalBorder** · `FRAME` · 255×299 · vertical stack, gap 24px, padding 24/16/24/16px · 2 children
+        - **Background+Border** · `FRAME` · 223×150 · vertical stack, gap 8px, padding 16px · 3 children
+          - **Container** · `FRAME` · 189×20 · vertical stack · 1 children
+            - **Upgrade to 4K** · `TEXT` · 189×20 · “Upgrade to 4K”
+          - **Container** · `FRAME` · 189×40 · vertical stack, padding 0/0/8/0px · 1 children
+            - **Experience cinema in ultra high definition.** · `TEXT` · 189×32 · “Experience cinema in ultra high
+definition.”
+          - **Button** · `FRAME` · 189×40 · horizontal row, padding 8/0/8/0px · 1 children
+            - **Text** · `TEXT` · 96×24 · “Go Premium”
+        - **Container** · `FRAME` · 223×76 · vertical stack, gap 4px · 2 children
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×20
+            - **Text** · `TEXT` · 32×20 · “Help”
+          - **Link** · `FRAME` · 223×36 · horizontal row, gap 12px, padding 8px · 2 children
+            - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 18×18
+            - **Text** · `TEXT` · 47×20 · “Logout”
+  - **Header - TopNavBar** · `FRAME` · 1280×65 · vertical stack · 1 children
+    - **Container** · `FRAME` · 1280×64 · horizontal row, gap 522.1699829101562px, padding 0/24/0/24px · 2 children
+      - **Container** · `FRAME` · 326×32 · horizontal row, gap 32px · 2 children
+        - **Container** · `FRAME` · 102×32 · vertical stack · 1 children
+          - **Text** · `TEXT` · 102×32 · “Xplorem”
+        - **Nav** · `FRAME` · 191×30 · horizontal row, gap 24px · 3 children
+          - **Link** · `FRAME` · 53×30 · vertical stack, padding 0/0/4/0px · 1 children
+            - **Text** · `TEXT` · 53×24 · “Browse”
+          - **Link** · `FRAME` · 51×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 51×24 · “Library”
+          - **Link** · `FRAME` · 39×24 · vertical stack · 1 children
+            - **Text** · `TEXT` · 39×24 · “News”
+      - **Container** · `FRAME` · 372×34 · horizontal row, gap 16px · 4 children
+        - **Container** · `FRAME` · 256×34 · vertical stack · 2 children
+          - **Input** · `FRAME` · 256×34 · horizontal row, padding 7/16/7/40px · 1 children
+            - **Container** · `FRAME` · 198×18 · vertical stack · 1 children
+              - **Search titles...** · `TEXT` · 198×18 · “Search titles...”
+          - **Container** · `FRAME` · 11×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 11×11
+        - **Button** · `FRAME` · 16×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 16×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 16×20
+        - **Button** · `FRAME` · 20×21 · vertical stack, padding 1.059999942779541/0/0/0px · 1 children
+          - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+            - **Icon** · `VECTOR` · 20×20
+        - **Background+Border** · `FRAME` · 32×32 · horizontal row · 1 children
+          - **AB6AXuA_ktICVXJjDD8pprMdnr7vOikry5N7Q4V-VlxOxD-fMsofE9WK8xLPBqQp1ftIaG18Y4ajvbHFa-sW3tEJsGisdylP5XCNILFPCgq4Rif3SuMu_y2zNa8y5UkaPzXfr8tRu70zAcj6S9T_6hdBmjabSXPU5-f0REacTYIxPkeYzW-_0X5VLwcuPfW0_PHjUrApZm19ehDCP9NzaxBgSEOqLKXfL1AGBD1ZJYnsWnUMNvLy5ISl3xag** · `FRAME` · 30×30
+  - **Preloader Overlay** · `FRAME` · 1280×800 · horizontal row, padding 387.5/0/388.5/0px · 1 children
+    - **Text** · `TEXT` · 194×24 · “{{DATA:SCREEN:SCREEN_8}}”
+- **Html → Body** · `FRAME` · 1280×1024 · vertical stack · 3 children
+  - **TopNavBar** · `FRAME` · 1280×64 · horizontal row, gap 202.6999969482422px, padding 0/64/0/64px · 3 children
+    - **Container** · `FRAME` · 107×32 · vertical stack · 1 children
+      - **Text** · `TEXT` · 107×32 · “Xplorem”
+    - **Margin** · `FRAME` · 512×38 · vertical stack, padding 0/32/0/32px · 1 children
+      - **Container** · `FRAME` · 448×38 · horizontal row · 1 children
+        - **Container** · `FRAME` · 448×38 · vertical stack · 2 children
+          - **Input** · `FRAME` · 448×38 · horizontal row, padding 9/16/9/40px · 1 children
+            - **Container** · `FRAME` · 390×18 · vertical stack · 1 children
+              - **Search for titles...** · `TEXT` · 390×18 · “Search for titles...”
+          - **Container** · `FRAME` · 18×24 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+    - **Container** · `FRAME` · 116×32 · horizontal row, gap 24px · 3 children
+      - **Button** · `FRAME` · 16×28 · vertical stack, padding 0/0/8/0px · 1 children
+        - **Container** · `FRAME` · 16×20 · horizontal row · 1 children
+          - **Icon** · `VECTOR` · 16×20
+      - **Button** · `FRAME` · 20×28 · vertical stack, padding 0/0/8/0px · 1 children
+        - **Container** · `FRAME` · 20×20 · horizontal row · 1 children
+          - **Icon** · `VECTOR` · 20×20
+      - **Border** · `FRAME` · 32×32 · vertical stack · 1 children
+        - **AB6AXuC56y8vgT8OSZVTW7PeKhr5uPhUwFm3RhlMetwit4YWww6pVMGXOHtdVDhEKib7OIj8zn6Q8cVz2w8aL90Lzqf0pKYQVHDr4JAJGPLscOtV2fV_mahEd8Qe9KM0bg9peUbS3uvP-T_10Z9AmEUESjz0xpQv0VkETSAzeeVMc_MngryjJ37gqZoUri8woirETR7Q06ywkI4Du6iVXEUJ3CmBRAfslW3msY2bYIUiBdG-skZYtEabgAQ-** · `FRAME` · 30×30
+  - **Aside - SideNavBar** · `FRAME` · 256×1024 · vertical stack, gap 24px, padding 80/0/8/0px · 4 children
+    - **Aside - SideNavBar:shadow** · `RECTANGLE` · 256×1024
+    - **Margin** · `FRAME` · 255×75 · vertical stack, padding 0/24/32/24px · 1 children
+      - **Container** · `FRAME` · 207×43 · horizontal row, gap 12px · 2 children
+        - **Background** · `FRAME` · 32×32 · horizontal row · 1 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+        - **Container** · `FRAME` · 126×43 · vertical stack · 2 children
+          - **Heading 2** · `FRAME` · 126×23 · vertical stack · 1 children
+            - **Text** · `TEXT` · 85×23 · “Xplorem”
+          - **Container** · `FRAME` · 126×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 126×20 · “CINEMATIC EXPLORER”
+    - **Nav** · `FRAME` · 255×689 · vertical stack, gap 6.400000095367432px, padding 1.2000000476837158/16/426.70001220703125/16px · 5 children
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 16×18
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Home”
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×12
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “Trending”
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×16 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×16
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Movies”
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×18
+          - **Container** · `FRAME` · 73×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 73×20 · “TV Shows”
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 14×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 14×18
+          - **Container** · `FRAME` · 82×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 82×20 · “Watchlist”
+    - **Container** · `FRAME` · 255×124 · vertical stack, gap 6.400000095367432px, padding 1.2000000476837158/16/33.20000076293945/16px · 2 children
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 20×20 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 20×20
+          - **Container** · `FRAME` · 36×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 36×20 · “Help”
+      - **Link:css-transform** · `FRAME` · 223×42 · vertical stack, padding 0/5.570000171661377/0/5.579999923706055px · 1 children
+        - **Link** · `FRAME` · 223×44 · horizontal row, gap 12px, padding 12/16/12/16px · 2 children
+          - **Container** · `FRAME` · 18×18 · vertical stack · 1 children
+            - **Icon** · `VECTOR` · 18×18
+          - **Container** · `FRAME` · 55×20 · vertical stack · 1 children
+            - **Text** · `TEXT` · 55×20 · “Logout”
+  - **Container** · `FRAME` · 1280×960 · horizontal row, padding 0/0/0/256px · 1 children
+    - **Main Canvas** · `FRAME` · 1024×960 · vertical stack · 3 children
+      - **Background Image** · `FRAME` · 1024×960 · vertical stack · 1 children
+        - **Image** · `RECTANGLE` · 1024×960
+      - **Subtle Particle Effect** · `FRAME` · 1024×960 · 40 children
+        - **Background** · `RECTANGLE` · 2×2 · ×2
+        - **Background** · `RECTANGLE` · 4×4
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 1×1
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 1×1
+        - **Background** · `RECTANGLE` · 3×3 · ×3
+        - **Background** · `RECTANGLE` · 1×1
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 4×4
+        - **Background** · `RECTANGLE` · 1×1
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 4×4
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 4×4 · ×3
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 1×1
+        - **Background** · `RECTANGLE` · 2×2 · ×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 3×3 · ×2
+        - **Background** · `RECTANGLE` · 2×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 4×4 · ×2
+        - **Background** · `RECTANGLE` · 3×3
+        - **Background** · `RECTANGLE` · 2×2
+      - **Content Container** · `FRAME` · 1024×960 · 4 children
+        - **Message:margin** · `FRAME` · 671×176 · vertical stack, padding 0/0/48/0px · 1 children
+          - **Message** · `FRAME` · 671×128 · vertical stack, gap 16px · 2 children
+            - **Heading 2** · `FRAME` · 671×56 · vertical stack · 1 children
+              - **Text** · `TEXT` · 341×56 · “Lost in Space?”
+            - **Container** · `FRAME` · 671×56 · vertical stack · 1 children
+              - **Text** · `TEXT` · 671×56 · “The cinematic journey you're looking for has drifted off-course. This title coul”
+        - **Primary Actions** · `FRAME` · 443×54 · horizontal row, gap 24px · 2 children
+          - **Link** · `FRAME` · 188×54 · horizontal row, gap 8px, padding 16/32/16/32px · 2 children
+            - **Container** · `FRAME` · 16×18 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 16×18
+            - **Text** · `TEXT` · 100×20 · “RETURN HOME”
+          - **Link** · `FRAME` · 230×54 · horizontal row, gap 7.989999771118164px, padding 16/32/16/32px · 2 children
+            - **Container** · `FRAME` · 20×12 · vertical stack · 1 children
+              - **Icon** · `VECTOR` · 20×12
+            - **Text** · `TEXT` · 137×20 · “BROWSE TRENDING”
+        - **404 Visual:margin** · `FRAME` · 506×272 · vertical stack, padding 0/0/32/0px · 1 children
+          - **404 Visual** · `FRAME` · 506×240 · vertical stack · 2 children
+            - **Heading 1** · `FRAME` · 506×240 · vertical stack · 1 children
+              - **Text** · `TEXT` · 506×240 · “404”
+            - **Container** · `FRAME` · 506×240 · horizontal row · 1 children
+              - **Heading 1** · `FRAME` · 337×160 · vertical stack · 1 children
+                - **Text** · `TEXT` · 337×160 · “404”
+        - **Search Action:margin** · `FRAME` · 576×216 · vertical stack, padding 0/0/48/0px · 1 children
+          - **Search Action** · `FRAME` · 576×168 · vertical stack, gap 24px, padding 32px · 3 children
+            - **Search Action:shadow** · `RECTANGLE` · 576×168
+            - **Container** · `FRAME` · 510×20 · vertical stack · 1 children
+              - **Text** · `TEXT` · 235×20 · “SCAN FOR OTHER TITLES”
+            - **Container** · `FRAME` · 510×58 · vertical stack · 2 children
+              - **Input** · `FRAME` · 510×58 · horizontal row, padding 17/16/18/48px · 1 children
+                - **Container** · `FRAME` · 444×21 · vertical stack
+                  - _…and 1 more_
+              - **Container** · `FRAME` · 18×24 · vertical stack · 1 children
+                - **Icon** · `VECTOR` · 18×18

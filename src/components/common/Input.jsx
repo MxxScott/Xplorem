@@ -6,6 +6,9 @@ function Input({
   error,
   hint,
   icon,
+  trailing,
+  labelAside,
+  appearance = "default",
   className = "",
   id,
   ...props
@@ -13,17 +16,30 @@ function Input({
   const generatedId = useId();
   const inputId = id || generatedId;
   const messageId = `${inputId}-message`;
+  const isAuth = appearance === "auth";
 
   return (
     <div className="flex w-full flex-col gap-1.5">
-      {label && (
-        <label htmlFor={inputId} className="text-sm font-bold text-ink-muted">
-          {label}
-        </label>
+      {(label || labelAside) && (
+        <div className="flex items-center justify-between gap-3">
+          {label && (
+            <label
+              htmlFor={inputId}
+              className={
+                isAuth
+                  ? "font-mono text-xs font-medium uppercase tracking-wide text-ink-muted"
+                  : "text-sm font-bold text-ink-muted"
+              }
+            >
+              {label}
+            </label>
+          )}
+          {labelAside}
+        </div>
       )}
       <div className="relative flex items-center">
         {icon && (
-          <span className="pointer-events-none absolute left-3 flex text-ink-subtle">
+          <span className="pointer-events-none absolute left-3.5 flex text-ink-subtle">
             {icon}
           </span>
         )}
@@ -32,11 +48,20 @@ function Input({
           type={type}
           aria-invalid={error ? true : undefined}
           aria-describedby={error || hint ? messageId : undefined}
-          className={`h-10 w-full rounded-full border bg-surface text-ink placeholder:text-ink-subtle transition-colors focus:border-brand focus:outline-none ${
-            icon ? "pl-10 pr-4" : "px-4"
-          } ${error ? "border-danger" : "border-border/50"} ${className}`}
+          className={`${
+            isAuth
+              ? "h-14.5 rounded-lg border bg-surface text-base text-ink placeholder:text-ink-faint/50 focus:border-brand focus:outline-none"
+              : "h-10 rounded-full border bg-surface text-ink placeholder:text-ink-subtle focus:border-brand focus:outline-none"
+          } w-full transition-colors ${
+            icon ? (isAuth ? "pl-11 pr-4" : "pl-10 pr-4") : isAuth ? "px-4" : "px-4"
+          } ${trailing ? "pr-11" : ""} ${
+            error ? "border-danger" : isAuth ? "border-border" : "border-border/50"
+          } ${className}`}
           {...props}
         />
+        {trailing && (
+          <span className="absolute right-3.5 flex text-ink-subtle">{trailing}</span>
+        )}
       </div>
       {(error || hint) && (
         <p

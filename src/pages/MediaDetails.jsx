@@ -1,14 +1,16 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
   FiArrowLeft,
   FiBookmark,
   FiCalendar,
   FiClock,
+  FiEdit3,
   FiStar,
 } from "react-icons/fi";
 import MediaCard from "../components/media/MediaCard";
 import PageLoader from "../components/common/PageLoader";
+import ReviewPanel from "../components/media/ReviewPanel";
 import useAuth from "../hooks/useAuth";
 import useFetch from "../hooks/useFetch";
 import useWatchlist from "../hooks/useWatchlist";
@@ -55,7 +57,8 @@ function MediaDetails() {
     ? requestedType
     : "movie";
   const { isAuthenticated } = useAuth();
-  const { isSaved, toggle } = useWatchlist();
+  const { isSaved, getItem, toggle, saveReview } = useWatchlist();
+  const [reviewOpen, setReviewOpen] = useState(false);
 
   const fetcher = useCallback(
     (options) => getMediaDetails(mediaType, id, options),
@@ -124,7 +127,17 @@ function MediaDetails() {
     first_air_date: data.first_air_date,
     vote_average: data.vote_average,
   };
-  const saved = isSaved(watchlistItem);
+  const savedEntry = getItem(watchlistItem);
+  const saved = Boolean(savedEntry) || isSaved(watchlistItem);
+  const hasReview = Boolean(
+    savedEntry?.userRating || savedEntry?.notes?.trim(),
+  );
+
+  function handleSaveReview(review) {
+    const ok = saveReview(watchlistItem, review);
+    if (ok) setReviewOpen(false);
+    return ok;
+  }
 
   return (
     <div className="flex flex-col gap-10">
@@ -138,7 +151,7 @@ function MediaDetails() {
             className="absolute inset-0 size-full object-cover object-top"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/85 to-canvas/40" />
+        <div className="absolute inset-0 bg-linear-to-t from-canvas via-canvas/85 to-canvas/40" />
 
         <div className="relative mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-12 lg:pl-24">
           <Link
@@ -185,6 +198,11 @@ function MediaDetails() {
                     )}
                   </span>
                 )}
+                {savedEntry?.userRating > 0 && (
+                  <span className="flex items-center gap-1.5 text-brand">
+                    Your rating {savedEntry.userRating}/5
+                  </span>
+                )}
                 {year && (
                   <span className="flex items-center gap-1.5">
                     <FiCalendar aria-hidden="true" size={14} />
@@ -223,32 +241,52 @@ function MediaDetails() {
                     the button becomes a sign-in prompt rather than silently
                     doing nothing. */}
                 {isAuthenticated ? (
-                  <button
-                    type="button"
-                    aria-pressed={saved}
-                    onClick={() => toggle(watchlistItem)}
-                    className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold transition-colors ${
-                      saved
-                        ? "bg-brand text-canvas hover:bg-brand-bright"
-                        : "border border-border/50 bg-surface text-ink-muted hover:bg-surface-raised hover:text-ink"
-                    }`}
-                  >
-                    <FiBookmark
-                      aria-hidden="true"
-                      fill={saved ? "currentColor" : "none"}
-                      size={16}
-                    />
-                    {saved ? "In your library" : "Save to library"}
-                  </button>
+                  <>
+                    <button
+                      type="button"
+                      aria-pressed={saved}
+                      onClick={() => toggle(watchlistItem)}
+                      className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold transition-colors ${
+                        saved
+                          ? "bg-brand text-canvas hover:bg-brand-bright"
+                          : "border border-border/50 bg-surface text-ink-muted hover:bg-surface-raised hover:text-ink"
+                      }`}
+                    >
+                      <FiBookmark
+                        aria-hidden="true"
+                        fill={saved ? "currentColor" : "none"}
+                        size={16}
+                      />
+                      {saved ? "In your library" : "Save to library"}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setReviewOpen(true)}
+                      className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-surface px-5 py-2.5 text-sm font-bold text-ink-muted transition-colors hover:bg-surface-raised hover:text-ink"
+                    >
+                      <FiEdit3 aria-hidden="true" size={16} />
+                      {hasReview ? "Edit review" : "Review"}
+                    </button>
+                  </>
                 ) : (
-                  <Link
-                    to="/login"
-                    state={{ from: `/media/${id}?type=${mediaType}` }}
-                    className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-surface px-5 py-2.5 text-sm font-bold text-ink-muted transition-colors hover:bg-surface-raised hover:text-ink"
-                  >
-                    <FiBookmark aria-hidden="true" size={16} />
-                    Sign in to save
-                  </Link>
+                  <>
+                    <Link
+                      to="/login"
+                      state={{ from: `/media/${id}?type=${mediaType}` }}
+                      className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-surface px-5 py-2.5 text-sm font-bold text-ink-muted transition-colors hover:bg-surface-raised hover:text-ink"
+                    >
+                      <FiBookmark aria-hidden="true" size={16} />
+                      Sign in to save
+                    </Link>
+                    <Link
+                      to="/login"
+                      state={{ from: `/media/${id}?type=${mediaType}` }}
+                      className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-surface px-5 py-2.5 text-sm font-bold text-ink-muted transition-colors hover:bg-surface-raised hover:text-ink"
+                    >
+                      <FiEdit3 aria-hidden="true" size={16} />
+                      Sign in to review
+                    </Link>
+                  </>
                 )}
               </div>
             </div>
@@ -273,6 +311,33 @@ function MediaDetails() {
           </section>
         )}
 
+        {hasReview && (
+          <section className="flex max-w-3xl flex-col gap-3 rounded-2xl border border-border/40 bg-surface/60 p-6">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h2 className="font-sora text-2xl font-semibold text-ink">
+                Your review
+              </h2>
+              <button
+                type="button"
+                onClick={() => setReviewOpen(true)}
+                className="font-mono text-xs uppercase tracking-wide text-brand hover:underline"
+              >
+                Edit
+              </button>
+            </div>
+            {savedEntry?.userRating > 0 && (
+              <p className="font-mono text-sm text-star">
+                {savedEntry.userRating} / 5 stars
+              </p>
+            )}
+            {savedEntry?.notes?.trim() && (
+              <p className="whitespace-pre-wrap text-sm leading-relaxed text-ink-muted sm:text-base">
+                {savedEntry.notes}
+              </p>
+            )}
+          </section>
+        )}
+
         {cast.length > 0 && (
           <section className="flex flex-col gap-4">
             <h2 className="font-sora text-2xl font-semibold text-ink">Cast</h2>
@@ -282,7 +347,7 @@ function MediaDetails() {
 
                 return (
                   <li key={person.id} className="flex flex-col gap-2">
-                    <div className="aspect-[2/3] overflow-hidden rounded-xl border border-border/30 bg-surface">
+                    <div className="aspect-2/3 overflow-hidden rounded-xl border border-border/30 bg-surface">
                       {profile ? (
                         <img
                           src={profile}
@@ -328,6 +393,15 @@ function MediaDetails() {
           </section>
         )}
       </div>
+
+      <ReviewPanel
+        open={reviewOpen}
+        onClose={() => setReviewOpen(false)}
+        title={title}
+        initialRating={savedEntry?.userRating || 0}
+        initialNotes={savedEntry?.notes || ""}
+        onSave={handleSaveReview}
+      />
     </div>
   );
 }

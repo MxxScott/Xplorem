@@ -34,7 +34,7 @@ function MediaCard({ item }) {
 
   return (
     <article className="group flex flex-col gap-2">
-      <div className="relative aspect-[2/3] overflow-hidden rounded-xl border border-border/30 bg-surface">
+      <div className="relative aspect-2/3 overflow-hidden rounded-xl border border-border/30 bg-surface">
         <Link
           to={`/media/${item.id}?type=${mediaType}`}
           aria-label={`View details for ${title}`}
@@ -75,10 +75,17 @@ function MediaCard({ item }) {
             size={17}
           />
         </button>
-        {rating && (
-          <span className="pointer-events-none absolute right-2 top-2 flex items-center gap-1 rounded-full bg-canvas/80 px-2 py-1 font-mono text-xs text-star backdrop-blur-sm">
-            <FiStar aria-hidden="true" size={12} /> {rating}
+        {item.userRating > 0 ? (
+          <span className="pointer-events-none absolute right-2 top-2 flex items-center gap-1 rounded-full bg-canvas/80 px-2 py-1 font-mono text-xs text-brand backdrop-blur-sm">
+            <FiStar aria-hidden="true" size={12} fill="currentColor" />{" "}
+            {item.userRating}/5
           </span>
+        ) : (
+          rating && (
+            <span className="pointer-events-none absolute right-2 top-2 flex items-center gap-1 rounded-full bg-canvas/80 px-2 py-1 font-mono text-xs text-star backdrop-blur-sm">
+              <FiStar aria-hidden="true" size={12} /> {rating}
+            </span>
+          )
         )}
       </div>
       <Link

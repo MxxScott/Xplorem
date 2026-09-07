@@ -11,6 +11,7 @@ import ProtectedRoute from "./components/common/ProtectedRoute";
 import RouteError from "./components/common/RouteError";
 import StartupAnimation from "./components/common/StartupAnimation";
 import { AuthProvider } from "./context/AuthContext";
+import { ToastProvider } from "./context/ToastContext";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import { WatchlistProvider } from "./context/WatchlistContext";
@@ -34,6 +35,7 @@ const Signup = lazyWithRetry(() => import("./pages/Signup"));
 const MediaDetails = lazyWithRetry(() => import("./pages/MediaDetails"));
 const Search = lazyWithRetry(() => import("./pages/Search"));
 const Watchlist = lazyWithRetry(() => import("./pages/Watchlist"));
+const Profile = lazyWithRetry(() => import("./pages/Profile"));
 
 // Whole-page waits get the falling-cubes loader; in-page data waits get the
 // small spinner (see MediaGrid).
@@ -100,6 +102,17 @@ const router = createBrowserRouter(
         }
         errorElement={<RouteError />}
       />
+      <Route
+        path="profile"
+        element={
+          <ProtectedRoute>
+            <Page>
+              <Profile />
+            </Page>
+          </ProtectedRoute>
+        }
+        errorElement={<RouteError />}
+      />
       {/* No <Page> wrapper — NotFound is statically imported, so there is no
           chunk to suspend on. */}
       <Route path="*" element={<NotFound />} errorElement={<RouteError />} />
@@ -110,14 +123,16 @@ const router = createBrowserRouter(
 function App() {
   return (
     <AuthProvider>
-      <WatchlistProvider>
-        {/* Sits above the router rather than replacing PageLoader: this is a
-            one-time boot flourish, not a route transition. The app mounts and
-            starts fetching behind it, so the intro overlaps work that was
-            happening anyway instead of adding to it. */}
-        <StartupAnimation />
-        <RouterProvider router={router} />
-      </WatchlistProvider>
+      <ToastProvider>
+        <WatchlistProvider>
+          {/* Sits above the router rather than replacing PageLoader: this is a
+              one-time boot flourish, not a route transition. The app mounts and
+              starts fetching behind it, so the intro overlaps work that was
+              happening anyway instead of adding to it. */}
+          <StartupAnimation />
+          <RouterProvider router={router} />
+        </WatchlistProvider>
+      </ToastProvider>
     </AuthProvider>
   );
 }

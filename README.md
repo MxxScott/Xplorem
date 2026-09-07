@@ -4,7 +4,7 @@ A media explorer for movies and TV shows, built on the [TMDB](https://www.themov
 
 Frontend is React + Vite + Tailwind. There is **no backend**: accounts, watchlists, notes, and ratings live in `localStorage` on your machine, so everything survives a refresh without a server. The only external service is the TMDB API.
 
-> **Status: core shell working.** Routing, layout, design tokens, common components, the TMDB service layer, custom hooks, and the Home trending feed are in place. Search, auth, watchlist, and media details are next — see [Roadmap](#roadmap).
+> **Status: showcase features in place.** Browse, search, auth, watchlist, profile, media details, private reviews (markdown + stars), and optimistic library updates all run client-side against TMDB.
 
 ## Focus
 
@@ -60,15 +60,17 @@ Get a key at [themoviedb.org/settings/api](https://www.themoviedb.org/settings/a
 src/
 ├── assets/
 ├── components/
+│   ├── auth/         # AuthShell for cinematic login/signup
 │   ├── common/       # Button, Input, LoadingSpinner, ProtectedRoute
 │   ├── layout/       # Navbar, Sidebar, Footer
-│   └── media/        # MediaCard, MediaGrid, ReviewPanel
-├── context/          # AuthContext — localStorage session
-├── hooks/            # useDebounce, useFetch, useLocalStorage
+│   └── media/        # MediaCard, MediaGrid, ReviewPanel, StarRating
+├── context/          # Auth, Watchlist, Toast, Layout
+├── hooks/            # useDebounce, useFetch, useLocalStorage, useAuth, useWatchlist
 ├── Layouts/
 │   └── RootLayout.jsx
-├── pages/            # Home, Search, MediaDetails, Watchlist, Login, Signup, NotFound
+├── pages/            # Home, Search, MediaDetails, Watchlist, Profile, Login, Signup, NotFound
 ├── services/         # tmdbApi
+├── utils/            # lazyWithRetry, markdown
 ├── App.jsx           # Route definitions
 └── main.jsx
 ```
@@ -81,6 +83,7 @@ src/
 | `/search` | Search | Debounced TMDB search |
 | `/media/:id` | MediaDetails | Details plus review panel |
 | `/watchlist` | Watchlist | Requires a local account |
+| `/profile` | Profile | Local account settings |
 | `/login`, `/signup` | Login, Signup | `localStorage` auth |
 | `*` | NotFound | Catch-all |
 
@@ -103,9 +106,10 @@ The design decisions behind these are written up in [`PDR.md`](./PDR.md) (its wo
 - [x] TMDB service layer with response caching
 - [x] Custom hooks: `useFetch`, `useDebounce`, `useLocalStorage`
 - [x] Home trending feed (Today / This week)
-- [ ] Debounced search page
-- [ ] Client-side auth (login/signup, `AuthContext`, `ProtectedRoute`)
-- [ ] Watchlist page with `localStorage` persistence
-- [ ] Media details page
-- [ ] Review panel with markdown preview and star rating
-- [ ] Optimistic watchlist updates
+- [x] Debounced search page
+- [x] Client-side auth (login/signup, `AuthContext`, `ProtectedRoute`)
+- [x] Watchlist page with `localStorage` persistence
+- [x] Media details page
+- [x] Profile page
+- [x] Review panel with markdown preview and star rating
+- [x] Optimistic watchlist updates
