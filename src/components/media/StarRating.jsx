@@ -20,7 +20,7 @@ function StarRating({
   function handleKeyDown(event) {
     if (disabled) return;
 
-    let next = rating;
+    let next;
 
     switch (event.key) {
       case "ArrowRight":

@@ -1,7 +1,7 @@
 import { createContext, useCallback, useMemo } from "react";
 import useAuth from "../hooks/useAuth";
 import useLocalStorage from "../hooks/useLocalStorage";
-import { useToast } from "./ToastContext";
+import useToast from "../hooks/useToast";
 
 const WatchlistContext = createContext(null);
 const WATCHLIST_KEY = "xplorem:watchlist";

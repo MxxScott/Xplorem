@@ -12,7 +12,10 @@ function readStored(key, fallback) {
 function useLocalStorage(key, initialValue) {
   const [value, setValueState] = useState(() => readStored(key, initialValue));
   const valueRef = useRef(value);
-  valueRef.current = value;
+
+  useEffect(() => {
+    valueRef.current = value;
+  }, [value]);
 
   // Write through immediately so callers can detect a failed persist and roll
   // the UI back in the same turn (optimistic updates). The previous effect-based
