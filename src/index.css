@@ -39,6 +39,10 @@ body {
   outline-offset: 2px;
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+  appearance: none;
+}
+
 .prose-review h1,
 .prose-review h2,
 .prose-review h3 {
