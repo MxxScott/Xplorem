@@ -162,32 +162,34 @@ function Search() {
         <h1 id="search-heading" className="sr-only">
           Search Xplorem
         </h1>
-        <label className="relative mx-auto flex h-17.5 w-full max-w-3xl items-center rounded-full border border-border/50 bg-surface px-6 shadow-[0_12px_36px_rgba(0,0,0,0.18)] focus-within:border-brand">
-          <FiSearch
-            aria-hidden="true"
-            className="mr-4 shrink-0 text-ink-subtle"
-            size={20}
-          />
-          <input
-            aria-label="Search titles, actors, or genres"
-            autoComplete="off"
-            className="min-w-0 flex-1 bg-transparent font-sora text-lg text-ink outline-none placeholder:text-ink-subtle sm:text-xl"
-            onChange={(event) => updateQuery(event.target.value)}
-            placeholder="Search titles, actors, or genres"
-            type="search"
-            value={query}
-          />
+        <div className="relative mx-auto flex w-full max-w-3xl items-center">
+          <label className="relative flex h-17.5 w-full items-center rounded-full border border-border/50 bg-surface px-6 shadow-[0_12px_36px_rgba(0,0,0,0.18)] focus-within:border-brand">
+            <FiSearch
+              aria-hidden="true"
+              className="mr-4 shrink-0 text-ink-subtle"
+              size={20}
+            />
+            <input
+              aria-label="Search titles, actors, or genres"
+              autoComplete="off"
+              className="min-w-0 flex-1 bg-transparent font-sora text-lg text-ink outline-none placeholder:text-ink-subtle sm:text-xl"
+              onChange={(event) => updateQuery(event.target.value)}
+              placeholder="Search titles, actors, or genres"
+              type="search"
+              value={query}
+            />
+          </label>
           {query && (
             <button
               aria-label="Clear search"
-              className="flex size-8 shrink-0 items-center justify-center rounded-full text-xl leading-none text-ink-subtle transition-colors hover:bg-surface-raised hover:text-ink"
+              className="absolute -right-1.5 flex size-8 translate-x-full items-center justify-center rounded-full border border-border/50 bg-surface text-xl leading-none text-ink-subtle shadow-[0_8px_20px_rgba(0,0,0,0.2)] transition-colors hover:border-brand/50 hover:bg-surface-raised hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
               onClick={() => updateQuery("")}
               type="button"
             >
               <FiX aria-hidden="true" size={18} />
             </button>
           )}
-        </label>
+        </div>
 
         <div
           className="flex flex-wrap items-center gap-3"
