@@ -33,8 +33,8 @@ function MediaCard({ item }) {
   }
 
   return (
-    <article className="group flex flex-col gap-2">
-      <div className="relative aspect-2/3 overflow-hidden rounded-xl border border-border/30 bg-surface">
+    <article className="group flex flex-col gap-2 transition-transform duration-300 ease-out hover:-translate-y-1">
+      <div className="relative aspect-2/3 overflow-hidden rounded-xl border border-border/30 bg-surface shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-[border-color,box-shadow] duration-300 group-hover:border-brand/30 group-hover:shadow-[0_16px_34px_rgba(0,0,0,0.24)]">
         <Link
           to={`/media/${item.id}?type=${mediaType}`}
           aria-label={`View details for ${title}`}
@@ -45,7 +45,7 @@ function MediaCard({ item }) {
               src={poster}
               alt={`${title} poster`}
               loading="lazy"
-              className="size-full object-cover transition-transform duration-300 group-hover:scale-105"
+              className="size-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
             />
           ) : (
             <div className="flex size-full items-center justify-center p-4 text-center font-mono text-xs text-ink-subtle">
@@ -92,7 +92,7 @@ function MediaCard({ item }) {
         to={`/media/${item.id}?type=${mediaType}`}
         className="flex flex-col gap-0.5 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-canvas"
       >
-        <h3 className="line-clamp-2 font-sora text-sm font-bold leading-tight text-ink transition-colors group-hover:text-brand">
+        <h3 className="line-clamp-2 font-sora text-sm font-bold leading-tight text-ink transition-colors duration-300 group-hover:text-brand">
           {title}
         </h3>
         <p className="font-mono text-xs uppercase text-ink-faint">
