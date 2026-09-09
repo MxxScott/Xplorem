@@ -395,6 +395,7 @@ function MediaDetails() {
       </div>
 
       <ReviewPanel
+        key={`${mediaType}:${id}:${savedEntry?.reviewedAt || "none"}:${reviewOpen ? "open" : "closed"}`}
         open={reviewOpen}
         onClose={() => setReviewOpen(false)}
         title={title}

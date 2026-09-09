@@ -20,15 +20,6 @@ function ReviewPanel({
   const [tab, setTab] = useState("write");
   const [error, setError] = useState("");
 
-  // Reset local draft whenever the panel opens for a (possibly different) title.
-  useEffect(() => {
-    if (!open) return;
-    setRating(initialRating || 0);
-    setNotes(initialNotes || "");
-    setTab("write");
-    setError("");
-  }, [open, initialRating, initialNotes]);
-
   useEffect(() => {
     if (!open) return undefined;
 
