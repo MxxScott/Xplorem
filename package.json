@@ -1,7 +1,9 @@
 {
   "name": "xplorem",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A React-powered media explorer built on the TMDB API.",
+  "author": "David Lawal",
   "type": "module",
   "scripts": {
     "dev": "vite",

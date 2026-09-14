@@ -87,7 +87,7 @@ src/
 | `/login`, `/signup` | Login, Signup | `localStorage` auth |
 | `*` | NotFound | Catch-all |
 
-## Planned features
+## Key Features
 
 The design decisions behind these are written up in [`PDR.md`](./PDR.md) (its working name there is *CineTrack*).
 
